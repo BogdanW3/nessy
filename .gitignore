@@ -1,0 +1,16 @@
+*/db/
+*/incremental_db/
+*/simulation
+*/timing/
+*/testbench
+/output_files
+/incremental_db/
+/simulation/
+/db/
+/hc_output
+*.qsf
+*.ddb
+*.vwf
+*.qws
+*.bak
+c5_pin_model_dump.txt

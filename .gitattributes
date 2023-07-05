@@ -1,0 +1,4 @@
+*.vhd -text
+*.bsf -text
+*.bdf -text
+*.qpf -text
