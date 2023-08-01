@@ -47,8 +47,8 @@ applicable agreement for further details.
 	(port
 		(pt 96 32)
 		(output)
-		(text "Q0" (rect 0 0 16 14)(font "Arial" (font_size 8)))
-		(text "Q0" (rect 59 27 75 41)(font "Arial" (font_size 8)))
+		(text "Q" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "Q" (rect 66 27 75 41)(font "Arial" (font_size 8)))
 		(line (pt 96 32)(pt 80 32))
 	)
 	(drawing

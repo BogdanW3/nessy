@@ -26,15 +26,15 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "D1[3..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
-		(text "D1[3..0]" (rect 21 27 64 41)(font "Arial" (font_size 8)))
+		(text "D1_[3..0]" (rect 0 0 50 14)(font "Arial" (font_size 8)))
+		(text "D1_[3..0]" (rect 21 27 71 41)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "D0[3..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
-		(text "D0[3..0]" (rect 21 43 64 57)(font "Arial" (font_size 8)))
+		(text "D0_[3..0]" (rect 0 0 50 14)(font "Arial" (font_size 8)))
+		(text "D0_[3..0]" (rect 21 43 71 57)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
@@ -47,8 +47,8 @@ applicable agreement for further details.
 	(port
 		(pt 144 32)
 		(output)
-		(text "Q0[3..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
-		(text "Q0[3..0]" (rect 79 27 123 41)(font "Arial" (font_size 8)))
+		(text "Q[3..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "Q[3..0]" (rect 86 27 123 41)(font "Arial" (font_size 8)))
 		(line (pt 144 32)(pt 128 32)(line_width 3))
 	)
 	(drawing

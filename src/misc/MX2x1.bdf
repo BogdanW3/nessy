@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(output)
 	(rect 792 128 968 144)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "Q0" (rect 90 0 104 12)(font "Arial" ))
+	(text "Q" (rect 90 0 98 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -227,11 +227,6 @@ applicable agreement for further details.
 	(pt 480 152)
 )
 (connector
-	(text "Q0" (rect 710 152 724 164)(font "Arial" ))
-	(pt 720 168)
-	(pt 696 168)
-)
-(connector
 	(pt 624 176)
 	(pt 632 176)
 )
@@ -246,4 +241,9 @@ applicable agreement for further details.
 (connector
 	(pt 624 144)
 	(pt 624 160)
+)
+(connector
+	(text "Q" (rect 710 152 718 164)(font "Arial" ))
+	(pt 720 168)
+	(pt 696 168)
 )
