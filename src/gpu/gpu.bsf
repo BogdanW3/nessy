@@ -1,0 +1,148 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 200 336)
+	(text "gpu" (rect 5 0 26 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 304 25 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 27 44 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "SDRAM_CLK" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "SDRAM_CLK" (rect 89 27 163 41)(font "Arial" (font_size 8)))
+		(line (pt 184 32)(pt 168 32))
+	)
+	(port
+		(pt 184 48)
+		(output)
+		(text "SDRAM_CKE" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "SDRAM_CKE" (rect 89 43 163 57)(font "Arial" (font_size 8)))
+		(line (pt 184 48)(pt 168 48))
+	)
+	(port
+		(pt 184 64)
+		(output)
+		(text "nSDRAM_CS" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "nSDRAM_CS" (rect 89 59 163 73)(font "Arial" (font_size 8)))
+		(line (pt 184 64)(pt 168 64))
+	)
+	(port
+		(pt 184 80)
+		(output)
+		(text "nSDRAM_RAS" (rect 0 0 83 14)(font "Arial" (font_size 8)))
+		(text "nSDRAM_RAS" (rect 80 75 163 89)(font "Arial" (font_size 8)))
+		(line (pt 184 80)(pt 168 80))
+	)
+	(port
+		(pt 184 96)
+		(output)
+		(text "nSDRAM_CAS" (rect 0 0 83 14)(font "Arial" (font_size 8)))
+		(text "nSDRAM_CAS" (rect 80 91 163 105)(font "Arial" (font_size 8)))
+		(line (pt 184 96)(pt 168 96))
+	)
+	(port
+		(pt 184 112)
+		(output)
+		(text "nSDRAM_WE" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "nSDRAM_WE" (rect 87 107 163 121)(font "Arial" (font_size 8)))
+		(line (pt 184 112)(pt 168 112))
+	)
+	(port
+		(pt 184 128)
+		(output)
+		(text "SDRAM_A[11..0]" (rect 0 0 95 14)(font "Arial" (font_size 8)))
+		(text "SDRAM_A[11..0]" (rect 68 123 163 137)(font "Arial" (font_size 8)))
+		(line (pt 184 128)(pt 168 128)(line_width 3))
+	)
+	(port
+		(pt 184 144)
+		(output)
+		(text "SDRAM_BA[1..0]" (rect 0 0 96 14)(font "Arial" (font_size 8)))
+		(text "SDRAM_BA[1..0]" (rect 67 139 163 153)(font "Arial" (font_size 8)))
+		(line (pt 184 144)(pt 168 144)(line_width 3))
+	)
+	(port
+		(pt 184 160)
+		(output)
+		(text "SDRAM_UDQM" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "SDRAM_UDQM" (rect 77 155 163 169)(font "Arial" (font_size 8)))
+		(line (pt 184 160)(pt 168 160))
+	)
+	(port
+		(pt 184 176)
+		(output)
+		(text "SDRAM_LDQM" (rect 0 0 84 14)(font "Arial" (font_size 8)))
+		(text "SDRAM_LDQM" (rect 79 171 163 185)(font "Arial" (font_size 8)))
+		(line (pt 184 176)(pt 168 176))
+	)
+	(port
+		(pt 184 208)
+		(output)
+		(text "VGA_R[3..0]" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "VGA_R[3..0]" (rect 92 203 163 217)(font "Arial" (font_size 8)))
+		(line (pt 184 208)(pt 168 208)(line_width 3))
+	)
+	(port
+		(pt 184 224)
+		(output)
+		(text "VGA_G[3..0]" (rect 0 0 73 14)(font "Arial" (font_size 8)))
+		(text "VGA_G[3..0]" (rect 90 219 163 233)(font "Arial" (font_size 8)))
+		(line (pt 184 224)(pt 168 224)(line_width 3))
+	)
+	(port
+		(pt 184 240)
+		(output)
+		(text "VGA_B[3..0]" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "VGA_B[3..0]" (rect 92 235 163 249)(font "Arial" (font_size 8)))
+		(line (pt 184 240)(pt 168 240)(line_width 3))
+	)
+	(port
+		(pt 184 256)
+		(output)
+		(text "VGA_VS" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "VGA_VS" (rect 110 251 163 265)(font "Arial" (font_size 8)))
+		(line (pt 184 256)(pt 168 256))
+	)
+	(port
+		(pt 184 272)
+		(output)
+		(text "VGA_HS" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "VGA_HS" (rect 112 267 163 281)(font "Arial" (font_size 8)))
+		(line (pt 184 272)(pt 168 272))
+	)
+	(port
+		(pt 184 192)
+		(bidir)
+		(text "SDRAM_DQ[15..0]" (rect 0 0 103 14)(font "Arial" (font_size 8)))
+		(text "SDRAM_DQ[15..0]" (rect 60 187 163 201)(font "Arial" (font_size 8)))
+		(line (pt 184 192)(pt 168 192)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 304))
+	)
+)
