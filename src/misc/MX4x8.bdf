@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 264 72 432 88)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D3[7..0]" (rect 5 0 46 12)(font "Arial" ))
+	(text "D3[7..0]" (rect 5 0 45 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 264 96 432 112)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D2[7..0]" (rect 5 0 46 12)(font "Arial" ))
+	(text "D2[7..0]" (rect 5 0 45 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 264 120 432 136)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D1[7..0]" (rect 5 0 46 12)(font "Arial" ))
+	(text "D1[7..0]" (rect 5 0 45 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 264 144 432 160)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D0[7..0]" (rect 5 0 46 12)(font "Arial" ))
+	(text "D0[7..0]" (rect 5 0 45 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 264 176 432 192)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "S1" (rect 5 0 18 12)(font "Arial" ))
+	(text "S1" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -103,7 +103,7 @@ applicable agreement for further details.
 	(input)
 	(rect 264 200 432 216)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "S0" (rect 5 0 18 12)(font "Arial" ))
+	(text "S0" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -293,19 +293,23 @@ applicable agreement for further details.
 	(text "D3[7..0]" (rect 552 136 592 148)(font "Arial" ))
 	(pt 600 152)
 	(pt 544 152)
+	(bus)
 )
 (connector
 	(text "D2[7..0]" (rect 552 152 592 164)(font "Arial" ))
-	(pt 600 168)
 	(pt 544 168)
+	(pt 600 168)
+	(bus)
 )
 (connector
 	(text "D1[7..0]" (rect 552 256 592 268)(font "Arial" ))
 	(pt 600 272)
 	(pt 544 272)
+	(bus)
 )
 (connector
 	(text "D0[7..0]" (rect 552 272 592 284)(font "Arial" ))
-	(pt 600 288)
 	(pt 544 288)
+	(pt 600 288)
+	(bus)
 )
