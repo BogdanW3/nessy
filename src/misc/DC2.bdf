@@ -4,19 +4,20 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
@@ -39,7 +40,7 @@ applicable agreement for further details.
 	(input)
 	(rect 368 88 536 104)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D0" (rect 5 0 20 12)(font "Arial" ))
+	(text "D0" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -84,7 +85,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 600 112 648 144)
+	(rect 584 104 632 136)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst" (rect 3 21 20 33)(font "Arial" ))
 	(port
@@ -111,7 +112,7 @@ applicable agreement for further details.
 (symbol
 	(rect 648 64 712 112)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst1" (rect 3 37 26 49)(font "Arial" ))
+	(text "inst1" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -143,7 +144,7 @@ applicable agreement for further details.
 (symbol
 	(rect 648 112 712 160)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst2" (rect 3 37 26 49)(font "Arial" ))
+	(text "inst2" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -173,25 +174,49 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "E" (rect 632 64 639 76)(font "Arial" ))
+	(text "E" (rect 632 64 637 81)(font "Intel Clear" ))
 	(pt 648 80)
 	(pt 624 80)
 )
 (connector
-	(pt 600 96)
-	(pt 600 128)
+	(pt 648 128)
+	(pt 640 128)
 )
 (connector
-	(text "E" (rect 632 160 639 172)(font "Arial" ))
-	(pt 648 144)
-	(pt 624 144)
+	(pt 640 128)
+	(pt 640 120)
+)
+(connector
+	(pt 632 120)
+	(pt 640 120)
+)
+(connector
+	(pt 584 120)
+	(pt 576 120)
+)
+(connector
+	(pt 576 96)
+	(pt 576 120)
 )
 (connector
 	(pt 536 96)
-	(pt 600 96)
+	(pt 576 96)
 )
 (connector
-	(pt 600 96)
+	(pt 576 96)
 	(pt 648 96)
 )
-(junction (pt 600 96))
+(connector
+	(pt 648 144)
+	(pt 640 144)
+)
+(connector
+	(pt 640 144)
+	(pt 640 152)
+)
+(connector
+	(text "E" (rect 623 136 628 153)(font "Intel Clear" ))
+	(pt 616 152)
+	(pt 640 152)
+)
+(junction (pt 576 96))
