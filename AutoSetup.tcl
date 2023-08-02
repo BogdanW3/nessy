@@ -85,6 +85,7 @@ package require ::quartus::project
 
 set_global_assignment -name SEARCH_PATH src
 set_global_assignment -name SEARCH_PATH src/gpu
+set_global_assignment -name SEARCH_PATH src/kb
 set_global_assignment -name SEARCH_PATH src/misc
 set_global_assignment -name SEARCH_PATH src/misc/rti
 
