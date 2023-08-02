@@ -312,7 +312,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (symbol
 	(rect 544 -88 784 136)
-	(text "vram_controller" (rect 5 0 91 14)(font "Arial" (font_size 8)))
+	(text "vram_controller" (rect 5 0 93 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 208 25 220)(font "Arial" ))
 	(port
 		(pt 0 32)
@@ -1521,11 +1521,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt -48 248)
 )
 (connector
-	(text "1" (rect -80 248 -75 260)(font "Arial" ))
-	(pt -48 264)
-	(pt -88 264)
-)
-(connector
 	(text "X[15..0]" (rect 97 232 134 244)(font "Arial" ))
 	(pt 96 248)
 	(pt 144 248)
@@ -1546,18 +1541,8 @@ https://fpgasoftware.intel.com/eula.
 	(pt -24 48)
 )
 (connector
-	(text "1" (rect -17 32 -12 44)(font "Arial" ))
-	(pt -24 48)
-	(pt -8 48)
-)
-(connector
 	(pt -24 72)
 	(pt -24 64)
-)
-(connector
-	(text "0" (rect -38 48 -33 60)(font "Arial" ))
-	(pt -24 64)
-	(pt -40 64)
 )
 (connector
 	(text "Y[15..0]" (rect 449 232 489 244)(font "Arial" ))
@@ -1943,4 +1928,19 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1832 312)
 	(pt 1872 312)
 	(bus)
+)
+(connector
+	(text "H" (rect -80 248 -72 260)(font "Arial" ))
+	(pt -48 264)
+	(pt -88 264)
+)
+(connector
+	(text "H" (rect -17 32 -9 44)(font "Arial" ))
+	(pt -24 48)
+	(pt -8 48)
+)
+(connector
+	(text "L" (rect -38 48 -33 60)(font "Arial" ))
+	(pt -24 64)
+	(pt -40 64)
 )

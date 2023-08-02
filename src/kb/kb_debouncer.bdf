@@ -366,16 +366,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 504 400)
 )
 (connector
-	(text "IN" (rect 487 384 496 401)(font "Intel Clear" ))
-	(pt 472 400)
-	(pt 504 400)
-)
-(connector
-	(text "IN" (rect 416 448 425 465)(font "Intel Clear" ))
-	(pt 432 464)
-	(pt 408 464)
-)
-(connector
 	(text "CLK" (rect 416 464 436 481)(font "Intel Clear" ))
 	(pt 432 480)
 	(pt 408 480)
@@ -415,4 +405,14 @@ https://fpgasoftware.intel.com/eula.
 	(text "D" (rect 384 208 391 225)(font "Intel Clear" ))
 	(pt 424 224)
 	(pt 376 224)
+)
+(connector
+	(text "D" (rect 487 384 494 401)(font "Intel Clear" ))
+	(pt 472 400)
+	(pt 504 400)
+)
+(connector
+	(text "D" (rect 416 448 423 465)(font "Intel Clear" ))
+	(pt 432 464)
+	(pt 408 464)
 )

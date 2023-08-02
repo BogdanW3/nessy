@@ -4,19 +4,20 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
@@ -39,7 +40,7 @@ applicable agreement for further details.
 	(input)
 	(rect 152 128 320 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D0" (rect 5 0 20 12)(font "Arial" ))
+	(text "D0" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +56,7 @@ applicable agreement for further details.
 	(input)
 	(rect 152 104 320 120)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D1" (rect 5 0 20 12)(font "Arial" ))
+	(text "D1" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +72,7 @@ applicable agreement for further details.
 	(input)
 	(rect 152 80 320 96)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D2" (rect 5 0 20 12)(font "Arial" ))
+	(text "D2" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -233,7 +234,7 @@ applicable agreement for further details.
 		(pt 64 24)
 		(output)
 		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 62 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
 		(line (pt 42 24)(pt 64 24))
 	)
 	(drawing
@@ -265,7 +266,7 @@ applicable agreement for further details.
 		(pt 64 24)
 		(output)
 		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 62 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
 		(line (pt 42 24)(pt 64 24))
 	)
 	(drawing
@@ -290,7 +291,7 @@ applicable agreement for further details.
 		(pt 48 16)
 		(output)
 		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 46 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
 		(line (pt 39 16)(pt 48 16))
 	)
 	(drawing
@@ -485,26 +486,6 @@ applicable agreement for further details.
 	(pt 688 224)
 )
 (connector
-	(text "Q7" (rect 664 56 678 68)(font "Arial" ))
-	(pt 656 72)
-	(pt 680 72)
-)
-(connector
-	(text "Q6" (rect 664 72 678 84)(font "Arial" ))
-	(pt 656 88)
-	(pt 680 88)
-)
-(connector
-	(text "Q5" (rect 664 88 678 100)(font "Arial" ))
-	(pt 656 104)
-	(pt 680 104)
-)
-(connector
-	(text "Q4" (rect 664 104 678 116)(font "Arial" ))
-	(pt 656 120)
-	(pt 680 120)
-)
-(connector
 	(text "D2" (rect 423 88 437 100)(font "Arial" ))
 	(pt 456 96)
 	(pt 440 96)
@@ -513,4 +494,24 @@ applicable agreement for further details.
 	(text "D2" (rect 382 232 396 244)(font "Arial" ))
 	(pt 377 248)
 	(pt 408 248)
+)
+(connector
+	(text "Q7" (rect 664 56 678 68)(font "Arial" ))
+	(pt 655 72)
+	(pt 680 72)
+)
+(connector
+	(text "Q6" (rect 664 72 678 84)(font "Arial" ))
+	(pt 655 88)
+	(pt 680 88)
+)
+(connector
+	(text "Q5" (rect 664 88 678 100)(font "Arial" ))
+	(pt 655 104)
+	(pt 680 104)
+)
+(connector
+	(text "Q4" (rect 664 104 678 116)(font "Arial" ))
+	(pt 655 120)
+	(pt 680 120)
 )
