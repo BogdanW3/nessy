@@ -587,16 +587,6 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (connector
-	(text "1" (rect 80 91 92 96)(font "Arial" )(vertical))
-	(pt 96 88)
-	(pt 96 104)
-)
-(connector
-	(text "0" (rect 80 115 92 120)(font "Arial" )(vertical))
-	(pt 96 112)
-	(pt 96 128)
-)
-(connector
 	(text "CLK" (rect 376 176 397 188)(font "Arial" ))
 	(pt 416 192)
 	(pt 368 192)
@@ -606,18 +596,8 @@ https://fpgasoftware.intel.com/eula.
 	(pt 384 216)
 )
 (connector
-	(text "1" (rect 392 192 397 204)(font "Arial" ))
-	(pt 416 208)
-	(pt 384 208)
-)
-(connector
 	(pt 400 224)
 	(pt 400 248)
-)
-(connector
-	(text "0" (rect 408 208 413 220)(font "Arial" ))
-	(pt 416 224)
-	(pt 400 224)
 )
 (connector
 	(pt 600 192)
@@ -633,4 +613,24 @@ https://fpgasoftware.intel.com/eula.
 	(text "CLK" (rect 152 368 172 385)(font "Intel Clear" ))
 	(pt 216 376)
 	(pt 184 376)
+)
+(connector
+	(text "H" (rect 82 89 94 97)(font "Arial" )(vertical))
+	(pt 96 88)
+	(pt 96 104)
+)
+(connector
+	(text "L" (rect 81 114 93 119)(font "Arial" )(vertical))
+	(pt 96 112)
+	(pt 96 128)
+)
+(connector
+	(text "H" (rect 392 192 400 204)(font "Arial" ))
+	(pt 416 208)
+	(pt 384 208)
+)
+(connector
+	(text "L" (rect 408 208 413 220)(font "Arial" ))
+	(pt 416 224)
+	(pt 400 224)
 )
