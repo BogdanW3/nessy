@@ -346,11 +346,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 376 240)
 )
 (connector
-	(text "IN" (rect 384 208 393 225)(font "Intel Clear" ))
-	(pt 424 224)
-	(pt 376 224)
-)
-(connector
 	(pt 512 440)
 	(pt 504 440)
 )
@@ -415,4 +410,9 @@ https://fpgasoftware.intel.com/eula.
 	(text "ndiff" (rect 151 408 172 425)(font "Intel Clear" ))
 	(pt 184 424)
 	(pt 144 424)
+)
+(connector
+	(text "D" (rect 384 208 391 225)(font "Intel Clear" ))
+	(pt 424 224)
+	(pt 376 224)
 )
