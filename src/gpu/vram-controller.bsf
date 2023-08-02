@@ -4,145 +4,153 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 256 240)
-	(text "vram-controller" (rect 5 0 91 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 208 25 220)(font "Arial" ))
+	(rect 16 16 256 272)
+	(text "vram-controller" (rect 5 0 98 15)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 240 25 252)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "CLK" (rect 21 27 44 41)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 0 0 23 15)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 27 44 42)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "start" (rect 0 0 25 14)(font "Arial" (font_size 8)))
-		(text "start" (rect 21 43 46 57)(font "Arial" (font_size 8)))
+		(text "start" (rect 0 0 27 15)(font "Intel Clear" (font_size 8)))
+		(text "start" (rect 21 43 48 58)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "read_scanline" (rect 0 0 80 14)(font "Arial" (font_size 8)))
-		(text "read_scanline" (rect 21 59 101 73)(font "Arial" (font_size 8)))
+		(text "read_scanline" (rect 0 0 81 15)(font "Intel Clear" (font_size 8)))
+		(text "read_scanline" (rect 21 59 102 74)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
 		(pt 0 80)
 		(input)
-		(text "write_pixel" (rect 0 0 62 14)(font "Arial" (font_size 8)))
-		(text "write_pixel" (rect 21 75 83 89)(font "Arial" (font_size 8)))
+		(text "write_pixel" (rect 0 0 63 15)(font "Intel Clear" (font_size 8)))
+		(text "write_pixel" (rect 21 75 84 90)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80))
 	)
 	(port
 		(pt 0 96)
 		(input)
-		(text "A[19..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
-		(text "A[19..0]" (rect 21 91 65 105)(font "Arial" (font_size 8)))
+		(text "A[19..0]" (rect 0 0 46 15)(font "Intel Clear" (font_size 8)))
+		(text "A[19..0]" (rect 21 91 67 106)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 96)(pt 16 96)(line_width 3))
 	)
 	(port
 		(pt 0 112)
 		(input)
-		(text "D[15..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
-		(text "D[15..0]" (rect 21 107 64 121)(font "Arial" (font_size 8)))
+		(text "D[15..0]" (rect 0 0 47 15)(font "Intel Clear" (font_size 8)))
+		(text "D[15..0]" (rect 21 107 68 122)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 112)(pt 16 112)(line_width 3))
 	)
 	(port
 		(pt 240 32)
 		(output)
-		(text "SDRAM_CLK" (rect 0 0 74 14)(font "Arial" (font_size 8)))
-		(text "SDRAM_CLK" (rect 145 27 219 41)(font "Arial" (font_size 8)))
+		(text "SDRAM_CLK" (rect 0 0 74 15)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_CLK" (rect 145 27 219 42)(font "Intel Clear" (font_size 8)))
 		(line (pt 240 32)(pt 224 32))
 	)
 	(port
 		(pt 240 48)
 		(output)
-		(text "SDRAM_CKE" (rect 0 0 74 14)(font "Arial" (font_size 8)))
-		(text "SDRAM_CKE" (rect 145 43 219 57)(font "Arial" (font_size 8)))
+		(text "SDRAM_CKE" (rect 0 0 74 15)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_CKE" (rect 145 43 219 58)(font "Intel Clear" (font_size 8)))
 		(line (pt 240 48)(pt 224 48))
 	)
 	(port
 		(pt 240 64)
 		(output)
-		(text "nSDRAM_CS" (rect 0 0 74 14)(font "Arial" (font_size 8)))
-		(text "nSDRAM_CS" (rect 145 59 219 73)(font "Arial" (font_size 8)))
+		(text "nSDRAM_CS" (rect 0 0 74 15)(font "Intel Clear" (font_size 8)))
+		(text "nSDRAM_CS" (rect 145 59 219 74)(font "Intel Clear" (font_size 8)))
 		(line (pt 240 64)(pt 224 64))
 	)
 	(port
 		(pt 240 80)
 		(output)
-		(text "nSDRAM_RAS" (rect 0 0 83 14)(font "Arial" (font_size 8)))
-		(text "nSDRAM_RAS" (rect 136 75 219 89)(font "Arial" (font_size 8)))
+		(text "nSDRAM_RAS" (rect 0 0 82 15)(font "Intel Clear" (font_size 8)))
+		(text "nSDRAM_RAS" (rect 137 75 219 90)(font "Intel Clear" (font_size 8)))
 		(line (pt 240 80)(pt 224 80))
 	)
 	(port
 		(pt 240 96)
 		(output)
-		(text "nSDRAM_CAS" (rect 0 0 83 14)(font "Arial" (font_size 8)))
-		(text "nSDRAM_CAS" (rect 136 91 219 105)(font "Arial" (font_size 8)))
+		(text "nSDRAM_CAS" (rect 0 0 82 15)(font "Intel Clear" (font_size 8)))
+		(text "nSDRAM_CAS" (rect 137 91 219 106)(font "Intel Clear" (font_size 8)))
 		(line (pt 240 96)(pt 224 96))
 	)
 	(port
 		(pt 240 112)
 		(output)
-		(text "nSDRAM_WE" (rect 0 0 76 14)(font "Arial" (font_size 8)))
-		(text "nSDRAM_WE" (rect 143 107 219 121)(font "Arial" (font_size 8)))
+		(text "nSDRAM_WE" (rect 0 0 77 15)(font "Intel Clear" (font_size 8)))
+		(text "nSDRAM_WE" (rect 142 107 219 122)(font "Intel Clear" (font_size 8)))
 		(line (pt 240 112)(pt 224 112))
 	)
 	(port
 		(pt 240 128)
 		(output)
-		(text "SDRAM_A[11..0]" (rect 0 0 95 14)(font "Arial" (font_size 8)))
-		(text "SDRAM_A[11..0]" (rect 124 123 219 137)(font "Arial" (font_size 8)))
+		(text "SDRAM_BA[1..0]" (rect 0 0 96 15)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_BA[1..0]" (rect 123 123 219 138)(font "Intel Clear" (font_size 8)))
 		(line (pt 240 128)(pt 224 128)(line_width 3))
 	)
 	(port
 		(pt 240 144)
 		(output)
-		(text "SDRAM_BA[1..0]" (rect 0 0 96 14)(font "Arial" (font_size 8)))
-		(text "SDRAM_BA[1..0]" (rect 123 139 219 153)(font "Arial" (font_size 8)))
-		(line (pt 240 144)(pt 224 144)(line_width 3))
+		(text "ready" (rect 0 0 33 15)(font "Intel Clear" (font_size 8)))
+		(text "ready" (rect 186 139 219 154)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 144)(pt 224 144))
 	)
 	(port
 		(pt 240 160)
 		(output)
-		(text "SDRAM_UDQM" (rect 0 0 86 14)(font "Arial" (font_size 8)))
-		(text "SDRAM_UDQM" (rect 133 155 219 169)(font "Arial" (font_size 8)))
-		(line (pt 240 160)(pt 224 160))
+		(text "SDRAM_A[11..0]" (rect 0 0 96 15)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_A[11..0]" (rect 123 155 219 170)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 160)(pt 224 160)(line_width 3))
 	)
 	(port
 		(pt 240 176)
 		(output)
-		(text "SDRAM_LDQM" (rect 0 0 84 14)(font "Arial" (font_size 8)))
-		(text "SDRAM_LDQM" (rect 135 171 219 185)(font "Arial" (font_size 8)))
+		(text "SDRAM_UDQM" (rect 0 0 89 15)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_UDQM" (rect 130 171 219 186)(font "Intel Clear" (font_size 8)))
 		(line (pt 240 176)(pt 224 176))
 	)
 	(port
 		(pt 240 192)
+		(output)
+		(text "SDRAM_LDQM" (rect 0 0 87 15)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_LDQM" (rect 132 187 219 202)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 192)(pt 224 192))
+	)
+	(port
+		(pt 240 208)
 		(bidir)
-		(text "SDRAM_DQ[15..0]" (rect 0 0 103 14)(font "Arial" (font_size 8)))
-		(text "SDRAM_DQ[15..0]" (rect 116 187 219 201)(font "Arial" (font_size 8)))
-		(line (pt 240 192)(pt 224 192)(line_width 3))
+		(text "SDRAM_DQ[15..0]" (rect 0 0 107 15)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_DQ[15..0]" (rect 112 203 219 218)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 208)(pt 224 208)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 224 208))
+		(rectangle (rect 16 16 224 240))
 	)
 )
