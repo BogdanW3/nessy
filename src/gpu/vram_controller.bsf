@@ -22,7 +22,7 @@ https://fpgasoftware.intel.com/eula.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 256 272)
-	(text "vram-controller" (rect 5 0 98 15)(font "Intel Clear" (font_size 8)))
+	(text "vram_controller" (rect 5 0 98 15)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 240 25 252)(font "Intel Clear" ))
 	(port
 		(pt 0 32)

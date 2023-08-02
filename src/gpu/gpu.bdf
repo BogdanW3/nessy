@@ -312,7 +312,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (symbol
 	(rect 544 -88 784 136)
-	(text "vram-controller" (rect 5 0 91 14)(font "Arial" (font_size 8)))
+	(text "vram_controller" (rect 5 0 91 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 208 25 220)(font "Arial" ))
 	(port
 		(pt 0 32)
