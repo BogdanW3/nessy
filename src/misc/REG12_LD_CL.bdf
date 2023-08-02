@@ -1,0 +1,243 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 296 120 472 136)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "CLK" (rect 9 0 30 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 240 136 296 152))
+)
+(pin
+	(input)
+	(rect 304 152 472 168)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "LD" (rect 5 0 19 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "GND" (rect 128 7 149 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 304 184 472 200)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "CL" (rect 5 0 19 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "GND" (rect 128 7 149 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 304 88 472 104)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "DIN[11..0]" (rect 5 0 57 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "GND" (rect 128 7 149 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 976 96 1152 112)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DOUT[11..0]" (rect 90 0 152 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 672 304 832 432)
+	(text "REG4_LD_CL" (rect 5 0 81 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 112 31 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "DIN[3..0]" (rect 0 0 47 14)(font "Arial" (font_size 8)))
+		(text "DIN[3..0]" (rect 21 27 68 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 43 44 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "LD" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "LD" (rect 21 59 36 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "CL" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "CL" (rect 21 75 36 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "DOUT[3..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "DOUT[3..0]" (rect 78 27 139 41)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 112))
+	)
+)
+(symbol
+	(rect 672 160 832 288)
+	(text "REG8_LD_CL" (rect 5 0 81 14)(font "Arial" (font_size 8)))
+	(text "inst3" (rect 8 112 30 129)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "DIN[7..0]" (rect 0 0 47 14)(font "Arial" (font_size 8)))
+		(text "DIN[7..0]" (rect 21 27 68 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 43 44 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "LD" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "LD" (rect 21 59 36 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "CL" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "CL" (rect 21 75 36 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "DOUT[7..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "DOUT[7..0]" (rect 78 27 139 41)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 112))
+	)
+)
+(connector
+	(text "CLK" (rect 624 192 645 204)(font "Arial" ))
+	(pt 672 208)
+	(pt 616 208)
+)
+(connector
+	(text "LD" (rect 624 208 638 220)(font "Arial" ))
+	(pt 672 224)
+	(pt 616 224)
+)
+(connector
+	(text "CL" (rect 624 224 638 236)(font "Arial" ))
+	(pt 672 240)
+	(pt 616 240)
+)
+(connector
+	(text "CLK" (rect 624 336 645 348)(font "Arial" ))
+	(pt 672 352)
+	(pt 616 352)
+)
+(connector
+	(text "LD" (rect 624 352 638 364)(font "Arial" ))
+	(pt 672 368)
+	(pt 616 368)
+)
+(connector
+	(text "CL" (rect 624 368 638 380)(font "Arial" ))
+	(pt 672 384)
+	(pt 616 384)
+)
+(connector
+	(text "DIN[3..0]" (rect 624 320 670 332)(font "Arial" ))
+	(pt 672 336)
+	(pt 616 336)
+	(bus)
+)
+(connector
+	(text "DOUT[3..0]" (rect 840 320 896 332)(font "Arial" ))
+	(pt 832 336)
+	(pt 904 336)
+	(bus)
+)
+(connector
+	(text "DIN[11..4]" (rect 624 176 675 188)(font "Arial" ))
+	(pt 672 192)
+	(pt 616 192)
+	(bus)
+)
+(connector
+	(text "DOUT[11..4]" (rect 840 176 902 188)(font "Arial" ))
+	(pt 832 192)
+	(pt 904 192)
+	(bus)
+)
