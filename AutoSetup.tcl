@@ -29,6 +29,9 @@ package require ::quartus::project
 # set_location_assignment PIN_J2 -to LED[1]
 # set_location_assignment PIN_J1 -to LED[0]
 
+# set_location_assignment PIN_P22 -to PS2_CLK
+# set_location_assignment PIN_P21 -to Ps2_DATA
+
 # set_location_assignment PIN_G8 -to nSDRAM_CAS
 # set_location_assignment PIN_G7 -to nSDRAM_CS
 # set_location_assignment PIN_F7 -to nSDRAM_RAS

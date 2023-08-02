@@ -1138,35 +1138,6 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 2344 448 2440 544)
-	(text "RisingEdge" (rect 5 0 67 14)(font "Arial" (font_size 8)))
-	(text "inst27" (rect 8 80 37 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
-		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "CLK" (rect 21 43 44 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 96 32)
-		(output)
-		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
-		(text "OUT" (rect 51 27 75 41)(font "Arial" (font_size 8)))
-		(line (pt 96 32)(pt 80 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 80 80))
-	)
-)
-(symbol
 	(rect 2504 456 2568 536)
 	(text "SRFF" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst35" (rect 3 68 32 80)(font "Arial" ))
@@ -1930,6 +1901,35 @@ https://fpgasoftware.intel.com/eula.
 		(arc (pt 48 104)(pt 25 93)(rect -4 93 55 152))
 		(arc (pt 25 115)(pt 48 104)(rect -4 57 55 116))
 		(circle (rect 48 100 56 108))
+	)
+)
+(symbol
+	(rect 2344 448 2440 544)
+	(text "RisingEdge" (rect 5 0 69 19)(font "Intel Clear" (font_size 8)))
+	(text "inst27" (rect 8 75 36 92)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "D" (rect 0 0 9 19)(font "Intel Clear" (font_size 8)))
+		(text "D" (rect 21 27 30 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 43 44 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 96 32)
+		(output)
+		(text "Q" (rect 0 0 9 19)(font "Intel Clear" (font_size 8)))
+		(text "Q" (rect 66 27 75 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 96 32)(pt 80 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 80 80))
 	)
 )
 (connector
