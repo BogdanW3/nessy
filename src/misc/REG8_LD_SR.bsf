@@ -21,14 +21,14 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 152 144)
+	(rect 16 16 192 144)
 	(text "REG8_LD_SR" (rect 5 0 85 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "D[7..0]" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
-		(text "D[7..0]" (rect 21 27 61 46)(font "Intel Clear" (font_size 8)))
+		(text "DIN[7..0]" (rect 0 0 53 19)(font "Intel Clear" (font_size 8)))
+		(text "DIN[7..0]" (rect 21 27 74 46)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
@@ -60,20 +60,20 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 0 96)(pt 16 96))
 	)
 	(port
-		(pt 136 32)
+		(pt 176 32)
 		(output)
-		(text "Q[7..0]" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
-		(text "Q[7..0]" (rect 75 27 115 46)(font "Intel Clear" (font_size 8)))
-		(line (pt 136 32)(pt 120 32)(line_width 3))
+		(text "DOUT[7..0]" (rect 0 0 67 19)(font "Intel Clear" (font_size 8)))
+		(text "DOUT[7..0]" (rect 88 27 155 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 176 32)(pt 160 32)(line_width 3))
 	)
 	(port
-		(pt 136 48)
+		(pt 176 48)
 		(output)
 		(text "S" (rect 0 0 8 19)(font "Intel Clear" (font_size 8)))
-		(text "S" (rect 107 43 115 62)(font "Intel Clear" (font_size 8)))
-		(line (pt 136 48)(pt 120 48))
+		(text "S" (rect 147 43 155 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 176 48)(pt 160 48))
 	)
 	(drawing
-		(rectangle (rect 16 16 120 112))
+		(rectangle (rect 16 16 160 112))
 	)
 )
