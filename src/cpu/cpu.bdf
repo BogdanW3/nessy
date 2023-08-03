@@ -24,7 +24,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 112 96 280 112)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "nNMI" (rect 5 0 31 12)(font "Arial" ))
+	(text "nNMI" (rect 5 0 30 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -86,3 +86,9 @@ https://fpgasoftware.intel.com/eula.
 	)
 	(text "VCC" (rect 4 7 24 17)(font "Arial" (font_size 6)))
 )
+(connector
+	(text "nNMI" (rect 416 144 440 161)(font "Intel Clear" ))
+	(pt 480 160)
+	(pt 408 160)
+)
+(text "REMOVE THIS!" (rect 400 152 487 171)(font "Intel Clear" (font_size 8)))

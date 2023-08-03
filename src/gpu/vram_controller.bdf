@@ -3606,6 +3606,30 @@ https://fpgasoftware.intel.com/eula.
 		(arc (pt 25 115)(pt 49 104)(rect -6 53 57 116))
 	)
 )
+(symbol
+	(rect 440 528 488 560)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst83" (rect 3 21 31 38)(font "Intel Clear" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
 (connector
 	(text "POWERON_CNT0" (rect -632 928 -546 945)(font "Intel Clear" ))
 	(pt -576 944)
@@ -5238,6 +5262,93 @@ https://fpgasoftware.intel.com/eula.
 	(pt -1096 1144)
 	(pt -1112 1144)
 )
+(connector
+	(pt -912 352)
+	(pt -944 352)
+)
+(connector
+	(pt -944 368)
+	(pt -912 368)
+)
+(connector
+	(pt -944 352)
+	(pt -944 368)
+)
+(connector
+	(pt -944 384)
+	(pt -912 384)
+)
+(connector
+	(pt -944 368)
+	(pt -944 384)
+)
+(connector
+	(pt -944 400)
+	(pt -912 400)
+)
+(connector
+	(pt -944 384)
+	(pt -944 400)
+)
+(connector
+	(pt -944 416)
+	(pt -912 416)
+)
+(connector
+	(pt -944 400)
+	(pt -944 416)
+)
+(connector
+	(pt -944 432)
+	(pt -912 432)
+)
+(connector
+	(pt -944 416)
+	(pt -944 432)
+)
+(connector
+	(pt -944 448)
+	(pt -912 448)
+)
+(connector
+	(pt -944 432)
+	(pt -944 448)
+)
+(connector
+	(pt -944 464)
+	(pt -912 464)
+)
+(connector
+	(pt -944 448)
+	(pt -944 464)
+)
+(connector
+	(pt -944 480)
+	(pt -912 480)
+)
+(connector
+	(pt -944 464)
+	(pt -944 480)
+)
+(connector
+	(pt -944 480)
+	(pt -944 512)
+)
+(connector
+	(text "L" (rect -953 496 -948 513)(font "Intel Clear" ))
+	(pt -944 512)
+	(pt -960 512)
+)
+(connector
+	(text "L" (rect 416 528 421 545)(font "Intel Clear" ))
+	(pt 424 544)
+	(pt 440 544)
+)
+(connector
+	(text "OUT_DESL" (rect 489 528 540 545)(font "Intel Clear" ))
+	(pt 488 544)
+	(pt 504 544)
+)
 (junction (pt 368 968))
 (junction (pt 384 992))
 (junction (pt 312 1272))
@@ -5248,6 +5359,14 @@ https://fpgasoftware.intel.com/eula.
 (junction (pt 72 -8))
 (junction (pt -104 392))
 (junction (pt -104 376))
+(junction (pt -944 368))
+(junction (pt -944 384))
+(junction (pt -944 400))
+(junction (pt -944 416))
+(junction (pt -944 432))
+(junction (pt -944 448))
+(junction (pt -944 464))
+(junction (pt -944 480))
 (text "Upravljacka jedinica za POWERON" (rect -936 760 -732 779)(font "Intel Clear" (font_size 8)))
 (text "Upravljacka jedinica za komandu REF" (rect 64 1648 285 1667)(font "Intel Clear" (font_size 8)))
 (text "Upravljacka jedinica za komandu PREA" (rect 56 1424 287 1443)(font "Intel Clear" (font_size 8)))

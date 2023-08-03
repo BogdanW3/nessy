@@ -40,7 +40,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 456 240 624 256)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D" (rect 5 0 14 12)(font "Arial" ))
+	(text "D" (rect 5 0 13 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -54,7 +54,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 1128 208 1304 224)
+	(rect 1136 280 1312 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q" (rect 90 0 98 12)(font "Arial" ))
 	(pt 0 8)
@@ -169,7 +169,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 1040 192 1104 240)
+	(rect 1056 264 1120 312)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst2" (rect 3 37 26 49)(font "Arial" ))
 	(port
@@ -230,49 +230,57 @@ https://fpgasoftware.intel.com/eula.
 	(pt 720 248)
 )
 (connector
-	(text "CLK" (rect 664 256 685 268)(font "Arial" ))
-	(pt 720 264)
-	(pt 688 264)
-)
-(connector
-	(text "CLK" (rect 816 256 837 268)(font "Arial" ))
-	(pt 872 264)
-	(pt 840 264)
-)
-(connector
 	(pt 936 248)
 	(pt 968 248)
 )
 (connector
-	(pt 840 208)
-	(pt 840 248)
+	(text "CLK" (rect 680 256 701 268)(font "Arial" ))
+	(pt 720 264)
+	(pt 704 264)
+)
+(connector
+	(text "CLK" (rect 832 256 853 268)(font "Arial" ))
+	(pt 872 264)
+	(pt 856 264)
 )
 (connector
 	(pt 1016 248)
-	(pt 1024 248)
+	(pt 1040 248)
 )
 (connector
-	(pt 1024 248)
-	(pt 1024 224)
+	(pt 1040 248)
+	(pt 1040 280)
 )
 (connector
-	(pt 1024 224)
-	(pt 1040 224)
+	(pt 1040 280)
+	(pt 1056 280)
 )
 (connector
-	(pt 840 208)
-	(pt 1040 208)
+	(pt 1040 296)
+	(pt 1056 296)
 )
 (connector
-	(pt 1104 216)
-	(pt 1128 216)
+	(pt 808 248)
+	(pt 808 328)
+)
+(connector
+	(pt 808 328)
+	(pt 1040 328)
+)
+(connector
+	(pt 1040 296)
+	(pt 1040 328)
 )
 (connector
 	(pt 784 248)
-	(pt 840 248)
+	(pt 808 248)
 )
 (connector
-	(pt 840 248)
+	(pt 808 248)
 	(pt 872 248)
 )
-(junction (pt 840 248))
+(connector
+	(pt 1120 288)
+	(pt 1136 288)
+)
+(junction (pt 808 248))

@@ -86,7 +86,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 32 -8 208 8)
+	(rect 24 -8 200 8)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "DIN[3..0]" (rect 9 0 55 12)(font "Arial" ))
 	(pt 176 8)

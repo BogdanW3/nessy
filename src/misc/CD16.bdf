@@ -721,11 +721,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 584 96)
 )
 (connector
-	(pt 952 144)
-	(pt 952 128)
-	(bus)
-)
-(connector
 	(pt 704 272)
 	(pt 704 160)
 )
@@ -742,13 +737,13 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
+	(text "W1" (rect 735 144 751 161)(font "Intel Clear" ))
+	(pt 704 160)
+	(pt 784 160)
+)
+(connector
 	(text "Q[3..0]" (rect 929 112 963 124)(font "Arial" ))
 	(pt 928 128)
 	(pt 952 128)
 	(bus)
-)
-(connector
-	(text "W1" (rect 735 144 751 161)(font "Intel Clear" ))
-	(pt 704 160)
-	(pt 784 160)
 )
