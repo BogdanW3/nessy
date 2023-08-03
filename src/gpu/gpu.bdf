@@ -1573,16 +1573,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "CLK" (rect 496 -72 517 -60)(font "Arial" ))
-	(pt 488 -56)
-	(pt 544 -56)
-)
-(connector
-	(text "VRAM_START" (rect 466 -56 536 -44)(font "Arial" ))
-	(pt 456 -40)
-	(pt 544 -40)
-)
-(connector
 	(text "VRAM_READ" (rect 464 -40 531 -28)(font "Arial" ))
 	(pt 456 -24)
 	(pt 544 -24)
@@ -1943,4 +1933,14 @@ https://fpgasoftware.intel.com/eula.
 	(text "L" (rect -38 48 -33 60)(font "Arial" ))
 	(pt -24 64)
 	(pt -40 64)
+)
+(connector
+	(text "CLK" (rect 464 -72 485 -60)(font "Arial" ))
+	(pt 544 -56)
+	(pt 456 -56)
+)
+(connector
+	(text "VRAM_START" (rect 464 -56 532 -39)(font "Intel Clear" ))
+	(pt 456 -40)
+	(pt 544 -40)
 )

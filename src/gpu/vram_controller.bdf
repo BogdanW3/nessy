@@ -5040,7 +5040,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt -1216 1248)
 )
 (connector
-	(text "L" (rect -1104 1344 -1099 1361)(font "Intel Clear" ))
+	(text "L" (rect -1112 1344 -1107 1361)(font "Intel Clear" ))
 	(pt -1088 1360)
 	(pt -1112 1360)
 )
@@ -5227,6 +5227,16 @@ https://fpgasoftware.intel.com/eula.
 	(text "POWERON_STATE_REF_LOOP" (rect -832 968 -681 985)(font "Intel Clear" ))
 	(pt -840 984)
 	(pt -776 984)
+)
+(connector
+	(text "L" (rect -952 864 -947 881)(font "Intel Clear" ))
+	(pt -920 880)
+	(pt -952 880)
+)
+(connector
+	(text "L" (rect -1120 1128 -1115 1145)(font "Intel Clear" ))
+	(pt -1096 1144)
+	(pt -1112 1144)
 )
 (junction (pt 368 968))
 (junction (pt 384 992))

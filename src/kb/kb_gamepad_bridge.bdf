@@ -7962,3 +7962,23 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2032 1456)
 	(pt 2072 1456)
 )
+(connector
+	(text "L" (rect 1800 1064 1805 1081)(font "Intel Clear" ))
+	(pt 1856 1080)
+	(pt 1792 1080)
+)
+(connector
+	(text "L" (rect 1800 1208 1805 1225)(font "Intel Clear" ))
+	(pt 1856 1224)
+	(pt 1792 1224)
+)
+(connector
+	(text "L" (rect 1800 1344 1805 1361)(font "Intel Clear" ))
+	(pt 1856 1360)
+	(pt 1792 1360)
+)
+(connector
+	(text "L" (rect 1800 1488 1805 1505)(font "Intel Clear" ))
+	(pt 1856 1504)
+	(pt 1792 1504)
+)

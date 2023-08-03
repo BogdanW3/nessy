@@ -4,19 +4,20 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
@@ -39,7 +40,7 @@ applicable agreement for further details.
 	(input)
 	(rect 360 152 528 168)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D0" (rect 5 0 20 12)(font "Arial" ))
+	(text "D0" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +56,7 @@ applicable agreement for further details.
 	(input)
 	(rect 360 128 528 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D1" (rect 5 0 20 12)(font "Arial" ))
+	(text "D1" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -268,7 +269,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 544 264 592 296)
+	(rect 528 248 576 280)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst7" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -332,26 +333,8 @@ applicable agreement for further details.
 	(pt 809 288)
 )
 (connector
-	(pt 593 280)
-	(pt 592 280)
-)
-(connector
 	(pt 593 296)
 	(pt 585 296)
-)
-(connector
-	(pt 585 296)
-	(pt 585 312)
-)
-(connector
-	(text "E" (rect 513 296 520 308)(font "Arial" ))
-	(pt 585 312)
-	(pt 521 312)
-)
-(connector
-	(text "D1" (rect 518 264 532 276)(font "Arial" ))
-	(pt 513 280)
-	(pt 544 280)
 )
 (connector
 	(pt 657 288)
@@ -361,4 +344,30 @@ applicable agreement for further details.
 	(text "D0" (rect 673 256 687 268)(font "Arial" ))
 	(pt 697 272)
 	(pt 665 272)
+)
+(connector
+	(pt 593 280)
+	(pt 585 280)
+)
+(connector
+	(pt 585 296)
+	(pt 585 312)
+)
+(connector
+	(text "E" (rect 513 296 520 308)(font "Arial" ))
+	(pt 585 312)
+	(pt 513 312)
+)
+(connector
+	(pt 585 280)
+	(pt 585 264)
+)
+(connector
+	(pt 585 264)
+	(pt 576 264)
+)
+(connector
+	(text "D1" (rect 510 248 524 260)(font "Arial" ))
+	(pt 528 264)
+	(pt 513 264)
 )

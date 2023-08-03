@@ -191,22 +191,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 640 120)
 )
 (connector
-	(pt 584 120)
-	(pt 576 120)
-)
-(connector
-	(pt 576 96)
-	(pt 576 120)
-)
-(connector
-	(pt 536 96)
-	(pt 576 96)
-)
-(connector
-	(pt 576 96)
-	(pt 648 96)
-)
-(connector
 	(pt 648 144)
 	(pt 640 144)
 )
@@ -219,4 +203,20 @@ https://fpgasoftware.intel.com/eula.
 	(pt 616 152)
 	(pt 640 152)
 )
-(junction (pt 576 96))
+(connector
+	(pt 584 120)
+	(pt 568 120)
+)
+(connector
+	(pt 568 96)
+	(pt 568 120)
+)
+(connector
+	(pt 536 96)
+	(pt 568 96)
+)
+(connector
+	(pt 568 96)
+	(pt 648 96)
+)
+(junction (pt 568 96))
