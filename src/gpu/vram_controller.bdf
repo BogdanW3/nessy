@@ -4460,16 +4460,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt -776 968)
 )
 (connector
-	(text "POWERON_STATE_PREA" (rect -831 968 -708 985)(font "Intel Clear" ))
-	(pt -840 984)
-	(pt -776 984)
-)
-(connector
-	(text "POWERON_STATE_REF_LOOP" (rect -832 984 -681 1001)(font "Intel Clear" ))
-	(pt -840 1000)
-	(pt -776 1000)
-)
-(connector
 	(text "POWERON_STATE_STABLE" (rect -833 1000 -699 1017)(font "Intel Clear" ))
 	(pt -840 1016)
 	(pt -776 1016)
@@ -5217,6 +5207,26 @@ https://fpgasoftware.intel.com/eula.
 	(text "OUT_ACT" (rect -152 552 -105 569)(font "Intel Clear" ))
 	(pt -120 568)
 	(pt -88 568)
+)
+(connector
+	(text "H" (rect -992 984 -985 1001)(font "Intel Clear" ))
+	(pt -936 1000)
+	(pt -1000 1000)
+)
+(connector
+	(text "H" (rect -392 168 -385 185)(font "Intel Clear" ))
+	(pt -320 184)
+	(pt -400 184)
+)
+(connector
+	(text "POWERON_STATE_PREA" (rect -831 984 -708 1001)(font "Intel Clear" ))
+	(pt -840 1000)
+	(pt -776 1000)
+)
+(connector
+	(text "POWERON_STATE_REF_LOOP" (rect -832 968 -681 985)(font "Intel Clear" ))
+	(pt -840 984)
+	(pt -776 984)
 )
 (junction (pt 368 968))
 (junction (pt 384 992))
