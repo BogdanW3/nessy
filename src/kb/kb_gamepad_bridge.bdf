@@ -54,7 +54,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 208 48 384 64)
+	(rect 208 200 384 216)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "CPU_OUT0" (rect 9 0 66 12)(font "Arial" ))
 	(pt 176 8)
