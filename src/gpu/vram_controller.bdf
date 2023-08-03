@@ -4365,11 +4365,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt -88 552)
 )
 (connector
-	(text "OUT_ACT" (rect -152 552 -105 569)(font "Intel Clear" ))
-	(pt -120 568)
-	(pt -88 568)
-)
-(connector
 	(text "OUT_MRS" (rect -152 568 -103 585)(font "Intel Clear" ))
 	(pt -120 584)
 	(pt -88 584)
@@ -4580,26 +4575,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "H" (rect 512 0 519 17)(font "Intel Clear" ))
 	(pt 520 16)
 	(pt 536 16)
-)
-(connector
-	(text "OUT_SDRAM3" (rect 472 32 541 49)(font "Intel Clear" ))
-	(pt 520 48)
-	(pt 536 48)
-)
-(connector
-	(text "OUT_SDRAM2" (rect 480 64 549 81)(font "Intel Clear" ))
-	(pt 520 80)
-	(pt 536 80)
-)
-(connector
-	(text "OUT_SDRAM1" (rect 472 96 541 113)(font "Intel Clear" ))
-	(pt 520 112)
-	(pt 536 112)
-)
-(connector
-	(text "OUT_SDRAM0" (rect 472 128 541 145)(font "Intel Clear" ))
-	(pt 520 144)
-	(pt 536 144)
 )
 (connector
 	(text "nPOWERON_FINISHED" (rect 440 224 549 241)(font "Intel Clear" ))
@@ -5175,6 +5150,74 @@ https://fpgasoftware.intel.com/eula.
 	(pt -848 392)
 	(pt -800 392)
 )
+(connector
+	(text "OUT_SDRAM[3]" (rect 472 32 548 49)(font "Intel Clear" ))
+	(pt 520 48)
+	(pt 536 48)
+)
+(connector
+	(text "OUT_SDRAM[2]" (rect 472 64 548 81)(font "Intel Clear" ))
+	(pt 520 80)
+	(pt 536 80)
+)
+(connector
+	(text "OUT_SDRAM[1]" (rect 472 96 548 113)(font "Intel Clear" ))
+	(pt 520 112)
+	(pt 536 112)
+)
+(connector
+	(text "OUT_SDRAM[0]" (rect 472 128 548 145)(font "Intel Clear" ))
+	(pt 520 144)
+	(pt 536 144)
+)
+(connector
+	(text "H,H,H,H" (rect 24 136 59 153)(font "Intel Clear" ))
+	(pt 64 152)
+	(pt 16 152)
+	(bus)
+)
+(connector
+	(text "H,H,H,H" (rect 24 120 59 137)(font "Intel Clear" ))
+	(pt 64 136)
+	(pt 16 136)
+	(bus)
+)
+(connector
+	(text "H,H,H,H" (rect 24 104 59 121)(font "Intel Clear" ))
+	(pt 64 120)
+	(pt 16 120)
+	(bus)
+)
+(connector
+	(pt -88 408)
+	(pt -104 408)
+)
+(connector
+	(pt -88 392)
+	(pt -104 392)
+)
+(connector
+	(pt -104 392)
+	(pt -104 408)
+)
+(connector
+	(pt -88 376)
+	(pt -104 376)
+)
+(connector
+	(pt -104 376)
+	(pt -104 392)
+)
+(connector
+	(text "L" (rect -120 355 -103 360)(font "Intel Clear" )(vertical))
+	(pt -104 328)
+	(pt -104 376)
+)
+(connector
+	(text "OUT_ACT" (rect -152 552 -105 569)(font "Intel Clear" ))
+	(pt -120 568)
+	(pt -88 568)
+)
 (junction (pt 368 968))
 (junction (pt 384 992))
 (junction (pt 312 1272))
@@ -5183,6 +5226,8 @@ https://fpgasoftware.intel.com/eula.
 (junction (pt 360 1504))
 (junction (pt -944 1632))
 (junction (pt 72 -8))
+(junction (pt -104 392))
+(junction (pt -104 376))
 (text "Upravljacka jedinica za POWERON" (rect -936 760 -732 779)(font "Intel Clear" (font_size 8)))
 (text "Upravljacka jedinica za komandu REF" (rect 64 1648 285 1667)(font "Intel Clear" (font_size 8)))
 (text "Upravljacka jedinica za komandu PREA" (rect 56 1424 287 1443)(font "Intel Clear" (font_size 8)))
