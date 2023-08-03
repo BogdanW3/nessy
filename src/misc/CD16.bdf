@@ -665,10 +665,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 456 240)
 )
 (connector
-	(pt 544 -8)
-	(pt 552 -8)
-)
-(connector
 	(pt 408 48)
 	(pt 456 48)
 )
