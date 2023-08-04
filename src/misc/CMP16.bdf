@@ -430,16 +430,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 648 328)
 )
 (connector
-	(text "G0" (rect 544 320 556 337)(font "Intel Clear" ))
-	(pt 576 336)
-	(pt 536 336)
-)
-(connector
-	(text "L1" (rect 544 304 555 321)(font "Intel Clear" ))
-	(pt 576 320)
-	(pt 536 320)
-)
-(connector
 	(pt 648 240)
 	(pt 640 240)
 )
@@ -480,4 +470,14 @@ https://fpgasoftware.intel.com/eula.
 	(pt 264 312)
 	(pt 312 312)
 	(bus)
+)
+(connector
+	(text "E1" (rect 544 304 555 321)(font "Intel Clear" ))
+	(pt 576 320)
+	(pt 536 320)
+)
+(connector
+	(text "L0" (rect 544 320 555 337)(font "Intel Clear" ))
+	(pt 576 336)
+	(pt 536 336)
 )
