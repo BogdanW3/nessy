@@ -7956,12 +7956,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "D,A,S,W,F,R,E,Q" (rect 1584 1008 1658 1025)(font "Intel Clear" ))
-	(pt 1726 1016)
-	(pt 1662 1016)
-	(bus)
-)
-(connector
 	(text "<<__$DEF_ALIAS1649>>" (rect 264 50 281 168)(font "Intel Clear" )(vertical)(invisible))
 	(pt 280 56)
 	(pt 280 72)
@@ -8097,9 +8091,8 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1856 1488)
 )
 (connector
-	(text "H,L,L,H,L,H,L,H" (rect 1792 1000 1860 1017)(font "Intel Clear" ))
+	(text "D,A,S,W,F,R,E,Q" (rect 1704 1008 1778 1025)(font "Intel Clear" ))
+	(pt 1790 1016)
 	(pt 1856 1016)
-	(pt 1792 1016)
 	(bus)
 )
-(text "UNDO THIS AFTER TESTING!" (rect 1576 944 2024 984)(font "Intel Clear" (font_size 22)))

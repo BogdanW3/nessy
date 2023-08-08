@@ -41,9 +41,23 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 0 64)
 		(input)
-		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
-		(text "CLK" (rect 21 59 44 78)(font "Intel Clear" (font_size 8)))
+		(text "RD" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
+		(text "RD" (rect 21 59 38 78)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "WR" (rect 0 0 20 19)(font "Intel Clear" (font_size 8)))
+		(text "WR" (rect 21 75 41 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 91 44 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
 	)
 	(port
 		(pt 200 32)
@@ -97,15 +111,15 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 200 160)
 		(output)
-		(text "SDRAM_A[11..0]" (rect 0 0 99 19)(font "Intel Clear" (font_size 8)))
-		(text "SDRAM_A[11..0]" (rect 80 155 179 174)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_BA[1..0]" (rect 0 0 99 19)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_BA[1..0]" (rect 80 155 179 174)(font "Intel Clear" (font_size 8)))
 		(line (pt 200 160)(pt 184 160)(line_width 3))
 	)
 	(port
 		(pt 200 176)
 		(output)
-		(text "SDRAM_BA[1..0]" (rect 0 0 99 19)(font "Intel Clear" (font_size 8)))
-		(text "SDRAM_BA[1..0]" (rect 80 171 179 190)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_A[11..0]" (rect 0 0 99 19)(font "Intel Clear" (font_size 8)))
+		(text "SDRAM_A[11..0]" (rect 80 171 179 190)(font "Intel Clear" (font_size 8)))
 		(line (pt 200 176)(pt 184 176)(line_width 3))
 	)
 	(port
