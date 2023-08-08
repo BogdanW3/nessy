@@ -4,20 +4,19 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2023  Intel Corporation. All rights reserved.
-Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and any partner logic 
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Intel Program License 
-Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel FPGA IP License Agreement, or other applicable license
-agreement, including, without limitation, that your use is for
-the sole purpose of programming logic devices manufactured by
-Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
 (pin
@@ -40,7 +39,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 176 176 344 192)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "PS2_DATA" (rect 5 0 56 17)(font "Intel Clear" ))
+	(text "PS2_DATA" (rect 5 0 62 11)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -72,7 +71,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 176 240 344 256)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "INTA" (rect 9 0 31 17)(font "Intel Clear" ))
+	(text "INTA" (rect 9 0 37 11)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -118,27 +117,27 @@ https://fpgasoftware.intel.com/eula.
 )
 (symbol
 	(rect 472 96 568 192)
-	(text "kb_debouncer" (rect 5 0 89 19)(font "Intel Clear" (font_size 8)))
-	(text "inst" (rect 8 75 24 92)(font "Intel Clear" ))
+	(text "kb_debouncer" (rect 5 0 85 13)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 75 24 86)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "D" (rect 0 0 9 19)(font "Intel Clear" (font_size 8)))
-		(text "D" (rect 21 27 30 46)(font "Intel Clear" (font_size 8)))
+		(text "D" (rect 0 0 8 13)(font "Intel Clear" (font_size 8)))
+		(text "D" (rect 21 27 29 40)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
-		(text "CLK" (rect 21 43 44 62)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 0 0 21 13)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 43 42 56)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 96 32)
 		(output)
-		(text "Q" (rect 0 0 9 19)(font "Intel Clear" (font_size 8)))
-		(text "Q" (rect 66 27 75 46)(font "Intel Clear" (font_size 8)))
+		(text "Q" (rect 0 0 9 13)(font "Intel Clear" (font_size 8)))
+		(text "Q" (rect 66 27 75 40)(font "Intel Clear" (font_size 8)))
 		(line (pt 96 32)(pt 80 32))
 	)
 	(drawing
@@ -148,7 +147,7 @@ https://fpgasoftware.intel.com/eula.
 (symbol
 	(rect 592 312 656 392)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "inst1" (rect 3 68 25 85)(font "Intel Clear" ))
+	(text "inst1" (rect 3 68 25 79)(font "Intel Clear" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -1138,7 +1137,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 2504 456 2568 536)
+	(rect 2448 448 2512 528)
 	(text "SRFF" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst35" (rect 3 68 32 80)(font "Arial" ))
 	(port
@@ -1740,67 +1739,9 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 2240 456 2304 504)
-	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst10" (rect 3 37 31 54)(font "Intel Clear" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 14 32))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 42 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 12)(pt 30 12))
-		(line (pt 14 37)(pt 31 37))
-		(line (pt 14 12)(pt 14 37))
-		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
-	)
-)
-(symbol
-	(rect 2240 536 2288 568)
-	(text "NOT" (rect 27 0 47 10)(font "Arial" (font_size 6)))
-	(text "inst24" (rect 17 21 45 38)(font "Intel Clear" ))
-	(port
-		(pt 48 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 35 7 46 19)(font "Courier New" (bold))(invisible))
-		(line (pt 48 16)(pt 35 16))
-	)
-	(port
-		(pt 0 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect -1 7 16 19)(font "Courier New" (bold))(invisible))
-		(line (pt 9 16)(pt 0 16))
-	)
-	(drawing
-		(line (pt 35 25)(pt 35 7))
-		(line (pt 35 7)(pt 17 16))
-		(line (pt 35 25)(pt 17 16))
-		(circle (rect 9 12 17 20))
-	)
-	(flipy)
-)
-(symbol
 	(rect 616 584 680 792)
 	(text "NOR12" (rect 1 0 31 10)(font "Arial" (font_size 6)))
-	(text "inst36" (rect 3 197 31 214)(font "Intel Clear" ))
+	(text "inst36" (rect 3 197 31 208)(font "Intel Clear" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1904,28 +1845,28 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 2344 448 2440 544)
-	(text "RisingEdge" (rect 5 0 69 19)(font "Intel Clear" (font_size 8)))
-	(text "inst27" (rect 8 75 36 92)(font "Intel Clear" ))
+	(rect 2288 440 2384 536)
+	(text "RisingEdge" (rect 5 0 66 13)(font "Intel Clear" (font_size 8)))
+	(text "inst27" (rect 8 75 36 86)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "D" (rect 0 0 9 19)(font "Intel Clear" (font_size 8)))
-		(text "D" (rect 21 27 30 46)(font "Intel Clear" (font_size 8)))
+		(text "D" (rect 0 0 8 13)(font "Intel Clear" (font_size 8)))
+		(text "D" (rect 21 27 29 40)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
-		(text "CLK" (rect 21 43 44 62)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 0 0 21 13)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 43 42 56)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 96 32)
 		(output)
-		(text "Q" (rect 0 0 9 19)(font "Intel Clear" (font_size 8)))
-		(text "Q" (rect 66 27 75 46)(font "Intel Clear" (font_size 8)))
+		(text "Q" (rect 0 0 9 13)(font "Intel Clear" (font_size 8)))
+		(text "Q" (rect 66 27 75 40)(font "Intel Clear" (font_size 8)))
 		(line (pt 96 32)(pt 80 32))
 	)
 	(drawing
@@ -2217,17 +2158,17 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2128 336)
 )
 (connector
-	(text "PS2_CLK" (rect 432 112 476 129)(font "Intel Clear" ))
+	(text "PS2_CLK" (rect 432 112 478 123)(font "Intel Clear" ))
 	(pt 472 128)
 	(pt 424 128)
 )
 (connector
-	(text "CLK" (rect 432 128 452 145)(font "Intel Clear" ))
+	(text "CLK" (rect 432 128 452 139)(font "Intel Clear" ))
 	(pt 472 144)
 	(pt 424 144)
 )
 (connector
-	(text "KBCLK" (rect 576 112 610 129)(font "Intel Clear" ))
+	(text "KBCLK" (rect 576 112 610 123)(font "Intel Clear" ))
 	(pt 568 128)
 	(pt 608 128)
 )
@@ -2377,58 +2318,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2128 472)
 )
 (connector
-	(text "VALID" (rect 2576 464 2605 481)(font "Intel Clear" ))
-	(pt 2616 480)
-	(pt 2568 480)
-)
-(connector
-	(text "CLK" (rect 2304 504 2325 516)(font "Arial" ))
-	(pt 2312 496)
-	(pt 2344 496)
-)
-(connector
-	(text "LD" (rect 2481 464 2495 476)(font "Arial" ))
-	(pt 2440 480)
-	(pt 2504 480)
-)
-(connector
-	(text "INTA" (rect 2440 504 2465 516)(font "Arial" ))
-	(pt 2472 512)
-	(pt 2504 512)
-)
-(connector
-	(text "CLK" (rect 2440 488 2461 500)(font "Arial" ))
-	(pt 2472 496)
-	(pt 2504 496)
-)
-(connector
-	(text "VALID" (rect 2296 536 2325 553)(font "Intel Clear" ))
-	(pt 2288 552)
-	(pt 2328 552)
-)
-(connector
-	(pt 2192 472)
-	(pt 2240 472)
-)
-(connector
-	(text "tick9" (rect 2313 464 2336 476)(font "Arial" ))
-	(pt 2304 480)
-	(pt 2344 480)
-)
-(connector
-	(pt 2240 552)
-	(pt 2224 552)
-)
-(connector
-	(pt 2240 488)
-	(pt 2224 488)
-)
-(connector
-	(pt 2224 552)
-	(pt 2224 488)
-)
-(connector
-	(text "VALID" (rect 736 128 765 145)(font "Intel Clear" ))
+	(text "VALID" (rect 736 128 770 139)(font "Intel Clear" ))
 	(pt 792 144)
 	(pt 728 144)
 )
@@ -2481,6 +2371,36 @@ https://fpgasoftware.intel.com/eula.
 	(text "Q0" (rect 2049 208 2063 220)(font "Arial" ))
 	(pt 2016 216)
 	(pt 2040 216)
+)
+(connector
+	(text "INTA" (rect 2384 496 2409 508)(font "Arial" ))
+	(pt 2416 504)
+	(pt 2448 504)
+)
+(connector
+	(text "CLK" (rect 2384 480 2405 492)(font "Arial" ))
+	(pt 2416 488)
+	(pt 2448 488)
+)
+(connector
+	(text "CLK" (rect 2248 496 2269 508)(font "Arial" ))
+	(pt 2256 488)
+	(pt 2288 488)
+)
+(connector
+	(text "tick9" (rect 2249 456 2272 468)(font "Arial" ))
+	(pt 2192 472)
+	(pt 2288 472)
+)
+(connector
+	(text "VALID" (rect 2520 456 2554 467)(font "Intel Clear" ))
+	(pt 2512 472)
+	(pt 2560 472)
+)
+(connector
+	(text "LD" (rect 2425 456 2439 468)(font "Arial" ))
+	(pt 2384 472)
+	(pt 2448 472)
 )
 (junction (pt 584 776))
 (junction (pt 328 392))

@@ -16,5 +16,7 @@
 *.bak
 *.rpt
 *.summary
+*.cdf
+*.stp
 c5_pin_model_dump.txt
 greybox_tmp

@@ -1,3 +1,5 @@
 # * @BogdanW3 @strajabot
+src/cpu/* @BogdanW3 @FilexTheCat @jmarko02 @strajabot @StefanGliga
+src/kb/* @BogdanW3
 src/misc/* @BogdanW3
-src/vram-controller.* @strajabot
+src/gpu/gpu.* @BogdanW3
