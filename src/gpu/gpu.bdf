@@ -2556,6 +2556,30 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 14 7)(pt 32 16))
 	)
 )
+(symbol
+	(rect 248 -72 296 -40)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst4" (rect 3 21 25 38)(font "Intel Clear" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
 (connector
 	(text "CLK" (rect 264 232 285 244)(font "Arial" ))
 	(pt 264 248)
@@ -3616,6 +3640,16 @@ https://fpgasoftware.intel.com/eula.
 	(pt 984 152)
 	(pt 944 152)
 	(bus)
+)
+(connector
+	(text "L" (rect 224 -72 229 -55)(font "Intel Clear" ))
+	(pt 248 -56)
+	(pt 216 -56)
+)
+(connector
+	(text "VRAM_WRITE" (rect 297 -72 365 -55)(font "Intel Clear" ))
+	(pt 296 -56)
+	(pt 336 -56)
 )
 (text "REMOVE THIS" (rect 624 -128 707 -109)(font "Intel Clear" (font_size 8)))
 (text "WHEN OUTLOGIC EXISTS" (rect 624 -112 777 -93)(font "Intel Clear" (font_size 8)))
