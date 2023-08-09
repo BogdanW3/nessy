@@ -18,5 +18,6 @@
 *.summary
 *.cdf
 *.stp
+*.done
 c5_pin_model_dump.txt
 greybox_tmp

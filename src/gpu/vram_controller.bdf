@@ -4863,6 +4863,40 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 14 25)(pt 32 16))
 	)
 )
+(symbol
+	(rect -944 1952 -912 1984)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst105" (rect 3 21 39 33)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 25 11)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 25 11)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
+(symbol
+	(rect -936 2104 -904 2136)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst106" (rect 3 21 39 33)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 25 11)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 25 11)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(text "POWERON_CNT0" (rect -632 928 -546 940)(font "Intel Clear" ))
 	(pt -576 944)
@@ -5657,12 +5691,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "ACTIVE_CMD[3..0]" (rect -1047 1904 -959 1916)(font "Intel Clear" ))
 	(pt -1048 1920)
 	(pt -1032 1920)
-	(bus)
-)
-(connector
-	(text "BA[1..0]" (rect 896 160 934 172)(font "Intel Clear" ))
-	(pt 936 176)
-	(pt 920 176)
 	(bus)
 )
 (connector
@@ -7097,11 +7125,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 584 392)
 )
 (connector
-	(text "mrs" (rect 327 -16 344 -5)(font "Arial" ))
-	(pt 320 0)
-	(pt 368 0)
-)
-(connector
 	(text "L,L" (rect -584 2064 -570 2076)(font "Intel Clear" ))
 	(pt -568 2080)
 	(pt -584 2080)
@@ -7146,12 +7169,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt -584 1960)
 )
 (connector
-	(text "A[11..0]" (rect -896 1928 -859 1940)(font "Intel Clear" ))
-	(pt -856 1944)
-	(pt -872 1944)
-	(bus)
-)
-(connector
 	(text "L,L,H,L,L,L,H,L,L,H,H,H" (rect -656 1912 -554 1924)(font "Intel Clear" ))
 	(pt -568 1928)
 	(pt -584 1928)
@@ -7161,12 +7178,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "CLK" (rect -888 2096 -868 2108)(font "Intel Clear" ))
 	(pt -848 2112)
 	(pt -864 2112)
-)
-(connector
-	(text "BA[1..0]" (rect -888 2080 -850 2092)(font "Intel Clear" ))
-	(pt -848 2096)
-	(pt -864 2096)
-	(bus)
 )
 (connector
 	(pt -640 2096)
@@ -7279,6 +7290,33 @@ https://fpgasoftware.intel.com/eula.
 	(text "BA_CL" (rect -984 2160 -953 2172)(font "Intel Clear" ))
 	(pt -992 2176)
 	(pt -976 2176)
+)
+(connector
+	(text "CMD_LD_STATE_UPDATES" (rect 327 -16 467 -5)(font "Arial" ))
+	(pt 320 0)
+	(pt 368 0)
+)
+(connector
+	(text "A[11..0]" (rect -896 1928 -859 1940)(font "Intel Clear" ))
+	(pt -928 1944)
+	(pt -856 1944)
+	(bus)
+)
+(connector
+	(pt -928 1944)
+	(pt -928 1952)
+	(bus)
+)
+(connector
+	(text "BA[1..0]" (rect -888 2080 -850 2092)(font "Intel Clear" ))
+	(pt -920 2096)
+	(pt -848 2096)
+	(bus)
+)
+(connector
+	(pt -920 2096)
+	(pt -920 2104)
+	(bus)
 )
 (junction (pt -944 1632))
 (junction (pt -104 392))
