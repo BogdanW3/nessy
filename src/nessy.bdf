@@ -729,7 +729,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect -264 304 -120 432)
-	(text "kb_controller-set3-wip" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "kb_controller_set3_wip" (rect 5 0 133 14)(font "Arial" (font_size 8)))
 	(text "inst3" (rect 8 112 31 124)(font "Arial" ))
 	(port
 		(pt 0 32)
@@ -779,7 +779,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect -40 304 144 464)
-	(text "kb_gamepad_bridge-set3-wip" (rect 5 0 174 14)(font "Arial" (font_size 8)))
+	(text "kb_gamepad_bridge_set3_wip" (rect 5 0 174 14)(font "Arial" (font_size 8)))
 	(text "inst4" (rect 8 144 31 156)(font "Arial" ))
 	(port
 		(pt 0 32)
