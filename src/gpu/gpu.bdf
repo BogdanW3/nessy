@@ -3219,12 +3219,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "L,L,L,L,L,H,L,L,L,L,L,L,H,H,L,H" (rect 1112 128 1254 139)(font "Intel Clear" ))
-	(pt 1144 152)
-	(pt 1232 152)
-	(bus)
-)
-(connector
 	(text "X_NEXTLINE[15..0]" (rect 1290 136 1385 148)(font "Arial" ))
 	(pt 1280 152)
 	(pt 1346 152)
@@ -3705,6 +3699,12 @@ applicable agreement for further details.
 (connector
 	(pt 552 400)
 	(pt 608 400)
+)
+(connector
+	(text "L,L,L,L,L,H,L,L,L,L,L,L,H,L,L,H" (rect 1112 120 1251 131)(font "Intel Clear" ))
+	(pt 1144 152)
+	(pt 1232 152)
+	(bus)
 )
 (text "REMOVE THIS" (rect 624 -128 703 -115)(font "Intel Clear" (font_size 8)))
 (text "WHEN OUTLOGIC EXISTS" (rect 624 -112 767 -99)(font "Intel Clear" (font_size 8)))
