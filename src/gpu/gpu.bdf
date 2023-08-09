@@ -3043,22 +3043,6 @@ applicable agreement for further details.
 	(pt 608 520)
 )
 (connector
-	(pt 560 400)
-	(pt 560 392)
-)
-(connector
-	(pt 552 400)
-	(pt 560 400)
-)
-(connector
-	(pt 560 392)
-	(pt 608 392)
-)
-(connector
-	(pt 608 392)
-	(pt 608 464)
-)
-(connector
 	(text "VGA_HS" (rect 912 440 955 452)(font "Arial" ))
 	(pt 904 456)
 	(pt 928 456)
@@ -3713,6 +3697,14 @@ applicable agreement for further details.
 	(pt 632 880)
 	(pt 584 880)
 	(bus)
+)
+(connector
+	(pt 608 464)
+	(pt 608 400)
+)
+(connector
+	(pt 552 400)
+	(pt 608 400)
 )
 (text "REMOVE THIS" (rect 624 -128 703 -115)(font "Intel Clear" (font_size 8)))
 (text "WHEN OUTLOGIC EXISTS" (rect 624 -112 767 -99)(font "Intel Clear" (font_size 8)))

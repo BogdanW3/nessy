@@ -1158,11 +1158,6 @@ applicable agreement for further details.
 	(pt -80 704)
 )
 (connector
-	(text "D0" (rect -72 736 -58 747)(font "Intel Clear" ))
-	(pt -32 752)
-	(pt -80 752)
-)
-(connector
 	(text "KBSR" (rect -72 720 -44 731)(font "Intel Clear" ))
 	(pt -32 736)
 	(pt -80 736)
@@ -1292,12 +1287,6 @@ applicable agreement for further details.
 	(pt -56 464)
 )
 (connector
-	(text "L,H,L,L,L,L,L,L,L,L,L,H,L,H,H,L" (rect 331 272 473 283)(font "Intel Clear" ))
-	(pt 344 304)
-	(pt 392 304)
-	(bus)
-)
-(connector
 	(text "OUT0" (rect -112 560 -82 571)(font "Intel Clear" ))
 	(pt -80 576)
 	(pt -120 576)
@@ -1400,6 +1389,17 @@ applicable agreement for further details.
 (connector
 	(pt 72 296)
 	(pt 104 296)
+)
+(connector
+	(text "D1" (rect -72 736 -58 747)(font "Intel Clear" ))
+	(pt -32 752)
+	(pt -80 752)
+)
+(connector
+	(text "L,H,L,L,L,L,L,L,L,L,L,H,L,H,H,L" (rect 331 272 473 283)(font "Intel Clear" ))
+	(pt 344 304)
+	(pt 392 304)
+	(bus)
 )
 (junction (pt 72 448))
 (text "KB TEST" (rect 88 240 134 253)(font "Intel Clear" (font_size 8)))
