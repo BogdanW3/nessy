@@ -2838,39 +2838,6 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect -944 1792 -880 1840)
-	(text "OR2" (rect 1 0 22 10)(font "Arial" (font_size 6)))
-	(text "inst92" (rect 3 37 31 48)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 22 34)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 22 34)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 15 32))
-	)
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 22 18)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 22 18)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 15 16))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 69 26)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 69 26)(font "Courier New" (bold))(invisible))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 36)(pt 25 36))
-		(line (pt 14 13)(pt 25 13))
-		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
-		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
-		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
-	)
-)
-(symbol
 	(rect -1272 1928 -1176 2024)
 	(text "CD2" (rect 5 0 30 15)(font "Intel Clear" (font_size 8)))
 	(text "inst93" (rect 8 75 38 87)(font "Intel Clear" ))
@@ -4863,7 +4830,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect -672 1808 -624 1840)
+	(rect -784 1816 -736 1848)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst100" (rect 3 21 37 32)(font "Arial" ))
 	(port
@@ -5120,7 +5087,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect -464 1768 -400 1816)
+	(rect -528 1800 -464 1848)
 	(text "OR2" (rect 1 0 22 10)(font "Arial" (font_size 6)))
 	(text "inst98" (rect 3 37 31 48)(font "Arial" ))
 	(port
@@ -5153,7 +5120,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect -784 1800 -720 1848)
+	(rect -896 1808 -832 1856)
 	(text "AND2" (rect 1 0 28 10)(font "Arial" (font_size 6)))
 	(text "inst116" (rect 3 37 39 49)(font "Intel Clear" ))
 	(port
@@ -5185,7 +5152,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect -464 1856 -400 1904)
+	(rect -528 1888 -464 1936)
 	(text "OR2" (rect 1 0 22 10)(font "Arial" (font_size 6)))
 	(text "inst91" (rect 3 37 31 48)(font "Arial" ))
 	(port
@@ -5218,7 +5185,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect -504 1904 -472 1936)
+	(rect -568 1936 -536 1968)
 	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
 	(text "inst117" (rect 3 21 39 33)(font "Intel Clear" )(invisible))
 	(port
@@ -7709,26 +7676,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt -1312 1808)
 )
 (connector
-	(pt -1088 1824)
-	(pt -1088 1768)
-)
-(connector
-	(pt -960 1768)
-	(pt -960 1808)
-)
-(connector
-	(pt -1088 1768)
-	(pt -960 1768)
-)
-(connector
-	(pt -992 1824)
-	(pt -944 1824)
-)
-(connector
-	(pt -944 1808)
-	(pt -960 1808)
-)
-(connector
 	(pt -1160 1976)
 	(pt -1160 1984)
 )
@@ -7776,67 +7723,14 @@ https://fpgasoftware.intel.com/eula.
 	(pt -952 1992)
 )
 (connector
-	(text "<<__$DEF_ALIAS8325>>" (rect -807 1800 -686 1812)(font "Intel Clear" )(invisible))
-	(pt -880 1816)
-	(pt -784 1816)
-)
-(connector
-	(text "POWERON_FINISHED" (rect -872 1816 -767 1828)(font "Intel Clear" ))
-	(pt -816 1832)
-	(pt -784 1832)
-)
-(connector
-	(text "nREADY" (rect -616 1808 -574 1819)(font "Arial" ))
-	(pt -624 1824)
-	(pt -584 1824)
-)
-(connector
-	(text "READY" (rect -712 1808 -676 1819)(font "Arial" ))
-	(pt -720 1824)
-	(pt -672 1824)
-)
-(connector
-	(text "write_pixel" (rect -544 1784 -494 1795)(font "Arial" ))
-	(pt -464 1800)
-	(pt -552 1800)
-)
-(connector
-	(text "RESET_READY" (rect -392 1776 -315 1787)(font "Arial" ))
-	(pt -400 1792)
-	(pt -352 1792)
-)
-(connector
-	(text "read_scanline" (rect -544 1768 -478 1779)(font "Arial" ))
-	(pt -464 1784)
-	(pt -552 1784)
-)
-(connector
-	(text "SET_READY" (rect -392 1864 -329 1875)(font "Arial" ))
-	(pt -400 1880)
-	(pt -352 1880)
-)
-(connector
 	(text "MODE_READ_FINISH" (rect -450 3040 -342 3051)(font "Arial" ))
 	(pt -456 3056)
 	(pt -408 3056)
 )
 (connector
-	(text "MODE_READ_FINISH" (rect -560 1856 -452 1867)(font "Arial" ))
-	(pt -464 1872)
-	(pt -552 1872)
-)
-(connector
-	(pt -464 1888)
-	(pt -488 1888)
-)
-(connector
 	(text "MODE_READ_FINISH" (rect -1136 2400 -1035 2412)(font "Intel Clear" ))
 	(pt -1040 2416)
 	(pt -1056 2416)
-)
-(connector
-	(pt -488 1888)
-	(pt -488 1904)
 )
 (connector
 	(pt -1024 1800)
@@ -7858,14 +7752,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(pt -1112 1824)
-	(pt -1088 1824)
-)
-(connector
-	(pt -1088 1824)
-	(pt -1056 1824)
-)
-(connector
 	(text "RESET_READY" (rect -1335 1840 -1265 1852)(font "Intel Clear" ))
 	(pt -1312 1856)
 	(pt -1264 1856)
@@ -7873,6 +7759,63 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt -1264 1856)
 	(pt -1056 1856)
+)
+(connector
+	(pt -1112 1824)
+	(pt -1056 1824)
+)
+(connector
+	(text "POWERON_FINISHED" (rect -984 1824 -879 1836)(font "Intel Clear" ))
+	(pt -928 1840)
+	(pt -896 1840)
+)
+(connector
+	(text "<<__$DEF_ALIAS8325>>" (rect -919 1808 -798 1820)(font "Intel Clear" )(invisible))
+	(pt -992 1824)
+	(pt -896 1824)
+)
+(connector
+	(text "nREADY" (rect -728 1816 -686 1827)(font "Arial" ))
+	(pt -736 1832)
+	(pt -696 1832)
+)
+(connector
+	(text "READY" (rect -824 1816 -788 1827)(font "Arial" ))
+	(pt -832 1832)
+	(pt -784 1832)
+)
+(connector
+	(text "RESET_READY" (rect -456 1808 -379 1819)(font "Arial" ))
+	(pt -464 1824)
+	(pt -416 1824)
+)
+(connector
+	(text "SET_READY" (rect -456 1896 -393 1907)(font "Arial" ))
+	(pt -464 1912)
+	(pt -416 1912)
+)
+(connector
+	(pt -552 1920)
+	(pt -552 1936)
+)
+(connector
+	(text "write_pixel" (rect -608 1816 -558 1827)(font "Arial" ))
+	(pt -616 1832)
+	(pt -528 1832)
+)
+(connector
+	(text "read_scanline" (rect -608 1800 -542 1811)(font "Arial" ))
+	(pt -616 1816)
+	(pt -528 1816)
+)
+(connector
+	(pt -552 1920)
+	(pt -528 1920)
+)
+(connector
+	(text "MODE_READ_FINISH" (rect -624 1888 -516 1899)(font "Arial" ))
+	(pt -616 1904)
+	(pt -528 1904)
 )
 (junction (pt -944 1632))
 (junction (pt -104 392))
@@ -7891,7 +7834,6 @@ https://fpgasoftware.intel.com/eula.
 (junction (pt 584 368))
 (junction (pt 304 1416))
 (junction (pt -640 2264))
-(junction (pt -1088 1824))
 (junction (pt -1264 1856))
 (text "Upravljacka jedinica za POWERON" (rect -936 760 -736 775)(font "Intel Clear" (font_size 8)))
 (text "Upravljacka jedinica za komandu REF" (rect 64 2528 281 2543)(font "Intel Clear" (font_size 8)))
