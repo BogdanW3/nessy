@@ -19,5 +19,10 @@
 *.cdf
 *.stp
 *.done
+*.smsg
+*.jdi
+*.pin
+*.sld
+*.sof
 c5_pin_model_dump.txt
 greybox_tmp
