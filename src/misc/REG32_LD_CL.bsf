@@ -27,8 +27,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 0 32)
 		(input)
-		(text "DIN[32..0]" (rect 0 0 61 19)(font "Intel Clear" (font_size 8)))
-		(text "DIN[32..0]" (rect 21 27 82 46)(font "Intel Clear" (font_size 8)))
+		(text "DIN[31..0]" (rect 0 0 61 19)(font "Intel Clear" (font_size 8)))
+		(text "DIN[31..0]" (rect 21 27 82 46)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
