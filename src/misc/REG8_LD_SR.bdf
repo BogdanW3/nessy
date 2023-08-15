@@ -102,7 +102,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 1072 88 1248 104)
+	(rect 1048 96 1224 112)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "S" (rect 90 0 97 12)(font "Arial" ))
 	(pt 0 8)
@@ -118,7 +118,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 1072 48 1248 64)
+	(rect 1048 64 1224 80)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "DOUT[7..0]" (rect 90 0 146 12)(font "Arial" ))
 	(pt 0 8)
@@ -133,7 +133,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 816 88 992 216)
+	(rect 776 64 952 192)
 	(text "REG4_LD_SR" (rect 5 0 85 19)(font "Intel Clear" (font_size 8)))
 	(text "inst1" (rect 8 107 30 124)(font "Intel Clear" ))
 	(port
@@ -190,7 +190,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 544 88 720 216)
+	(rect 504 64 680 192)
 	(text "REG4_LD_SR" (rect 5 0 85 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
 	(port
@@ -247,78 +247,78 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (connector
-	(text "DOUT0" (rect 1040 80 1074 97)(font "Intel Clear" ))
-	(pt 1072 96)
-	(pt 1032 96)
+	(text "LD" (rect 744 112 756 129)(font "Intel Clear" ))
+	(pt 744 128)
+	(pt 776 128)
 )
 (connector
-	(text "CLK" (rect 784 120 804 137)(font "Intel Clear" ))
-	(pt 816 136)
-	(pt 776 136)
+	(text "SR" (rect 744 128 756 145)(font "Intel Clear" ))
+	(pt 744 144)
+	(pt 776 144)
 )
 (connector
-	(text "LD" (rect 784 136 796 153)(font "Intel Clear" ))
-	(pt 816 152)
-	(pt 776 152)
-)
-(connector
-	(text "SR" (rect 784 152 796 169)(font "Intel Clear" ))
-	(pt 816 168)
-	(pt 776 168)
-)
-(connector
-	(pt 816 184)
-	(pt 744 184)
-)
-(connector
-	(pt 720 136)
-	(pt 744 136)
-)
-(connector
-	(pt 744 136)
-	(pt 744 184)
-)
-(connector
-	(text "DOUT[7..4]" (rect 728 104 779 121)(font "Intel Clear" ))
-	(pt 720 120)
-	(pt 744 120)
+	(text "DIN[3..0]" (rect 744 80 784 97)(font "Intel Clear" ))
+	(pt 776 96)
+	(pt 736 96)
 	(bus)
 )
 (connector
-	(text "DIN[3..0]" (rect 784 104 824 121)(font "Intel Clear" ))
-	(pt 816 120)
-	(pt 776 120)
+	(text "DIN[7..4]" (rect 472 80 512 97)(font "Intel Clear" ))
+	(pt 464 96)
+	(pt 504 96)
 	(bus)
 )
 (connector
-	(text "DIN[7..4]" (rect 512 104 552 121)(font "Intel Clear" ))
-	(pt 504 120)
-	(pt 544 120)
+	(text "CLK" (rect 472 96 492 113)(font "Intel Clear" ))
+	(pt 464 112)
+	(pt 504 112)
+)
+(connector
+	(text "LD" (rect 472 112 484 129)(font "Intel Clear" ))
+	(pt 464 128)
+	(pt 504 128)
+)
+(connector
+	(text "SR" (rect 472 128 484 145)(font "Intel Clear" ))
+	(pt 464 144)
+	(pt 504 144)
+)
+(connector
+	(text "IR" (rect 472 144 481 161)(font "Intel Clear" ))
+	(pt 464 160)
+	(pt 504 160)
+)
+(connector
+	(text "DOUT[3..0]" (rect 953 80 1004 97)(font "Intel Clear" ))
+	(pt 952 96)
+	(pt 984 96)
 	(bus)
 )
 (connector
-	(text "CLK" (rect 512 120 532 137)(font "Intel Clear" ))
-	(pt 504 136)
-	(pt 544 136)
-)
-(connector
-	(text "LD" (rect 512 136 524 153)(font "Intel Clear" ))
-	(pt 504 152)
-	(pt 544 152)
-)
-(connector
-	(text "SR" (rect 512 152 524 169)(font "Intel Clear" ))
-	(pt 504 168)
-	(pt 544 168)
-)
-(connector
-	(text "IR" (rect 512 168 521 185)(font "Intel Clear" ))
-	(pt 504 184)
-	(pt 544 184)
-)
-(connector
-	(text "DOUT[3..0]" (rect 993 104 1044 121)(font "Intel Clear" ))
-	(pt 992 120)
-	(pt 1024 120)
+	(text "DOUT[7..4]" (rect 688 80 739 97)(font "Intel Clear" ))
+	(pt 680 96)
+	(pt 704 96)
 	(bus)
+)
+(connector
+	(text "DOUT0" (rect 1016 88 1050 105)(font "Intel Clear" ))
+	(pt 1048 104)
+	(pt 1008 104)
+)
+(connector
+	(pt 680 112)
+	(pt 720 112)
+)
+(connector
+	(text "CLK" (rect 744 96 764 113)(font "Intel Clear" ))
+	(pt 744 112)
+	(pt 776 112)
+)
+(connector
+	(pt 720 112)
+	(pt 720 160)
+)
+(connector
+	(pt 776 160)
+	(pt 720 160)
 )

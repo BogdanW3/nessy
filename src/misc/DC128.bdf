@@ -22,7 +22,7 @@ https://fpgasoftware.intel.com/eula.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 328 408 504 424)
+	(rect 328 232 504 248)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "E" (rect 9 0 16 12)(font "Arial" ))
 	(pt 176 8)
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 336 304 504 320)
+	(rect 336 128 504 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "D3" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
@@ -54,7 +54,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 336 328 504 344)
+	(rect 336 152 504 168)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "D2" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
@@ -70,7 +70,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 336 352 504 368)
+	(rect 336 176 504 192)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "D1" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
@@ -86,7 +86,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 336 376 504 392)
+	(rect 336 200 504 216)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "D0" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
@@ -102,7 +102,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 336 280 504 296)
+	(rect 336 104 504 120)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "D4" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
@@ -118,7 +118,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 336 256 504 272)
+	(rect 336 80 504 96)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "D5" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
@@ -134,9 +134,9 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 336 232 504 248)
+	(rect 336 56 504 72)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D6" (rect 5 0 18 17)(font "Intel Clear" ))
+	(text "D6" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -2229,7 +2229,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 592 1456 640 1488)
+	(rect 592 1296 640 1328)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst7" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -2254,7 +2254,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 640 1456 704 1504)
+	(rect 640 1296 704 1344)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 37 26 49)(font "Arial" ))
 	(port
@@ -2286,7 +2286,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 744 1352 840 2440)
+	(rect 744 1192 840 2280)
 	(text "DC64" (rect 5 0 39 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 1067 24 1084)(font "Intel Clear" ))
 	(port
@@ -3306,378 +3306,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 640 176)
 )
 (connector
-	(text "E" (rect 561 1488 568 1500)(font "Arial" ))
-	(pt 633 1504)
-	(pt 569 1504)
-)
-(connector
-	(text "D0" (rect 721 1448 735 1460)(font "Arial" ))
-	(pt 744 1464)
-	(pt 713 1464)
-)
-(connector
-	(text "D1" (rect 720 1432 734 1444)(font "Arial" ))
-	(pt 744 1448)
-	(pt 712 1448)
-)
-(connector
-	(text "D2" (rect 720 1416 734 1428)(font "Arial" ))
-	(pt 744 1432)
-	(pt 712 1432)
-)
-(connector
-	(pt 633 1504)
-	(pt 633 1488)
-)
-(connector
-	(pt 633 1488)
-	(pt 640 1488)
-)
-(connector
-	(pt 704 1480)
-	(pt 744 1480)
-)
-(connector
-	(text "D3" (rect 720 1400 732 1417)(font "Intel Clear" ))
-	(pt 744 1416)
-	(pt 712 1416)
-)
-(connector
-	(text "D4" (rect 720 1384 732 1401)(font "Intel Clear" ))
-	(pt 744 1400)
-	(pt 712 1400)
-)
-(connector
-	(text "D5" (rect 720 1368 732 1385)(font "Intel Clear" ))
-	(pt 744 1384)
-	(pt 712 1384)
-)
-(connector
-	(text "D6" (rect 566 1456 580 1468)(font "Arial" ))
-	(pt 561 1472)
-	(pt 592 1472)
-)
-(connector
-	(text "Q7" (rect 848 2264 862 2276)(font "Arial" ))
-	(pt 840 2280)
-	(pt 872 2280)
-)
-(connector
-	(text "Q6" (rect 848 2280 862 2292)(font "Arial" ))
-	(pt 840 2296)
-	(pt 872 2296)
-)
-(connector
-	(text "Q5" (rect 848 2296 862 2308)(font "Arial" ))
-	(pt 840 2312)
-	(pt 872 2312)
-)
-(connector
-	(text "Q4" (rect 849 2312 863 2324)(font "Arial" ))
-	(pt 840 2328)
-	(pt 872 2328)
-)
-(connector
-	(text "Q3" (rect 849 2328 863 2340)(font "Arial" ))
-	(pt 840 2344)
-	(pt 872 2344)
-)
-(connector
-	(text "Q2" (rect 848 2344 862 2356)(font "Arial" ))
-	(pt 840 2360)
-	(pt 872 2360)
-)
-(connector
-	(text "Q1" (rect 849 2360 863 2372)(font "Arial" ))
-	(pt 840 2376)
-	(pt 872 2376)
-)
-(connector
-	(text "Q0" (rect 848 2376 862 2388)(font "Arial" ))
-	(pt 840 2392)
-	(pt 872 2392)
-)
-(connector
-	(text "Q15" (rect 848 2136 868 2148)(font "Arial" ))
-	(pt 840 2152)
-	(pt 872 2152)
-)
-(connector
-	(text "Q14" (rect 848 2152 868 2164)(font "Arial" ))
-	(pt 840 2168)
-	(pt 872 2168)
-)
-(connector
-	(text "Q13" (rect 848 2168 868 2180)(font "Arial" ))
-	(pt 840 2184)
-	(pt 872 2184)
-)
-(connector
-	(text "Q12" (rect 849 2184 869 2196)(font "Arial" ))
-	(pt 840 2200)
-	(pt 872 2200)
-)
-(connector
-	(text "Q11" (rect 849 2200 869 2212)(font "Arial" ))
-	(pt 840 2216)
-	(pt 872 2216)
-)
-(connector
-	(text "Q10" (rect 848 2216 868 2228)(font "Arial" ))
-	(pt 840 2232)
-	(pt 872 2232)
-)
-(connector
-	(text "Q9" (rect 849 2232 863 2244)(font "Arial" ))
-	(pt 840 2248)
-	(pt 872 2248)
-)
-(connector
-	(text "Q8" (rect 848 2248 862 2260)(font "Arial" ))
-	(pt 840 2264)
-	(pt 872 2264)
-)
-(connector
-	(text "Q31" (rect 848 1880 868 1892)(font "Arial" ))
-	(pt 840 1896)
-	(pt 872 1896)
-)
-(connector
-	(text "Q30" (rect 848 1896 868 1908)(font "Arial" ))
-	(pt 840 1912)
-	(pt 872 1912)
-)
-(connector
-	(text "Q29" (rect 848 1912 868 1924)(font "Arial" ))
-	(pt 840 1928)
-	(pt 872 1928)
-)
-(connector
-	(text "Q28" (rect 849 1928 869 1940)(font "Arial" ))
-	(pt 840 1944)
-	(pt 872 1944)
-)
-(connector
-	(text "Q27" (rect 849 1944 869 1956)(font "Arial" ))
-	(pt 840 1960)
-	(pt 872 1960)
-)
-(connector
-	(text "Q26" (rect 848 1960 868 1972)(font "Arial" ))
-	(pt 840 1976)
-	(pt 872 1976)
-)
-(connector
-	(text "Q25" (rect 849 1976 869 1988)(font "Arial" ))
-	(pt 840 1992)
-	(pt 872 1992)
-)
-(connector
-	(text "Q24" (rect 848 1992 868 2004)(font "Arial" ))
-	(pt 840 2008)
-	(pt 872 2008)
-)
-(connector
-	(text "Q23" (rect 848 2008 868 2020)(font "Arial" ))
-	(pt 840 2024)
-	(pt 872 2024)
-)
-(connector
-	(text "Q22" (rect 848 2024 868 2036)(font "Arial" ))
-	(pt 840 2040)
-	(pt 872 2040)
-)
-(connector
-	(text "Q21" (rect 848 2040 868 2052)(font "Arial" ))
-	(pt 840 2056)
-	(pt 872 2056)
-)
-(connector
-	(text "Q20" (rect 849 2056 869 2068)(font "Arial" ))
-	(pt 840 2072)
-	(pt 872 2072)
-)
-(connector
-	(text "Q19" (rect 849 2072 869 2084)(font "Arial" ))
-	(pt 840 2088)
-	(pt 872 2088)
-)
-(connector
-	(text "Q18" (rect 848 2088 868 2100)(font "Arial" ))
-	(pt 840 2104)
-	(pt 872 2104)
-)
-(connector
-	(text "Q17" (rect 849 2104 869 2116)(font "Arial" ))
-	(pt 840 2120)
-	(pt 872 2120)
-)
-(connector
-	(text "Q16" (rect 848 2120 868 2132)(font "Arial" ))
-	(pt 840 2136)
-	(pt 872 2136)
-)
-(connector
-	(text "Q62" (rect 848 1384 868 1396)(font "Arial" ))
-	(pt 840 1400)
-	(pt 872 1400)
-)
-(connector
-	(text "Q61" (rect 848 1400 868 1412)(font "Arial" ))
-	(pt 840 1416)
-	(pt 872 1416)
-)
-(connector
-	(text "Q60" (rect 849 1416 869 1428)(font "Arial" ))
-	(pt 840 1432)
-	(pt 872 1432)
-)
-(connector
-	(text "Q59" (rect 849 1432 869 1444)(font "Arial" ))
-	(pt 840 1448)
-	(pt 872 1448)
-)
-(connector
-	(text "Q58" (rect 848 1448 868 1460)(font "Arial" ))
-	(pt 840 1464)
-	(pt 872 1464)
-)
-(connector
-	(text "Q57" (rect 849 1464 869 1476)(font "Arial" ))
-	(pt 840 1480)
-	(pt 872 1480)
-)
-(connector
-	(text "Q56" (rect 848 1480 868 1492)(font "Arial" ))
-	(pt 840 1496)
-	(pt 872 1496)
-)
-(connector
-	(text "Q55" (rect 848 1496 868 1508)(font "Arial" ))
-	(pt 840 1512)
-	(pt 872 1512)
-)
-(connector
-	(text "Q54" (rect 848 1512 868 1524)(font "Arial" ))
-	(pt 840 1528)
-	(pt 872 1528)
-)
-(connector
-	(text "Q53" (rect 848 1528 868 1540)(font "Arial" ))
-	(pt 840 1544)
-	(pt 872 1544)
-)
-(connector
-	(text "Q52" (rect 849 1544 869 1556)(font "Arial" ))
-	(pt 840 1560)
-	(pt 872 1560)
-)
-(connector
-	(text "Q51" (rect 849 1560 869 1572)(font "Arial" ))
-	(pt 840 1576)
-	(pt 872 1576)
-)
-(connector
-	(text "Q50" (rect 848 1576 868 1588)(font "Arial" ))
-	(pt 840 1592)
-	(pt 872 1592)
-)
-(connector
-	(text "Q49" (rect 849 1592 869 1604)(font "Arial" ))
-	(pt 840 1608)
-	(pt 872 1608)
-)
-(connector
-	(text "Q48" (rect 848 1608 868 1620)(font "Arial" ))
-	(pt 840 1624)
-	(pt 872 1624)
-)
-(connector
-	(text "Q47" (rect 848 1624 868 1636)(font "Arial" ))
-	(pt 840 1640)
-	(pt 872 1640)
-)
-(connector
-	(text "Q46" (rect 848 1640 868 1652)(font "Arial" ))
-	(pt 840 1656)
-	(pt 872 1656)
-)
-(connector
-	(text "Q45" (rect 848 1656 868 1668)(font "Arial" ))
-	(pt 840 1672)
-	(pt 872 1672)
-)
-(connector
-	(text "Q44" (rect 849 1672 869 1684)(font "Arial" ))
-	(pt 840 1688)
-	(pt 872 1688)
-)
-(connector
-	(text "Q43" (rect 849 1688 869 1700)(font "Arial" ))
-	(pt 840 1704)
-	(pt 872 1704)
-)
-(connector
-	(text "Q42" (rect 848 1704 868 1716)(font "Arial" ))
-	(pt 840 1720)
-	(pt 872 1720)
-)
-(connector
-	(text "Q41" (rect 849 1720 869 1732)(font "Arial" ))
-	(pt 840 1736)
-	(pt 872 1736)
-)
-(connector
-	(text "Q40" (rect 848 1736 868 1748)(font "Arial" ))
-	(pt 840 1752)
-	(pt 872 1752)
-)
-(connector
-	(text "Q39" (rect 848 1752 868 1764)(font "Arial" ))
-	(pt 840 1768)
-	(pt 872 1768)
-)
-(connector
-	(text "Q38" (rect 848 1768 868 1780)(font "Arial" ))
-	(pt 840 1784)
-	(pt 872 1784)
-)
-(connector
-	(text "Q37" (rect 848 1784 868 1796)(font "Arial" ))
-	(pt 840 1800)
-	(pt 872 1800)
-)
-(connector
-	(text "Q36" (rect 849 1800 869 1812)(font "Arial" ))
-	(pt 840 1816)
-	(pt 872 1816)
-)
-(connector
-	(text "Q35" (rect 849 1816 869 1828)(font "Arial" ))
-	(pt 840 1832)
-	(pt 872 1832)
-)
-(connector
-	(text "Q34" (rect 848 1832 868 1844)(font "Arial" ))
-	(pt 840 1848)
-	(pt 872 1848)
-)
-(connector
-	(text "Q33" (rect 849 1848 869 1860)(font "Arial" ))
-	(pt 840 1864)
-	(pt 872 1864)
-)
-(connector
-	(text "Q32" (rect 848 1864 868 1876)(font "Arial" ))
-	(pt 840 1880)
-	(pt 872 1880)
-)
-(connector
-	(text "Q63" (rect 848 1368 868 1385)(font "Intel Clear" ))
-	(pt 840 1384)
-	(pt 872 1384)
-)
-(connector
 	(text "D0" (rect 721 152 735 164)(font "Arial" ))
 	(pt 744 168)
 	(pt 713 168)
@@ -4030,4 +3658,376 @@ https://fpgasoftware.intel.com/eula.
 	(text "Q64" (rect 848 1080 868 1092)(font "Arial" ))
 	(pt 840 1096)
 	(pt 872 1096)
+)
+(connector
+	(text "E" (rect 561 1328 568 1340)(font "Arial" ))
+	(pt 633 1344)
+	(pt 569 1344)
+)
+(connector
+	(text "D0" (rect 721 1288 735 1300)(font "Arial" ))
+	(pt 744 1304)
+	(pt 713 1304)
+)
+(connector
+	(text "D1" (rect 720 1272 734 1284)(font "Arial" ))
+	(pt 744 1288)
+	(pt 712 1288)
+)
+(connector
+	(text "D2" (rect 720 1256 734 1268)(font "Arial" ))
+	(pt 744 1272)
+	(pt 712 1272)
+)
+(connector
+	(pt 633 1344)
+	(pt 633 1328)
+)
+(connector
+	(pt 633 1328)
+	(pt 640 1328)
+)
+(connector
+	(pt 704 1320)
+	(pt 744 1320)
+)
+(connector
+	(text "D3" (rect 720 1240 732 1257)(font "Intel Clear" ))
+	(pt 744 1256)
+	(pt 712 1256)
+)
+(connector
+	(text "D4" (rect 720 1224 732 1241)(font "Intel Clear" ))
+	(pt 744 1240)
+	(pt 712 1240)
+)
+(connector
+	(text "D5" (rect 720 1208 732 1225)(font "Intel Clear" ))
+	(pt 744 1224)
+	(pt 712 1224)
+)
+(connector
+	(text "D6" (rect 566 1296 580 1308)(font "Arial" ))
+	(pt 561 1312)
+	(pt 592 1312)
+)
+(connector
+	(text "Q7" (rect 848 2104 862 2116)(font "Arial" ))
+	(pt 840 2120)
+	(pt 872 2120)
+)
+(connector
+	(text "Q6" (rect 848 2120 862 2132)(font "Arial" ))
+	(pt 840 2136)
+	(pt 872 2136)
+)
+(connector
+	(text "Q5" (rect 848 2136 862 2148)(font "Arial" ))
+	(pt 840 2152)
+	(pt 872 2152)
+)
+(connector
+	(text "Q4" (rect 849 2152 863 2164)(font "Arial" ))
+	(pt 840 2168)
+	(pt 872 2168)
+)
+(connector
+	(text "Q3" (rect 849 2168 863 2180)(font "Arial" ))
+	(pt 840 2184)
+	(pt 872 2184)
+)
+(connector
+	(text "Q2" (rect 848 2184 862 2196)(font "Arial" ))
+	(pt 840 2200)
+	(pt 872 2200)
+)
+(connector
+	(text "Q1" (rect 849 2200 863 2212)(font "Arial" ))
+	(pt 840 2216)
+	(pt 872 2216)
+)
+(connector
+	(text "Q0" (rect 848 2216 862 2228)(font "Arial" ))
+	(pt 840 2232)
+	(pt 872 2232)
+)
+(connector
+	(text "Q15" (rect 848 1976 868 1988)(font "Arial" ))
+	(pt 840 1992)
+	(pt 872 1992)
+)
+(connector
+	(text "Q14" (rect 848 1992 868 2004)(font "Arial" ))
+	(pt 840 2008)
+	(pt 872 2008)
+)
+(connector
+	(text "Q13" (rect 848 2008 868 2020)(font "Arial" ))
+	(pt 840 2024)
+	(pt 872 2024)
+)
+(connector
+	(text "Q12" (rect 849 2024 869 2036)(font "Arial" ))
+	(pt 840 2040)
+	(pt 872 2040)
+)
+(connector
+	(text "Q11" (rect 849 2040 869 2052)(font "Arial" ))
+	(pt 840 2056)
+	(pt 872 2056)
+)
+(connector
+	(text "Q10" (rect 848 2056 868 2068)(font "Arial" ))
+	(pt 840 2072)
+	(pt 872 2072)
+)
+(connector
+	(text "Q9" (rect 849 2072 863 2084)(font "Arial" ))
+	(pt 840 2088)
+	(pt 872 2088)
+)
+(connector
+	(text "Q8" (rect 848 2088 862 2100)(font "Arial" ))
+	(pt 840 2104)
+	(pt 872 2104)
+)
+(connector
+	(text "Q31" (rect 848 1720 868 1732)(font "Arial" ))
+	(pt 840 1736)
+	(pt 872 1736)
+)
+(connector
+	(text "Q30" (rect 848 1736 868 1748)(font "Arial" ))
+	(pt 840 1752)
+	(pt 872 1752)
+)
+(connector
+	(text "Q29" (rect 848 1752 868 1764)(font "Arial" ))
+	(pt 840 1768)
+	(pt 872 1768)
+)
+(connector
+	(text "Q28" (rect 849 1768 869 1780)(font "Arial" ))
+	(pt 840 1784)
+	(pt 872 1784)
+)
+(connector
+	(text "Q27" (rect 849 1784 869 1796)(font "Arial" ))
+	(pt 840 1800)
+	(pt 872 1800)
+)
+(connector
+	(text "Q26" (rect 848 1800 868 1812)(font "Arial" ))
+	(pt 840 1816)
+	(pt 872 1816)
+)
+(connector
+	(text "Q25" (rect 849 1816 869 1828)(font "Arial" ))
+	(pt 840 1832)
+	(pt 872 1832)
+)
+(connector
+	(text "Q24" (rect 848 1832 868 1844)(font "Arial" ))
+	(pt 840 1848)
+	(pt 872 1848)
+)
+(connector
+	(text "Q23" (rect 848 1848 868 1860)(font "Arial" ))
+	(pt 840 1864)
+	(pt 872 1864)
+)
+(connector
+	(text "Q22" (rect 848 1864 868 1876)(font "Arial" ))
+	(pt 840 1880)
+	(pt 872 1880)
+)
+(connector
+	(text "Q21" (rect 848 1880 868 1892)(font "Arial" ))
+	(pt 840 1896)
+	(pt 872 1896)
+)
+(connector
+	(text "Q20" (rect 849 1896 869 1908)(font "Arial" ))
+	(pt 840 1912)
+	(pt 872 1912)
+)
+(connector
+	(text "Q19" (rect 849 1912 869 1924)(font "Arial" ))
+	(pt 840 1928)
+	(pt 872 1928)
+)
+(connector
+	(text "Q18" (rect 848 1928 868 1940)(font "Arial" ))
+	(pt 840 1944)
+	(pt 872 1944)
+)
+(connector
+	(text "Q17" (rect 849 1944 869 1956)(font "Arial" ))
+	(pt 840 1960)
+	(pt 872 1960)
+)
+(connector
+	(text "Q16" (rect 848 1960 868 1972)(font "Arial" ))
+	(pt 840 1976)
+	(pt 872 1976)
+)
+(connector
+	(text "Q62" (rect 848 1224 868 1236)(font "Arial" ))
+	(pt 840 1240)
+	(pt 872 1240)
+)
+(connector
+	(text "Q61" (rect 848 1240 868 1252)(font "Arial" ))
+	(pt 840 1256)
+	(pt 872 1256)
+)
+(connector
+	(text "Q60" (rect 849 1256 869 1268)(font "Arial" ))
+	(pt 840 1272)
+	(pt 872 1272)
+)
+(connector
+	(text "Q59" (rect 849 1272 869 1284)(font "Arial" ))
+	(pt 840 1288)
+	(pt 872 1288)
+)
+(connector
+	(text "Q58" (rect 848 1288 868 1300)(font "Arial" ))
+	(pt 840 1304)
+	(pt 872 1304)
+)
+(connector
+	(text "Q57" (rect 849 1304 869 1316)(font "Arial" ))
+	(pt 840 1320)
+	(pt 872 1320)
+)
+(connector
+	(text "Q56" (rect 848 1320 868 1332)(font "Arial" ))
+	(pt 840 1336)
+	(pt 872 1336)
+)
+(connector
+	(text "Q55" (rect 848 1336 868 1348)(font "Arial" ))
+	(pt 840 1352)
+	(pt 872 1352)
+)
+(connector
+	(text "Q54" (rect 848 1352 868 1364)(font "Arial" ))
+	(pt 840 1368)
+	(pt 872 1368)
+)
+(connector
+	(text "Q53" (rect 848 1368 868 1380)(font "Arial" ))
+	(pt 840 1384)
+	(pt 872 1384)
+)
+(connector
+	(text "Q52" (rect 849 1384 869 1396)(font "Arial" ))
+	(pt 840 1400)
+	(pt 872 1400)
+)
+(connector
+	(text "Q51" (rect 849 1400 869 1412)(font "Arial" ))
+	(pt 840 1416)
+	(pt 872 1416)
+)
+(connector
+	(text "Q50" (rect 848 1416 868 1428)(font "Arial" ))
+	(pt 840 1432)
+	(pt 872 1432)
+)
+(connector
+	(text "Q49" (rect 849 1432 869 1444)(font "Arial" ))
+	(pt 840 1448)
+	(pt 872 1448)
+)
+(connector
+	(text "Q48" (rect 848 1448 868 1460)(font "Arial" ))
+	(pt 840 1464)
+	(pt 872 1464)
+)
+(connector
+	(text "Q47" (rect 848 1464 868 1476)(font "Arial" ))
+	(pt 840 1480)
+	(pt 872 1480)
+)
+(connector
+	(text "Q46" (rect 848 1480 868 1492)(font "Arial" ))
+	(pt 840 1496)
+	(pt 872 1496)
+)
+(connector
+	(text "Q45" (rect 848 1496 868 1508)(font "Arial" ))
+	(pt 840 1512)
+	(pt 872 1512)
+)
+(connector
+	(text "Q44" (rect 849 1512 869 1524)(font "Arial" ))
+	(pt 840 1528)
+	(pt 872 1528)
+)
+(connector
+	(text "Q43" (rect 849 1528 869 1540)(font "Arial" ))
+	(pt 840 1544)
+	(pt 872 1544)
+)
+(connector
+	(text "Q42" (rect 848 1544 868 1556)(font "Arial" ))
+	(pt 840 1560)
+	(pt 872 1560)
+)
+(connector
+	(text "Q41" (rect 849 1560 869 1572)(font "Arial" ))
+	(pt 840 1576)
+	(pt 872 1576)
+)
+(connector
+	(text "Q40" (rect 848 1576 868 1588)(font "Arial" ))
+	(pt 840 1592)
+	(pt 872 1592)
+)
+(connector
+	(text "Q39" (rect 848 1592 868 1604)(font "Arial" ))
+	(pt 840 1608)
+	(pt 872 1608)
+)
+(connector
+	(text "Q38" (rect 848 1608 868 1620)(font "Arial" ))
+	(pt 840 1624)
+	(pt 872 1624)
+)
+(connector
+	(text "Q37" (rect 848 1624 868 1636)(font "Arial" ))
+	(pt 840 1640)
+	(pt 872 1640)
+)
+(connector
+	(text "Q36" (rect 849 1640 869 1652)(font "Arial" ))
+	(pt 840 1656)
+	(pt 872 1656)
+)
+(connector
+	(text "Q35" (rect 849 1656 869 1668)(font "Arial" ))
+	(pt 840 1672)
+	(pt 872 1672)
+)
+(connector
+	(text "Q34" (rect 848 1672 868 1684)(font "Arial" ))
+	(pt 840 1688)
+	(pt 872 1688)
+)
+(connector
+	(text "Q33" (rect 849 1688 869 1700)(font "Arial" ))
+	(pt 840 1704)
+	(pt 872 1704)
+)
+(connector
+	(text "Q32" (rect 848 1704 868 1716)(font "Arial" ))
+	(pt 840 1720)
+	(pt 872 1720)
+)
+(connector
+	(text "Q63" (rect 848 1208 868 1225)(font "Intel Clear" ))
+	(pt 840 1224)
+	(pt 872 1224)
 )

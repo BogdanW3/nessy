@@ -4,19 +4,20 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
@@ -341,7 +342,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 392 1320 408)
+	(rect 1080 168 1256 184)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q[7..0]" (rect 90 0 124 12)(font "Arial" ))
 	(pt 0 8)
@@ -356,7 +357,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 784 424 928 648)
+	(rect 720 200 864 424)
 	(text "MX8x8" (rect 5 0 43 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 208 25 220)(font "Arial" ))
 	(port
@@ -448,7 +449,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 784 192 928 416)
+	(rect 720 -32 864 192)
 	(text "MX8x8" (rect 5 0 43 14)(font "Arial" (font_size 8)))
 	(text "inst1" (rect 8 208 31 220)(font "Arial" ))
 	(port
@@ -540,7 +541,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 992 368 1136 464)
+	(rect 928 144 1072 240)
 	(text "MX2x8" (rect 5 0 43 14)(font "Arial" (font_size 8)))
 	(text "inst2" (rect 8 80 31 92)(font "Arial" ))
 	(port
@@ -576,168 +577,168 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 1144 400)
-	(pt 1136 400)
+	(pt 1080 176)
+	(pt 1072 176)
 	(bus)
 )
 (connector
-	(pt 992 416)
-	(pt 976 416)
+	(pt 928 192)
+	(pt 912 192)
 	(bus)
 )
 (connector
-	(pt 976 416)
-	(pt 976 456)
+	(pt 912 192)
+	(pt 912 232)
 	(bus)
 )
 (connector
-	(pt 976 456)
-	(pt 928 456)
+	(pt 912 232)
+	(pt 864 232)
 	(bus)
 )
 (connector
-	(text "S0" (rect 736 600 748 612)(font "Arial" ))
-	(pt 784 616)
-	(pt 728 616)
+	(text "S0" (rect 672 376 684 388)(font "Arial" ))
+	(pt 720 392)
+	(pt 664 392)
 )
 (connector
-	(text "S1" (rect 736 584 748 596)(font "Arial" ))
-	(pt 784 600)
-	(pt 728 600)
+	(text "S1" (rect 672 360 684 372)(font "Arial" ))
+	(pt 720 376)
+	(pt 664 376)
 )
 (connector
-	(text "S3" (rect 952 416 964 428)(font "Arial" ))
-	(pt 992 432)
-	(pt 944 432)
+	(text "S3" (rect 888 192 900 204)(font "Arial" ))
+	(pt 928 208)
+	(pt 880 208)
 )
 (connector
-	(text "S2" (rect 736 568 748 580)(font "Arial" ))
-	(pt 784 584)
-	(pt 728 584)
+	(text "S2" (rect 672 344 684 356)(font "Arial" ))
+	(pt 720 360)
+	(pt 664 360)
 )
 (connector
-	(text "S0" (rect 736 368 748 380)(font "Arial" ))
-	(pt 784 384)
-	(pt 728 384)
+	(text "S0" (rect 672 144 684 156)(font "Arial" ))
+	(pt 720 160)
+	(pt 664 160)
 )
 (connector
-	(text "S1" (rect 736 352 748 364)(font "Arial" ))
-	(pt 784 368)
-	(pt 728 368)
+	(text "S1" (rect 672 128 684 140)(font "Arial" ))
+	(pt 720 144)
+	(pt 664 144)
 )
 (connector
-	(text "S2" (rect 736 336 748 348)(font "Arial" ))
-	(pt 784 352)
-	(pt 728 352)
+	(text "S2" (rect 672 112 684 124)(font "Arial" ))
+	(pt 720 128)
+	(pt 664 128)
 )
 (connector
-	(pt 928 224)
-	(pt 976 224)
+	(pt 864 0)
+	(pt 912 0)
 	(bus)
 )
 (connector
-	(pt 992 400)
-	(pt 976 400)
+	(pt 928 176)
+	(pt 912 176)
 	(bus)
 )
 (connector
-	(pt 976 400)
-	(pt 976 224)
+	(pt 912 176)
+	(pt 912 0)
 	(bus)
 )
 (connector
-	(text "D15_[7..0]" (rect 736 208 787 220)(font "Arial" ))
-	(pt 784 224)
-	(pt 728 224)
+	(text "D15_[7..0]" (rect 672 -16 723 -4)(font "Arial" ))
+	(pt 720 0)
+	(pt 664 0)
 	(bus)
 )
 (connector
-	(text "D14_[7..0]" (rect 736 224 787 236)(font "Arial" ))
-	(pt 728 240)
-	(pt 784 240)
+	(text "D14_[7..0]" (rect 672 0 723 12)(font "Arial" ))
+	(pt 664 16)
+	(pt 720 16)
 	(bus)
 )
 (connector
-	(text "D13_[7..0]" (rect 736 240 787 252)(font "Arial" ))
-	(pt 784 256)
-	(pt 728 256)
+	(text "D13_[7..0]" (rect 672 16 723 28)(font "Arial" ))
+	(pt 720 32)
+	(pt 664 32)
 	(bus)
 )
 (connector
-	(text "D12_[7..0]" (rect 736 256 787 268)(font "Arial" ))
-	(pt 728 272)
-	(pt 784 272)
+	(text "D12_[7..0]" (rect 672 32 723 44)(font "Arial" ))
+	(pt 664 48)
+	(pt 720 48)
 	(bus)
 )
 (connector
-	(text "D11_[7..0]" (rect 736 272 787 284)(font "Arial" ))
-	(pt 784 288)
-	(pt 728 288)
+	(text "D11_[7..0]" (rect 672 48 723 60)(font "Arial" ))
+	(pt 720 64)
+	(pt 664 64)
 	(bus)
 )
 (connector
-	(text "D10_[7..0]" (rect 736 288 787 300)(font "Arial" ))
-	(pt 728 304)
-	(pt 784 304)
+	(text "D10_[7..0]" (rect 672 64 723 76)(font "Arial" ))
+	(pt 664 80)
+	(pt 720 80)
 	(bus)
 )
 (connector
-	(text "D9_[7..0]" (rect 736 304 782 316)(font "Arial" ))
-	(pt 784 320)
-	(pt 728 320)
+	(text "D9_[7..0]" (rect 672 80 718 92)(font "Arial" ))
+	(pt 720 96)
+	(pt 664 96)
 	(bus)
 )
 (connector
-	(text "D8_[7..0]" (rect 736 320 782 332)(font "Arial" ))
-	(pt 728 336)
-	(pt 784 336)
+	(text "D8_[7..0]" (rect 672 96 718 108)(font "Arial" ))
+	(pt 664 112)
+	(pt 720 112)
 	(bus)
 )
 (connector
-	(text "D7_[7..0]" (rect 736 440 782 452)(font "Arial" ))
-	(pt 784 456)
-	(pt 728 456)
+	(text "D7_[7..0]" (rect 672 216 718 228)(font "Arial" ))
+	(pt 720 232)
+	(pt 664 232)
 	(bus)
 )
 (connector
-	(text "D6_[7..0]" (rect 736 456 782 468)(font "Arial" ))
-	(pt 728 472)
-	(pt 784 472)
+	(text "D6_[7..0]" (rect 672 232 718 244)(font "Arial" ))
+	(pt 664 248)
+	(pt 720 248)
 	(bus)
 )
 (connector
-	(text "D5_[7..0]" (rect 736 472 782 484)(font "Arial" ))
-	(pt 784 488)
-	(pt 728 488)
+	(text "D5_[7..0]" (rect 672 248 718 260)(font "Arial" ))
+	(pt 720 264)
+	(pt 664 264)
 	(bus)
 )
 (connector
-	(text "D4_[7..0]" (rect 736 488 782 500)(font "Arial" ))
-	(pt 728 504)
-	(pt 784 504)
+	(text "D4_[7..0]" (rect 672 264 718 276)(font "Arial" ))
+	(pt 664 280)
+	(pt 720 280)
 	(bus)
 )
 (connector
-	(text "D3_[7..0]" (rect 736 504 782 516)(font "Arial" ))
-	(pt 784 520)
-	(pt 728 520)
+	(text "D3_[7..0]" (rect 672 280 718 292)(font "Arial" ))
+	(pt 720 296)
+	(pt 664 296)
 	(bus)
 )
 (connector
-	(text "D2_[7..0]" (rect 736 520 782 532)(font "Arial" ))
-	(pt 728 536)
-	(pt 784 536)
+	(text "D2_[7..0]" (rect 672 296 718 308)(font "Arial" ))
+	(pt 664 312)
+	(pt 720 312)
 	(bus)
 )
 (connector
-	(text "D1_[7..0]" (rect 736 536 782 548)(font "Arial" ))
-	(pt 784 552)
-	(pt 728 552)
+	(text "D1_[7..0]" (rect 672 312 718 324)(font "Arial" ))
+	(pt 720 328)
+	(pt 664 328)
 	(bus)
 )
 (connector
-	(text "D0_[7..0]" (rect 736 552 782 564)(font "Arial" ))
-	(pt 728 568)
-	(pt 784 568)
+	(text "D0_[7..0]" (rect 672 328 718 340)(font "Arial" ))
+	(pt 664 344)
+	(pt 720 344)
 	(bus)
 )

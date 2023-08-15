@@ -4,19 +4,20 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
@@ -69,7 +70,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1168 104 1344 120)
+	(rect 1104 56 1280 72)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q[7..0]" (rect 90 0 124 12)(font "Arial" ))
 	(pt 0 8)
@@ -84,7 +85,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 928 64 1072 160)
+	(rect 872 56 1016 152)
 	(text "MX2x4" (rect 5 0 43 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
@@ -120,7 +121,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 928 184 1072 280)
+	(rect 872 176 1016 272)
 	(text "MX2x4" (rect 5 0 43 14)(font "Arial" (font_size 8)))
 	(text "inst2" (rect 8 80 31 92)(font "Arial" ))
 	(port
@@ -156,48 +157,48 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "S0" (rect 880 112 892 124)(font "Arial" ))
-	(pt 928 128)
-	(pt 872 128)
-)
-(connector
-	(text "S0" (rect 880 232 892 244)(font "Arial" ))
-	(pt 928 248)
-	(pt 872 248)
-)
-(connector
-	(text "D1_[7..4]" (rect 880 80 926 92)(font "Arial" ))
-	(pt 872 96)
-	(pt 928 96)
+	(text "Q[7..4]" (rect 1024 72 1058 84)(font "Arial" ))
+	(pt 1016 88)
+	(pt 1056 88)
 	(bus)
 )
 (connector
-	(text "D0_[7..4]" (rect 880 96 926 108)(font "Arial" ))
-	(pt 928 112)
-	(pt 872 112)
+	(text "Q[3..0]" (rect 1024 192 1058 204)(font "Arial" ))
+	(pt 1016 208)
+	(pt 1056 208)
 	(bus)
 )
 (connector
-	(text "D1_[3..0]" (rect 880 200 926 212)(font "Arial" ))
-	(pt 872 216)
-	(pt 928 216)
+	(text "D1_[7..4]" (rect 824 72 870 84)(font "Arial" ))
+	(pt 816 88)
+	(pt 872 88)
 	(bus)
 )
 (connector
-	(text "D0_[3..0]" (rect 880 216 926 228)(font "Arial" ))
-	(pt 928 232)
-	(pt 872 232)
+	(text "D0_[7..4]" (rect 824 88 870 100)(font "Arial" ))
+	(pt 816 104)
+	(pt 872 104)
 	(bus)
 )
 (connector
-	(text "Q[7..4]" (rect 1080 80 1114 92)(font "Arial" ))
-	(pt 1072 96)
-	(pt 1112 96)
+	(text "S0" (rect 824 104 836 116)(font "Arial" ))
+	(pt 816 120)
+	(pt 872 120)
+)
+(connector
+	(text "D1_[3..0]" (rect 824 192 870 204)(font "Arial" ))
+	(pt 816 208)
+	(pt 872 208)
 	(bus)
 )
 (connector
-	(text "Q[3..0]" (rect 1080 200 1114 212)(font "Arial" ))
-	(pt 1112 216)
-	(pt 1072 216)
+	(text "D0_[3..0]" (rect 824 208 870 220)(font "Arial" ))
+	(pt 816 224)
+	(pt 872 224)
 	(bus)
+)
+(connector
+	(text "S0" (rect 824 224 836 236)(font "Arial" ))
+	(pt 816 240)
+	(pt 872 240)
 )

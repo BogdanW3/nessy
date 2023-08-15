@@ -294,7 +294,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 976 72 1152 88)
+	(rect 976 40 1152 56)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q2" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
@@ -310,7 +310,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 976 96 1152 112)
+	(rect 976 64 1152 80)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q1" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
@@ -326,7 +326,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 976 120 1152 136)
+	(rect 976 88 1152 104)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q0" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
@@ -342,7 +342,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 976 48 1152 64)
+	(rect 976 16 1152 32)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q3" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)

@@ -101,7 +101,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 704 240 768 288)
+	(rect 704 200 768 248)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst" (rect 3 37 20 49)(font "Arial" ))
 	(port
@@ -134,7 +134,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 624 264 688 312)
+	(rect 624 224 688 272)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst3" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
@@ -166,7 +166,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 704 328 768 376)
+	(rect 704 288 768 336)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
@@ -199,7 +199,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 624 352 688 400)
+	(rect 624 312 688 360)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst5" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
@@ -231,7 +231,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 704 408 768 456)
+	(rect 704 368 768 416)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
@@ -379,75 +379,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 480 376)
 )
 (connector
-	(pt 704 272)
-	(pt 696 272)
-)
-(connector
-	(text "G1" (rect 680 240 692 257)(font "Intel Clear" ))
-	(pt 704 256)
-	(pt 672 256)
-)
-(connector
-	(text "G" (rect 776 248 783 265)(font "Intel Clear" ))
-	(pt 768 264)
-	(pt 808 264)
-)
-(connector
-	(pt 704 360)
-	(pt 696 360)
-)
-(connector
-	(text "L" (rect 776 336 781 353)(font "Intel Clear" ))
-	(pt 768 352)
-	(pt 808 352)
-)
-(connector
-	(text "L1" (rect 680 328 691 345)(font "Intel Clear" ))
-	(pt 704 344)
-	(pt 672 344)
-)
-(connector
-	(text "E1" (rect 680 408 691 425)(font "Intel Clear" ))
-	(pt 704 424)
-	(pt 672 424)
-)
-(connector
-	(text "E0" (rect 680 424 691 441)(font "Intel Clear" ))
-	(pt 704 440)
-	(pt 672 440)
-)
-(connector
-	(text "E" (rect 776 416 781 433)(font "Intel Clear" ))
-	(pt 808 432)
-	(pt 768 432)
-)
-(connector
-	(pt 696 376)
-	(pt 688 376)
-)
-(connector
-	(pt 696 360)
-	(pt 696 376)
-)
-(connector
-	(pt 696 288)
-	(pt 688 288)
-)
-(connector
-	(pt 696 272)
-	(pt 696 288)
-)
-(connector
-	(text "E1" (rect 592 264 603 281)(font "Intel Clear" ))
-	(pt 624 280)
-	(pt 584 280)
-)
-(connector
-	(text "G0" (rect 592 280 604 297)(font "Intel Clear" ))
-	(pt 624 296)
-	(pt 584 296)
-)
-(connector
 	(text "A[7..4]" (rect 320 224 350 241)(font "Intel Clear" ))
 	(pt 360 240)
 	(pt 312 240)
@@ -472,12 +403,81 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "E1" (rect 592 352 603 369)(font "Intel Clear" ))
-	(pt 624 368)
-	(pt 584 368)
+	(pt 704 232)
+	(pt 696 232)
 )
 (connector
-	(text "L0" (rect 592 368 603 385)(font "Intel Clear" ))
-	(pt 624 384)
-	(pt 584 384)
+	(text "G1" (rect 680 200 692 217)(font "Intel Clear" ))
+	(pt 704 216)
+	(pt 672 216)
+)
+(connector
+	(text "G" (rect 776 208 783 225)(font "Intel Clear" ))
+	(pt 768 224)
+	(pt 808 224)
+)
+(connector
+	(pt 704 320)
+	(pt 696 320)
+)
+(connector
+	(text "L" (rect 776 296 781 313)(font "Intel Clear" ))
+	(pt 768 312)
+	(pt 808 312)
+)
+(connector
+	(text "L1" (rect 680 288 691 305)(font "Intel Clear" ))
+	(pt 704 304)
+	(pt 672 304)
+)
+(connector
+	(text "E1" (rect 680 368 691 385)(font "Intel Clear" ))
+	(pt 704 384)
+	(pt 672 384)
+)
+(connector
+	(text "E0" (rect 680 384 691 401)(font "Intel Clear" ))
+	(pt 704 400)
+	(pt 672 400)
+)
+(connector
+	(text "E" (rect 776 376 781 393)(font "Intel Clear" ))
+	(pt 808 392)
+	(pt 768 392)
+)
+(connector
+	(pt 696 336)
+	(pt 688 336)
+)
+(connector
+	(pt 696 320)
+	(pt 696 336)
+)
+(connector
+	(pt 696 248)
+	(pt 688 248)
+)
+(connector
+	(pt 696 232)
+	(pt 696 248)
+)
+(connector
+	(text "E1" (rect 592 224 603 241)(font "Intel Clear" ))
+	(pt 624 240)
+	(pt 584 240)
+)
+(connector
+	(text "G0" (rect 592 240 604 257)(font "Intel Clear" ))
+	(pt 624 256)
+	(pt 584 256)
+)
+(connector
+	(text "E1" (rect 592 312 603 329)(font "Intel Clear" ))
+	(pt 624 328)
+	(pt 584 328)
+)
+(connector
+	(text "L0" (rect 592 328 603 345)(font "Intel Clear" ))
+	(pt 624 344)
+	(pt 584 344)
 )

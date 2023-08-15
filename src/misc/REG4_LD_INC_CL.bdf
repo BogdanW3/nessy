@@ -103,7 +103,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 784 32 960 48)
+	(rect 648 24 824 40)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "DOUT[3..0]" (rect 90 0 146 12)(font "Arial" ))
 	(pt 0 8)
@@ -118,7 +118,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 480 88 648 216)
+	(rect 368 24 536 152)
 	(text "REG2_LD_INC_CL" (rect 5 0 112 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 112 24 129)(font "Intel Clear" ))
 	(port
@@ -168,7 +168,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 480 256 648 384)
+	(rect 368 192 536 320)
 	(text "REG2_LD_INC_CL" (rect 5 0 112 19)(font "Intel Clear" (font_size 8)))
 	(text "inst2" (rect 8 112 30 129)(font "Intel Clear" ))
 	(port
@@ -218,7 +218,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 352 312 416 360)
+	(rect 240 248 304 296)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst3" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
@@ -250,7 +250,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 264 216 328 264)
+	(rect 696 72 760 120)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
@@ -282,91 +282,91 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (connector
-	(text "CLK" (rect 432 288 453 300)(font "Arial" ))
-	(pt 480 304)
-	(pt 424 304)
-)
-(connector
-	(text "LD" (rect 432 304 446 316)(font "Arial" ))
-	(pt 480 320)
-	(pt 424 320)
-)
-(connector
-	(text "CLK" (rect 432 120 453 132)(font "Arial" ))
-	(pt 480 136)
-	(pt 424 136)
-)
-(connector
-	(text "LD" (rect 432 136 446 148)(font "Arial" ))
-	(pt 480 152)
-	(pt 424 152)
-)
-(connector
-	(text "CL" (rect 432 168 446 180)(font "Arial" ))
-	(pt 480 184)
-	(pt 424 184)
-)
-(connector
-	(text "CL" (rect 432 336 446 348)(font "Arial" ))
-	(pt 480 352)
-	(pt 424 352)
-)
-(connector
-	(text "INC" (rect 432 152 448 169)(font "Intel Clear" ))
-	(pt 480 168)
-	(pt 424 168)
-)
-(connector
-	(text "INC" (rect 304 312 324 324)(font "Arial" ))
-	(pt 304 328)
-	(pt 352 328)
-)
-(connector
-	(text "LOWMAX" (rect 304 328 352 345)(font "Intel Clear" ))
-	(pt 304 344)
-	(pt 352 344)
-)
-(connector
-	(text "<<__$DEF_ALIAS218>>" (rect 424 320 536 337)(font "Intel Clear" )(invisible))
-	(pt 416 336)
-	(pt 480 336)
-)
-(connector
-	(text "DOUT[1]" (rect 224 216 267 228)(font "Arial" ))
-	(pt 264 232)
-	(pt 216 232)
-)
-(connector
-	(text "DOUT[0]" (rect 224 232 267 244)(font "Arial" ))
-	(pt 264 248)
-	(pt 216 248)
-)
-(connector
-	(text "LOWMAX" (rect 336 224 384 241)(font "Intel Clear" ))
-	(pt 328 240)
+	(text "CLK" (rect 320 224 341 236)(font "Arial" ))
 	(pt 368 240)
+	(pt 312 240)
 )
 (connector
-	(text "DIN[3..2]" (rect 432 272 478 284)(font "Arial" ))
-	(pt 480 288)
-	(pt 424 288)
+	(text "LD" (rect 320 240 334 252)(font "Arial" ))
+	(pt 368 256)
+	(pt 312 256)
+)
+(connector
+	(text "CLK" (rect 320 56 341 68)(font "Arial" ))
+	(pt 368 72)
+	(pt 312 72)
+)
+(connector
+	(text "LD" (rect 320 72 334 84)(font "Arial" ))
+	(pt 368 88)
+	(pt 312 88)
+)
+(connector
+	(text "CL" (rect 320 104 334 116)(font "Arial" ))
+	(pt 368 120)
+	(pt 312 120)
+)
+(connector
+	(text "CL" (rect 320 272 334 284)(font "Arial" ))
+	(pt 368 288)
+	(pt 312 288)
+)
+(connector
+	(text "INC" (rect 320 88 336 105)(font "Intel Clear" ))
+	(pt 368 104)
+	(pt 312 104)
+)
+(connector
+	(text "INC" (rect 192 248 212 260)(font "Arial" ))
+	(pt 192 264)
+	(pt 240 264)
+)
+(connector
+	(text "LOWMAX" (rect 192 264 240 281)(font "Intel Clear" ))
+	(pt 192 280)
+	(pt 240 280)
+)
+(connector
+	(text "DIN[3..2]" (rect 320 208 366 220)(font "Arial" ))
+	(pt 368 224)
+	(pt 312 224)
 	(bus)
 )
 (connector
-	(text "DOUT[3..2]" (rect 656 272 712 284)(font "Arial" ))
-	(pt 648 288)
-	(pt 720 288)
+	(text "DIN[1..0]" (rect 320 40 366 52)(font "Arial" ))
+	(pt 368 56)
+	(pt 312 56)
 	(bus)
 )
 (connector
-	(text "DOUT[1..0]" (rect 656 104 712 116)(font "Arial" ))
-	(pt 648 120)
-	(pt 720 120)
+	(text "DOUT[1..0]" (rect 544 40 600 52)(font "Arial" ))
+	(pt 536 56)
+	(pt 608 56)
 	(bus)
 )
 (connector
-	(text "DIN[1..0]" (rect 432 104 478 116)(font "Arial" ))
-	(pt 480 120)
-	(pt 424 120)
+	(text "DOUT[3..2]" (rect 544 208 600 220)(font "Arial" ))
+	(pt 536 224)
+	(pt 608 224)
 	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS218>>" (rect 312 256 424 273)(font "Intel Clear" )(invisible))
+	(pt 304 272)
+	(pt 368 272)
+)
+(connector
+	(text "DOUT[1]" (rect 656 72 699 84)(font "Arial" ))
+	(pt 696 88)
+	(pt 648 88)
+)
+(connector
+	(text "DOUT[0]" (rect 656 88 699 100)(font "Arial" ))
+	(pt 696 104)
+	(pt 648 104)
+)
+(connector
+	(text "LOWMAX" (rect 768 80 816 97)(font "Intel Clear" ))
+	(pt 760 96)
+	(pt 800 96)
 )

@@ -4,24 +4,25 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 360 184 528 200)
+	(rect 352 152 520 168)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "E" (rect 5 0 12 12)(font "Arial" ))
 	(pt 168 8)
@@ -37,7 +38,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 360 152 528 168)
+	(rect 352 120 520 136)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "D0" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
@@ -53,7 +54,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 360 128 528 144)
+	(rect 352 96 520 112)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "D1" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
@@ -69,7 +70,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 832 224 1008 240)
+	(rect 856 160 1032 176)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q0" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
@@ -85,7 +86,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 832 176 1008 192)
+	(rect 856 112 1032 128)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q2" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
@@ -101,7 +102,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 832 152 1008 168)
+	(rect 856 88 1032 104)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q3" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
@@ -117,7 +118,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 832 200 1008 216)
+	(rect 856 136 1032 152)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Q1" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)

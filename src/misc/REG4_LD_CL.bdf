@@ -4,19 +4,20 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
@@ -40,7 +41,7 @@ applicable agreement for further details.
 	(input)
 	(rect 40 64 208 80)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "DIN[3..0]" (rect 5 0 52 12)(font "Arial" ))
+	(text "DIN[3..0]" (rect 5 0 51 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -56,7 +57,7 @@ applicable agreement for further details.
 	(input)
 	(rect 40 128 208 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "LD" (rect 5 0 20 12)(font "Arial" ))
+	(text "LD" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -72,7 +73,7 @@ applicable agreement for further details.
 	(input)
 	(rect 40 160 208 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CL" (rect 5 0 20 12)(font "Arial" ))
+	(text "CL" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -86,7 +87,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 720 72 896 88)
+	(rect 576 64 752 80)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "DOUT[3..0]" (rect 90 0 146 12)(font "Arial" ))
 	(pt 0 8)
@@ -101,7 +102,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 416 136 576 264)
+	(rect 304 64 464 192)
 	(text "REG2_LD_CL" (rect 5 0 81 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
@@ -144,7 +145,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 416 280 576 408)
+	(rect 304 208 464 336)
 	(text "REG2_LD_CL" (rect 5 0 81 14)(font "Arial" (font_size 8)))
 	(text "inst1" (rect 8 112 31 124)(font "Arial" ))
 	(port
@@ -187,56 +188,56 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "DIN[3..2]" (rect 368 152 414 164)(font "Arial" ))
-	(pt 416 168)
-	(pt 360 168)
+	(text "DIN[3..2]" (rect 256 80 302 92)(font "Arial" ))
+	(pt 304 96)
+	(pt 248 96)
 	(bus)
 )
 (connector
-	(text "CLK" (rect 368 168 389 180)(font "Arial" ))
-	(pt 416 184)
-	(pt 360 184)
+	(text "CLK" (rect 256 96 277 108)(font "Arial" ))
+	(pt 304 112)
+	(pt 248 112)
 )
 (connector
-	(text "LD" (rect 368 184 382 196)(font "Arial" ))
-	(pt 416 200)
-	(pt 360 200)
+	(text "LD" (rect 256 112 270 124)(font "Arial" ))
+	(pt 304 128)
+	(pt 248 128)
 )
 (connector
-	(text "CL" (rect 368 200 382 212)(font "Arial" ))
-	(pt 416 216)
-	(pt 360 216)
+	(text "CL" (rect 256 128 270 140)(font "Arial" ))
+	(pt 304 144)
+	(pt 248 144)
 )
 (connector
-	(text "CLK" (rect 368 312 389 324)(font "Arial" ))
-	(pt 416 328)
-	(pt 360 328)
+	(text "CLK" (rect 256 240 277 252)(font "Arial" ))
+	(pt 304 256)
+	(pt 248 256)
 )
 (connector
-	(text "LD" (rect 368 328 382 340)(font "Arial" ))
-	(pt 416 344)
-	(pt 360 344)
+	(text "LD" (rect 256 256 270 268)(font "Arial" ))
+	(pt 304 272)
+	(pt 248 272)
 )
 (connector
-	(text "CL" (rect 368 344 382 356)(font "Arial" ))
-	(pt 416 360)
-	(pt 360 360)
+	(text "CL" (rect 256 272 270 284)(font "Arial" ))
+	(pt 304 288)
+	(pt 248 288)
 )
 (connector
-	(text "DIN[1..0]" (rect 368 296 414 308)(font "Arial" ))
-	(pt 416 312)
-	(pt 360 312)
+	(text "DIN[1..0]" (rect 256 224 302 236)(font "Arial" ))
+	(pt 304 240)
+	(pt 248 240)
 	(bus)
 )
 (connector
-	(text "DOUT[1..0]" (rect 584 296 640 308)(font "Arial" ))
-	(pt 576 312)
-	(pt 648 312)
+	(text "DOUT[3..2]" (rect 472 80 528 92)(font "Arial" ))
+	(pt 464 96)
+	(pt 536 96)
 	(bus)
 )
 (connector
-	(text "DOUT[3..2]" (rect 584 152 640 164)(font "Arial" ))
-	(pt 576 168)
-	(pt 648 168)
+	(text "DOUT[1..0]" (rect 472 224 528 236)(font "Arial" ))
+	(pt 464 240)
+	(pt 536 240)
 	(bus)
 )
