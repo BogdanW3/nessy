@@ -2303,11 +2303,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "H" (rect 728 712 736 724)(font "Intel Clear" ))
-	(pt 744 728)
-	(pt 728 728)
-)
-(connector
 	(pt 744 712)
 	(pt 712 712)
 	(bus)
@@ -2316,11 +2311,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 712 712)
 	(pt 712 744)
 	(bus)
-)
-(connector
-	(text "H" (rect 728 856 736 868)(font "Intel Clear" ))
-	(pt 744 872)
-	(pt 728 872)
 )
 (connector
 	(pt 744 856)
@@ -2415,4 +2405,14 @@ https://fpgasoftware.intel.com/eula.
 	(pt 808 992)
 	(pt 872 992)
 	(bus)
+)
+(connector
+	(text "Hi" (rect 728 712 738 724)(font "Intel Clear" ))
+	(pt 744 728)
+	(pt 728 728)
+)
+(connector
+	(text "Hi" (rect 728 856 738 868)(font "Intel Clear" ))
+	(pt 744 872)
+	(pt 728 872)
 )
