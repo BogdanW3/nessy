@@ -4460,10 +4460,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(pt 1032 152)
-	(pt 1040 152)
-)
-(connector
 	(text "B[3..0]" (rect 688 272 718 283)(font "Arial" ))
 	(pt 680 288)
 	(pt 736 288)
@@ -5729,6 +5725,11 @@ https://fpgasoftware.intel.com/eula.
 	(text "D[7..0]" (rect 233 1080 264 1092)(font "Intel Clear" ))
 	(pt 232 1096)
 	(pt 272 1096)
+	(bus)
+)
+(connector
+	(pt 1040 152)
+	(pt 1032 152)
 	(bus)
 )
 (junction (pt 8 1680))
