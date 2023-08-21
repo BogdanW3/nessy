@@ -2814,6 +2814,35 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 14 25)(pt 32 16))
 	)
 )
+(symbol
+	(rect 472 120 568 216)
+	(text "RisingEdge" (rect 5 0 69 19)(font "Intel Clear" (font_size 8)))
+	(text "inst2" (rect 8 75 30 92)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "D" (rect 0 0 9 19)(font "Intel Clear" (font_size 8)))
+		(text "D" (rect 21 27 30 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 43 44 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 96 32)
+		(output)
+		(text "Q" (rect 0 0 9 19)(font "Intel Clear" (font_size 8)))
+		(text "Q" (rect 66 27 75 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 96 32)(pt 80 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 80 80))
+	)
+)
 (connector
 	(text "H" (rect -65 104 -58 121)(font "Intel Clear" ))
 	(pt -72 120)
@@ -3780,6 +3809,16 @@ https://fpgasoftware.intel.com/eula.
 	(text "NMI" (rect 272 96 290 113)(font "Intel Clear" ))
 	(pt 264 112)
 	(pt 296 112)
+)
+(connector
+	(text "CLK" (rect 448 152 468 169)(font "Intel Clear" ))
+	(pt 472 168)
+	(pt 440 168)
+)
+(connector
+	(text "NMI" (rect 448 136 466 153)(font "Intel Clear" ))
+	(pt 472 152)
+	(pt 440 152)
 )
 (junction (pt 480 368))
 (text "GPU TEST" (rect 88 240 150 259)(font "Intel Clear" (font_size 8)))

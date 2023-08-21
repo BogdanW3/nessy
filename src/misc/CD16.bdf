@@ -742,7 +742,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 784 160)
 )
 (connector
-	(text "Q[3..0]" (rect 929 112 963 124)(font "Arial" ))
+	(text "Q3,Q2,Q1,Q0" (rect 929 112 996 124)(font "Arial" ))
 	(pt 928 128)
 	(pt 952 128)
 	(bus)
