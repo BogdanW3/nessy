@@ -406,30 +406,6 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 312 176 360 208)
-	(text "WIRE" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst12" (rect 3 21 33 33)(font "Intel Clear" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 16 18)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 16 18)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
-		(line (pt 32 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 14 7)(pt 32 16))
-		(line (pt 14 25)(pt 14 7))
-		(line (pt 14 25)(pt 32 16))
-	)
-)
-(symbol
 	(rect 328 360 392 440)
 	(text "SRFF" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst13" (rect 3 68 33 80)(font "Intel Clear" ))
@@ -2820,6 +2796,80 @@ https://fpgasoftware.intel.com/eula.
 		(rectangle (rect 16 16 96 80))
 	)
 )
+(symbol
+	(rect 296 224 360 304)
+	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
+	(text "inst94" (rect 3 68 33 80)(font "Intel Clear" ))
+	(port
+		(pt 32 80)
+		(input)
+		(text "CLRN" (rect 21 59 48 70)(font "Courier New" (bold)))
+		(text "CLRN" (rect 21 58 48 69)(font "Courier New" (bold)))
+		(line (pt 32 80)(pt 32 76))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "CLK" (rect 3 29 24 40)(font "Courier New" (bold))(invisible))
+		(text "CLK" (rect 3 29 24 40)(font "Courier New" (bold))(invisible))
+		(line (pt 0 40)(pt 12 40))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "D" (rect 14 20 21 31)(font "Courier New" (bold)))
+		(text "D" (rect 14 20 21 31)(font "Courier New" (bold)))
+		(line (pt 0 24)(pt 12 24))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "PRN" (rect 24 13 45 24)(font "Courier New" (bold)))
+		(text "PRN" (rect 24 11 45 22)(font "Courier New" (bold)))
+		(line (pt 32 4)(pt 32 0))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "Q" (rect 45 20 53 31)(font "Courier New" (bold)))
+		(text "Q" (rect 41 20 49 31)(font "Courier New" (bold)))
+		(line (pt 52 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 12 12)(pt 52 12))
+		(line (pt 12 68)(pt 52 68))
+		(line (pt 52 68)(pt 52 12))
+		(line (pt 12 68)(pt 12 12))
+		(line (pt 19 40)(pt 12 47))
+		(line (pt 12 32)(pt 20 40))
+		(circle (rect 28 4 36 12))
+		(circle (rect 28 68 36 76))
+	)
+)
+(symbol
+	(rect 312 168 360 200)
+	(text "WIRE" (rect 1 0 25 10)(font "Arial" (font_size 6)))
+	(text "inst95" (rect 3 21 33 33)(font "Intel Clear" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 16 18)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 16 18)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
 (connector
 	(text "L" (rect 140 232 145 244)(font "Intel Clear" ))
 	(pt 152 248)
@@ -2858,19 +2908,9 @@ https://fpgasoftware.intel.com/eula.
 	(pt 248 400)
 )
 (connector
-	(text "PRIMED" (rect 256 400 294 412)(font "Intel Clear" ))
-	(pt 328 416)
-	(pt 248 416)
-)
-(connector
 	(text "END" (rect 258 368 279 380)(font "Intel Clear" ))
 	(pt 328 384)
 	(pt 248 384)
-)
-(connector
-	(text "LD_Y_ENDH" (rect 256 176 315 188)(font "Intel Clear" ))
-	(pt 312 192)
-	(pt 248 192)
 )
 (connector
 	(text "H" (rect 256 56 264 68)(font "Intel Clear" ))
@@ -2881,11 +2921,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "nBOOT" (rect 353 56 390 68)(font "Intel Clear" ))
 	(pt 352 72)
 	(pt 392 72)
-)
-(connector
-	(text "PRIMED" (rect 368 176 406 188)(font "Intel Clear" ))
-	(pt 360 192)
-	(pt 424 192)
 )
 (connector
 	(text "READY" (rect 399 368 433 380)(font "Intel Clear" ))
@@ -3132,7 +3167,7 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "PRIMED" (rect 616 920 654 932)(font "Intel Clear" ))
+	(text "START" (rect 616 920 650 932)(font "Intel Clear" ))
 	(pt 664 936)
 	(pt 608 936)
 )
@@ -3146,7 +3181,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 664 904)
 )
 (connector
-	(text "PRIMED" (rect 616 1320 654 1332)(font "Intel Clear" ))
+	(text "START" (rect 616 1320 650 1332)(font "Intel Clear" ))
 	(pt 664 1336)
 	(pt 608 1336)
 )
@@ -3272,7 +3307,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 464 672)
 )
 (connector
-	(text "PRIMED" (rect 248 496 286 508)(font "Intel Clear" ))
+	(text "START" (rect 248 496 282 508)(font "Intel Clear" ))
 	(pt 320 512)
 	(pt 240 512)
 )
@@ -3961,11 +3996,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1032 1280)
 )
 (connector
-	(text "ERR_LSSE_DX" (rect 1040 1288 1108 1300)(font "Intel Clear" ))
-	(pt 1120 1304)
-	(pt 1032 1304)
-)
-(connector
 	(text "TRANSFER" (rect 1040 1304 1093 1316)(font "Intel Clear" ))
 	(pt 1032 1320)
 	(pt 1120 1320)
@@ -3975,7 +4005,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1232 1424)
 )
 (connector
-	(text "PRIMED" (rect 1040 1408 1078 1420)(font "Intel Clear" ))
+	(text "START" (rect 1040 1408 1074 1420)(font "Intel Clear" ))
 	(pt 1232 1424)
 	(pt 1032 1424)
 )
@@ -3986,11 +4016,6 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 1216 1376)
 	(pt 1184 1376)
-)
-(connector
-	(text "ERR_GRTE_DY" (rect 1040 1352 1110 1364)(font "Intel Clear" ))
-	(pt 1120 1368)
-	(pt 1032 1368)
 )
 (connector
 	(text "TRANSFER" (rect 1040 1368 1093 1380)(font "Intel Clear" ))
@@ -4009,7 +4034,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1680 1064)
 )
 (connector
-	(text "PRIMED" (rect 1584 1064 1622 1076)(font "Intel Clear" ))
+	(text "START" (rect 1584 1064 1618 1076)(font "Intel Clear" ))
 	(pt 1576 1080)
 	(pt 1680 1080)
 )
@@ -4073,7 +4098,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1680 896)
 )
 (connector
-	(text "PRIMED" (rect 1584 896 1622 908)(font "Intel Clear" ))
+	(text "START" (rect 1584 896 1618 908)(font "Intel Clear" ))
 	(pt 1576 912)
 	(pt 1680 912)
 )
@@ -4146,6 +4171,46 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 1400 1480)
 	(pt 1416 1480)
+)
+(connector
+	(text "ERR_GRTE_DY" (rect 1040 1288 1110 1300)(font "Intel Clear" ))
+	(pt 1120 1304)
+	(pt 1032 1304)
+)
+(connector
+	(text "ERR_LSSE_DX" (rect 1040 1352 1108 1364)(font "Intel Clear" ))
+	(pt 1120 1368)
+	(pt 1032 1368)
+)
+(connector
+	(text "CLK" (rect 256 248 276 260)(font "Intel Clear" ))
+	(pt 296 264)
+	(pt 248 264)
+)
+(connector
+	(text "LD_Y_ENDH" (rect 257 168 316 180)(font "Intel Clear" ))
+	(pt 312 184)
+	(pt 248 184)
+)
+(connector
+	(text "START" (rect 365 232 399 244)(font "Intel Clear" ))
+	(pt 360 248)
+	(pt 416 248)
+)
+(connector
+	(text "PRIMED" (rect 255 232 293 244)(font "Intel Clear" ))
+	(pt 296 248)
+	(pt 248 248)
+)
+(connector
+	(text "PRIMED" (rect 366 168 404 180)(font "Intel Clear" ))
+	(pt 360 184)
+	(pt 416 184)
+)
+(connector
+	(text "PRIMED" (rect 256 400 294 412)(font "Intel Clear" ))
+	(pt 328 416)
+	(pt 248 416)
 )
 (junction (pt 464 672))
 (junction (pt 456 1104))
