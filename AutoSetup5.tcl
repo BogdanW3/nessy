@@ -1,21 +1,3 @@
-# Copyright (C) 1991-2013 Altera Corporation
-# Your use of Altera Corporation's design tools, logic functions 
-# and other software and tools, and its AMPP partner logic 
-# functions, and any output files from any of the foregoing 
-# (including device programming or simulation files), and any 
-# associated documentation or information are expressly subject 
-# to the terms and conditions of the Altera Program License 
-# Subscription Agreement, Altera MegaCore Function License 
-# Agreement, or other applicable license agreement, including, 
-# without limitation, that your use is for the sole purpose of 
-# programming logic devices manufactured by Altera and sold by 
-# Altera or its authorized distributors.  Please refer to the 
-# applicable agreement for further details.
-
-# Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-# File: E:\Projects\Sources\nessy\PinSetup.tcl
-# Generated on: Tue Aug 01 16:49:41 2023
-
 package require ::quartus::project
 
 set_location_assignment PIN_M9 -to CLK
@@ -29,8 +11,10 @@ set_location_assignment PIN_W2 -to LED[2]
 set_location_assignment PIN_AA1 -to LED[1]
 set_location_assignment PIN_AA2 -to LED[0]
 
-set_location_assignment PIN_D3 -to PS2_CLK
-set_location_assignment PIN_G2 -to PS2_DATA
+set_location_assignment PIN_D3 -to PS2_CLK0
+set_location_assignment PIN_G2 -to PS2_DATA0
+set_location_assignment PIN_E2 -to PS2_CLK1
+set_location_assignment PIN_G1 -to PS2_DATA1
 
 set_location_assignment PIN_W8 -to SDRAM_A[0]
 set_location_assignment PIN_T8 -to SDRAM_A[1]

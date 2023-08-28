@@ -21,7 +21,7 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 208 176)
+	(rect 16 16 192 176)
 	(text "kb_gamepad_bridge" (rect 5 0 130 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
 	(port
@@ -41,9 +41,9 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 0 64)
 		(input)
-		(text "ADDR[15..0]" (rect 0 0 74 19)(font "Intel Clear" (font_size 8)))
-		(text "ADDR[15..0]" (rect 21 59 95 78)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 64)(pt 16 64)(line_width 3))
+		(text "CS" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "CS" (rect 21 59 37 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
 	)
 	(port
 		(pt 0 80)
@@ -67,20 +67,27 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 0 112)(pt 16 112))
 	)
 	(port
-		(pt 192 32)
+		(pt 176 32)
 		(output)
 		(text "KBINTA" (rect 0 0 46 19)(font "Intel Clear" (font_size 8)))
-		(text "KBINTA" (rect 125 27 171 46)(font "Intel Clear" (font_size 8)))
-		(line (pt 192 32)(pt 176 32))
+		(text "KBINTA" (rect 109 27 155 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 176 32)(pt 160 32))
 	)
 	(port
-		(pt 192 48)
+		(pt 176 48)
 		(output)
 		(text "DATA[7..0]" (rect 0 0 64 19)(font "Intel Clear" (font_size 8)))
-		(text "DATA[7..0]" (rect 107 43 171 62)(font "Intel Clear" (font_size 8)))
-		(line (pt 192 48)(pt 176 48)(line_width 3))
+		(text "DATA[7..0]" (rect 91 43 155 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 176 48)(pt 160 48)(line_width 3))
+	)
+	(port
+		(pt 176 64)
+		(output)
+		(text "FC" (rect 0 0 15 19)(font "Intel Clear" (font_size 8)))
+		(text "FC" (rect 140 59 155 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 176 64)(pt 160 64))
 	)
 	(drawing
-		(rectangle (rect 16 16 176 144))
+		(rectangle (rect 16 16 160 144))
 	)
 )
