@@ -1,0 +1,100 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 216 176)
+	(text "cpu_fetch" (rect 5 0 62 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "MDR[7..0]" (rect 0 0 59 19)(font "Intel Clear" (font_size 8)))
+		(text "MDR[7..0]" (rect 21 27 80 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "FC" (rect 0 0 15 19)(font "Intel Clear" (font_size 8)))
+		(text "FC" (rect 21 43 36 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "START" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "START" (rect 21 59 62 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 75 44 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 200 32)
+		(output)
+		(text "IR0_[7..0]" (rect 0 0 57 19)(font "Intel Clear" (font_size 8)))
+		(text "IR0_[7..0]" (rect 122 27 179 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 32)(pt 184 32)(line_width 3))
+	)
+	(port
+		(pt 200 48)
+		(output)
+		(text "IRDATA[7..0]" (rect 0 0 76 19)(font "Intel Clear" (font_size 8)))
+		(text "IRDATA[7..0]" (rect 103 43 179 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 48)(pt 184 48)(line_width 3))
+	)
+	(port
+		(pt 200 64)
+		(output)
+		(text "IRADDR[15..0]" (rect 0 0 86 19)(font "Intel Clear" (font_size 8)))
+		(text "IRADDR[15..0]" (rect 93 59 179 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 64)(pt 184 64)(line_width 3))
+	)
+	(port
+		(pt 200 80)
+		(output)
+		(text "START_ADDR" (rect 0 0 83 19)(font "Intel Clear" (font_size 8)))
+		(text "START_ADDR" (rect 96 75 179 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 80)(pt 184 80))
+	)
+	(port
+		(pt 200 96)
+		(output)
+		(text "START_EXEC" (rect 0 0 79 19)(font "Intel Clear" (font_size 8)))
+		(text "START_EXEC" (rect 100 91 179 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 96)(pt 184 96))
+	)
+	(port
+		(pt 200 112)
+		(output)
+		(text "START_INTR" (rect 0 0 77 19)(font "Intel Clear" (font_size 8)))
+		(text "START_INTR" (rect 102 107 179 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 112)(pt 184 112))
+	)
+	(drawing
+		(rectangle (rect 16 16 184 144))
+	)
+)

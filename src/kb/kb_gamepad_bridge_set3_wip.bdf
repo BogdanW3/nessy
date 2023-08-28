@@ -164,6 +164,22 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 856 168 1032 184)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "FC" (rect 90 0 102 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 328 752 392 896)
 	(text "AND8" (rect 1 0 25 10)(font "Arial" (font_size 6)))
@@ -4906,37 +4922,6 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 800 104 848 136)
-	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "inst92" (rect 3 21 31 38)(font "Intel Clear" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 24 0)
-		(input)
-		(text "OE" (rect 26 0 37 12)(font "Courier New" (bold))(invisible))
-		(text "OE" (rect 26 0 37 12)(font "Courier New" (bold))(invisible))
-		(line (pt 24 12)(pt 24 0))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 32 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 14 25)(pt 14 7))
-		(line (pt 14 25)(pt 32 16))
-		(line (pt 14 7)(pt 32 16))
-	)
-)
-(symbol
 	(rect 640 32 688 64)
 	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
 	(text "inst93" (rect 3 21 31 38)(font "Intel Clear" ))
@@ -7613,21 +7598,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(pt 856 120)
-	(pt 848 120)
-	(bus)
-)
-(connector
-	(pt 824 80)
-	(pt 824 104)
-)
-(connector
-	(text "PDAT[7..0]" (rect 752 104 802 121)(font "Intel Clear" ))
-	(pt 768 120)
-	(pt 800 120)
-	(bus)
-)
-(connector
 	(pt 336 48)
 	(pt 336 32)
 )
@@ -7676,11 +7646,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1790 1016)
 	(pt 1856 1016)
 	(bus)
-)
-(connector
-	(text "READ" (rect 786 64 813 81)(font "Intel Clear" ))
-	(pt 776 80)
-	(pt 824 80)
 )
 (connector
 	(text "KEYW" (rect 600 808 630 825)(font "Intel Clear" ))
@@ -7756,4 +7721,15 @@ https://fpgasoftware.intel.com/eula.
 	(text "nBRK" (rect 329 288 356 305)(font "Intel Clear" ))
 	(pt 328 304)
 	(pt 352 304)
+)
+(connector
+	(text "PDAT[7..0]" (rect 808 104 858 121)(font "Intel Clear" ))
+	(pt 856 120)
+	(pt 800 120)
+	(bus)
+)
+(connector
+	(text "READ" (rect 824 160 851 177)(font "Intel Clear" ))
+	(pt 856 176)
+	(pt 816 176)
 )
