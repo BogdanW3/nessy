@@ -382,7 +382,7 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "L,L,L,L,L,L,L,L,IR1_[7..0]" (rect 864 88 974 105)(font "Intel Clear" ))
+	(text "IR1_[7..0]" (rect 880 88 924 105)(font "Intel Clear" ))
 	(pt 896 112)
 	(pt 976 112)
 	(bus)
