@@ -74,8 +74,11 @@ set_global_assignment -name SEARCH_PATH src
 set_global_assignment -name SEARCH_PATH src/cpu
 set_global_assignment -name SEARCH_PATH src/gpu
 set_global_assignment -name SEARCH_PATH src/kb
+set_global_assignment -name SEARCH_PATH src/mem
 set_global_assignment -name SEARCH_PATH src/misc
 set_global_assignment -name SEARCH_PATH src/misc/rti
+
+set_global_assignment -name BDF_FILE src/nessy.bdf
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CEBA4F23C7
