@@ -80,13 +80,6 @@ https://fpgasoftware.intel.com/eula.
 		(text "WR" (rect 135 75 155 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 176 80)(pt 160 80))
 	)
-	(port
-		(pt 176 96)
-		(output)
-		(text "OUT0" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
-		(text "OUT0" (rect 120 91 155 110)(font "Intel Clear" (font_size 8)))
-		(line (pt 176 96)(pt 160 96))
-	)
 	(drawing
 		(rectangle (rect 16 16 160 112))
 	)
