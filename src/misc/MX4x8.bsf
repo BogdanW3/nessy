@@ -4,75 +4,76 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 168 176)
-	(text "MX4x8" (rect 5 0 43 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 144 25 156)(font "Arial" ))
+	(rect 16 16 160 176)
+	(text "MX4x8" (rect 5 0 46 15)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 144 25 156)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "D3_[7..0]" (rect 0 0 50 14)(font "Arial" (font_size 8)))
-		(text "D3_[7..0]" (rect 21 27 71 41)(font "Arial" (font_size 8)))
+		(text "D3_[7..0]" (rect 0 0 53 15)(font "Intel Clear" (font_size 8)))
+		(text "D3_[7..0]" (rect 21 27 74 42)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "D2_[7..0]" (rect 0 0 50 14)(font "Arial" (font_size 8)))
-		(text "D2_[7..0]" (rect 21 43 71 57)(font "Arial" (font_size 8)))
+		(text "D2_[7..0]" (rect 0 0 53 15)(font "Intel Clear" (font_size 8)))
+		(text "D2_[7..0]" (rect 21 43 74 58)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "D1_[7..0]" (rect 0 0 50 14)(font "Arial" (font_size 8)))
-		(text "D1_[7..0]" (rect 21 59 71 73)(font "Arial" (font_size 8)))
+		(text "D1_[7..0]" (rect 0 0 53 15)(font "Intel Clear" (font_size 8)))
+		(text "D1_[7..0]" (rect 21 59 74 74)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
 		(pt 0 80)
 		(input)
-		(text "D0_[7..0]" (rect 0 0 50 14)(font "Arial" (font_size 8)))
-		(text "D0_[7..0]" (rect 21 75 71 89)(font "Arial" (font_size 8)))
+		(text "D0_[7..0]" (rect 0 0 53 15)(font "Intel Clear" (font_size 8)))
+		(text "D0_[7..0]" (rect 21 75 74 90)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
 		(pt 0 96)
 		(input)
-		(text "S1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "S1" (rect 21 91 36 105)(font "Arial" (font_size 8)))
+		(text "S1" (rect 0 0 16 15)(font "Intel Clear" (font_size 8)))
+		(text "S1" (rect 21 91 37 106)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 96)(pt 16 96))
 	)
 	(port
 		(pt 0 112)
 		(input)
-		(text "S0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "S0" (rect 21 107 36 121)(font "Arial" (font_size 8)))
+		(text "S0" (rect 0 0 16 15)(font "Intel Clear" (font_size 8)))
+		(text "S0" (rect 21 107 37 122)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 112)(pt 16 112))
 	)
 	(port
-		(pt 152 32)
+		(pt 144 32)
 		(output)
-		(text "Q_[7..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
-		(text "Q_[7..0]" (rect 87 27 131 41)(font "Arial" (font_size 8)))
-		(line (pt 152 32)(pt 136 32)(line_width 3))
+		(text "Q[7..0]" (rect 0 0 40 15)(font "Intel Clear" (font_size 8)))
+		(text "Q[7..0]" (rect 83 27 123 42)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 32)(pt 128 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 136 144))
+		(rectangle (rect 16 16 128 144))
 	)
 )
