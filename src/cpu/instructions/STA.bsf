@@ -21,9 +21,9 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 144 176)
-	(text "PHP" (rect 5 0 30 19)(font "Intel Clear" (font_size 8)))
-	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
+	(rect 16 16 144 144)
+	(text "STA" (rect 5 0 29 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -76,25 +76,11 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 128 80)
 		(output)
-		(text "mxMDR0" (rect 0 0 54 19)(font "Intel Clear" (font_size 8)))
-		(text "mxMDR0" (rect 53 75 107 94)(font "Intel Clear" (font_size 8)))
+		(text "mxMDR1" (rect 0 0 54 19)(font "Intel Clear" (font_size 8)))
+		(text "mxMDR1" (rect 53 75 107 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 128 80)(pt 112 80))
 	)
-	(port
-		(pt 128 96)
-		(output)
-		(text "ldMAR" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
-		(text "ldMAR" (rect 69 91 107 110)(font "Intel Clear" (font_size 8)))
-		(line (pt 128 96)(pt 112 96))
-	)
-	(port
-		(pt 128 112)
-		(output)
-		(text "decSP" (rect 0 0 37 19)(font "Intel Clear" (font_size 8)))
-		(text "decSP" (rect 70 107 107 126)(font "Intel Clear" (font_size 8)))
-		(line (pt 128 112)(pt 112 112))
-	)
 	(drawing
-		(rectangle (rect 16 16 112 144))
+		(rectangle (rect 16 16 112 112))
 	)
 )
