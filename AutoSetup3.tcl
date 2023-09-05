@@ -72,6 +72,7 @@ set_location_assignment PIN_L21 -to VGA_HS
 
 set_global_assignment -name SEARCH_PATH src
 set_global_assignment -name SEARCH_PATH src/cpu
+set_global_assignment -name SEARCH_PATH src/cpu/instructions
 set_global_assignment -name SEARCH_PATH src/gpu
 set_global_assignment -name SEARCH_PATH src/kb
 set_global_assignment -name SEARCH_PATH src/mem

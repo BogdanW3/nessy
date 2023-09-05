@@ -7867,19 +7867,9 @@ https://fpgasoftware.intel.com/eula.
 	(pt 992 1608)
 )
 (connector
-	(text "immed" (rect 1000 1608 1033 1625)(font "Intel Clear" ))
-	(pt 1080 1624)
-	(pt 992 1624)
-)
-(connector
 	(text "shortmemdirXpom" (rect 1000 1624 1088 1641)(font "Intel Clear" ))
 	(pt 1080 1640)
 	(pt 992 1640)
-)
-(connector
-	(text "shortmemdirYpom" (rect 1000 1640 1088 1657)(font "Intel Clear" ))
-	(pt 1080 1656)
-	(pt 992 1656)
 )
 (connector
 	(text "pcrel" (rect 1000 1656 1023 1673)(font "Intel Clear" ))
@@ -8195,6 +8185,16 @@ https://fpgasoftware.intel.com/eula.
 	(text "A3" (rect 2664 3400 2676 3417)(font "Intel Clear" ))
 	(pt 2760 3416)
 	(pt 2656 3416)
+)
+(connector
+	(text "shortindYpom" (rect 1000 1640 1066 1657)(font "Intel Clear" ))
+	(pt 1080 1656)
+	(pt 992 1656)
+)
+(connector
+	(text "imm" (rect 1000 1608 1021 1625)(font "Intel Clear" ))
+	(pt 1080 1624)
+	(pt 992 1624)
 )
 (text "RED zona" (rect 1408 136 1463 150)(font "Arial" (font_size 8)))
 (text "GREEN zona" (rect 664 1232 735 1246)(font "Arial" (font_size 8)))
