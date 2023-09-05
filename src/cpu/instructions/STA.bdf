@@ -121,7 +121,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 328 80 504 96)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "END" (rect 90 0 110 17)(font "Intel Clear" ))
+	(text "END_" (rect 90 0 110 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -568,7 +568,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 592 312)
 )
 (connector
-	(text "END" (rect 680 296 700 313)(font "Intel Clear" ))
+	(text "END_" (rect 680 296 700 313)(font "Intel Clear" ))
 	(pt 672 312)
 	(pt 704 312)
 )
@@ -578,7 +578,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 640 128)
 )
 (connector
-	(text "END" (rect 648 128 668 145)(font "Intel Clear" ))
+	(text "END_" (rect 648 128 668 145)(font "Intel Clear" ))
 	(pt 704 144)
 	(pt 640 144)
 )

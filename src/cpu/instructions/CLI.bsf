@@ -41,8 +41,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 112 32)
 		(output)
-		(text "END" (rect 0 0 25 19)(font "Intel Clear" (font_size 8)))
-		(text "END" (rect 66 27 91 46)(font "Intel Clear" (font_size 8)))
+		(text "END_" (rect 0 0 25 19)(font "Intel Clear" (font_size 8)))
+		(text "END_" (rect 66 27 91 46)(font "Intel Clear" (font_size 8)))
 		(line (pt 112 32)(pt 96 32))
 	)
 	(port
