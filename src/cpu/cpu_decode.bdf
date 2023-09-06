@@ -857,7 +857,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 2872 2648 3056 2664)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "shortmemdirXpom" (rect 90 0 178 17)(font "Intel Clear" ))
+	(text "zeropageXpom" (rect 90 0 161 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -873,7 +873,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 2872 2712 3048 2728)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "shortindYpom" (rect 90 0 156 17)(font "Intel Clear" ))
+	(text "zpindYpom" (rect 90 0 143 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -969,7 +969,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 2872 2936 3048 2952)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "shortmemdir" (rect 90 0 150 17)(font "Intel Clear" ))
+	(text "zeropage" (rect 90 0 133 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -1241,7 +1241,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 2872 2680 3056 2696)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "shortmemdirYpom" (rect 90 0 178 17)(font "Intel Clear" ))
+	(text "zeropageYpom" (rect 90 0 161 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -7278,12 +7278,12 @@ https://fpgasoftware.intel.com/eula.
 	(pt 3056 368)
 )
 (connector
-	(text "shortmemdirXpom_GK" (rect 2968 384 3076 401)(font "Intel Clear" ))
+	(text "zeropageXpom_GK" (rect 2968 384 3060 401)(font "Intel Clear" ))
 	(pt 3056 400)
 	(pt 2960 400)
 )
 (connector
-	(text "shortindYpom_GK" (rect 2968 400 3054 417)(font "Intel Clear" ))
+	(text "zpindYpom_GK" (rect 2968 400 3041 417)(font "Intel Clear" ))
 	(pt 3056 416)
 	(pt 2960 416)
 )
@@ -7293,7 +7293,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2960 448)
 )
 (connector
-	(text "shortmemdir_GK" (rect 2968 448 3048 465)(font "Intel Clear" ))
+	(text "zeropage_GK" (rect 2968 448 3031 465)(font "Intel Clear" ))
 	(pt 3056 464)
 	(pt 2960 464)
 )
@@ -7368,7 +7368,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 3136 416)
 )
 (connector
-	(text "shortmemdirXpom_RB" (rect 3312 384 3420 401)(font "Intel Clear" ))
+	(text "zeropageXpom_RB" (rect 3312 384 3404 401)(font "Intel Clear" ))
 	(pt 3368 400)
 	(pt 3304 400)
 )
@@ -7388,7 +7388,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 3304 480)
 )
 (connector
-	(text "shortmemdir_RB" (rect 3312 448 3392 465)(font "Intel Clear" ))
+	(text "zeropage_RB" (rect 3312 448 3375 465)(font "Intel Clear" ))
 	(pt 3368 464)
 	(pt 3304 464)
 )
@@ -7462,22 +7462,22 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2576 584)
 )
 (connector
-	(text "shortmemdirXpom_GK" (rect 2848 552 2956 569)(font "Intel Clear" ))
+	(text "zeropageXpom_GK" (rect 2848 552 2940 569)(font "Intel Clear" ))
 	(pt 2952 568)
 	(pt 2840 568)
 )
 (connector
-	(text "shortmemdirXpom_RB" (rect 2849 568 2957 585)(font "Intel Clear" ))
+	(text "zeropageXpom_RB" (rect 2849 568 2941 585)(font "Intel Clear" ))
 	(pt 2952 584)
 	(pt 2840 584)
 )
 (connector
-	(text "shortindYpom_GK" (rect 3144 560 3230 577)(font "Intel Clear" ))
+	(text "zpindYpom_GK" (rect 3144 560 3217 577)(font "Intel Clear" ))
 	(pt 3224 576)
 	(pt 3136 576)
 )
 (connector
-	(text "shortindYpom" (rect 3280 560 3346 577)(font "Intel Clear" ))
+	(text "zpindYpom" (rect 3280 560 3333 577)(font "Intel Clear" ))
 	(pt 3344 576)
 	(pt 3272 576)
 )
@@ -7517,17 +7517,17 @@ https://fpgasoftware.intel.com/eula.
 	(pt 3080 688)
 )
 (connector
-	(text "shortmemdir_GK" (rect 3144 664 3224 681)(font "Intel Clear" ))
+	(text "zeropage_GK" (rect 3144 664 3207 681)(font "Intel Clear" ))
 	(pt 3216 680)
 	(pt 3144 680)
 )
 (connector
-	(text "shortmemdir_RB" (rect 3144 680 3224 697)(font "Intel Clear" ))
+	(text "zeropage_RB" (rect 3144 680 3207 697)(font "Intel Clear" ))
 	(pt 3216 696)
 	(pt 3144 696)
 )
 (connector
-	(text "shortmemdir" (rect 3288 672 3348 689)(font "Intel Clear" ))
+	(text "zeropage" (rect 3288 672 3331 689)(font "Intel Clear" ))
 	(pt 3280 688)
 	(pt 3328 688)
 )
@@ -7848,12 +7848,12 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1168 1560)
 )
 (connector
-	(text "shortmemdir" (rect 1000 1592 1060 1609)(font "Intel Clear" ))
+	(text "zeropage" (rect 1000 1592 1043 1609)(font "Intel Clear" ))
 	(pt 1080 1608)
 	(pt 992 1608)
 )
 (connector
-	(text "shortmemdirXpom" (rect 1000 1624 1088 1641)(font "Intel Clear" ))
+	(text "zeropageXpom" (rect 1000 1624 1071 1641)(font "Intel Clear" ))
 	(pt 1080 1640)
 	(pt 992 1640)
 )
@@ -8181,12 +8181,12 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1736 1424)
 )
 (connector
-	(text "shortmemdirXpom_" (rect 3024 560 3118 577)(font "Intel Clear" ))
+	(text "zeropageXpom_" (rect 3024 560 3101 577)(font "Intel Clear" ))
 	(pt 3016 576)
 	(pt 3104 576)
 )
 (connector
-	(text "shortmemdirXpom_" (rect 1328 1616 1422 1633)(font "Intel Clear" ))
+	(text "zeropageXpom_" (rect 1328 1616 1405 1633)(font "Intel Clear" ))
 	(pt 1320 1632)
 	(pt 1408 1632)
 )
@@ -8221,7 +8221,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2576 648)
 )
 (connector
-	(text "shortmemdirXpom" (rect 1512 1616 1600 1633)(font "Intel Clear" ))
+	(text "zeropageXpom" (rect 1512 1616 1583 1633)(font "Intel Clear" ))
 	(pt 1504 1632)
 	(pt 1592 1632)
 )
@@ -8267,7 +8267,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1504 1752)
 )
 (connector
-	(text "shortmemdirYpom" (rect 1512 1600 1600 1617)(font "Intel Clear" ))
+	(text "zeropageYpom" (rect 1512 1600 1583 1617)(font "Intel Clear" ))
 	(pt 1504 1616)
 	(pt 1592 1616)
 )
@@ -8359,12 +8359,12 @@ https://fpgasoftware.intel.com/eula.
 	(pt 992 1688)
 )
 (connector
-	(text "shortindYpom" (rect 1000 1656 1066 1673)(font "Intel Clear" ))
+	(text "zpindYpom" (rect 1000 1656 1053 1673)(font "Intel Clear" ))
 	(pt 1080 1672)
 	(pt 992 1672)
 )
 (connector
-	(text "shortmemdirYpom" (rect 1000 1640 1088 1657)(font "Intel Clear" ))
+	(text "zeropageYpom" (rect 1000 1640 1071 1657)(font "Intel Clear" ))
 	(pt 1080 1656)
 	(pt 992 1656)
 )
