@@ -797,7 +797,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 456 432 552 560)
+	(rect 496 432 592 560)
 	(text "CD4" (rect 5 0 28 14)(font "Arial" (font_size 8)))
 	(text "inst3" (rect 8 112 30 129)(font "Intel Clear" ))
 	(port
@@ -5683,37 +5683,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt -72 120)
 )
 (connector
-	(text "MAR[15..0]" (rect 568 384 621 401)(font "Intel Clear" ))
-	(pt 688 400)
-	(pt 560 400)
-	(bus)
-)
-(connector
-	(text "MARout" (rect 408 448 446 465)(font "Intel Clear" ))
-	(pt 456 464)
-	(pt 400 464)
-)
-(connector
-	(text "GPUTEST" (rect 408 496 452 513)(font "Intel Clear" ))
-	(pt 456 512)
-	(pt 400 512)
-)
-(connector
-	(text "KBTEST" (rect 408 480 445 497)(font "Intel Clear" ))
-	(pt 456 496)
-	(pt 400 496)
-)
-(connector
-	(text "GPUTEST" (rect 448 712 492 729)(font "Intel Clear" ))
-	(pt 496 728)
-	(pt 440 728)
-)
-(connector
-	(text "KBTEST" (rect 448 696 485 713)(font "Intel Clear" ))
-	(pt 496 712)
-	(pt 440 712)
-)
-(connector
 	(text "CLK" (rect 248 976 268 993)(font "Intel Clear" ))
 	(pt 240 992)
 	(pt 296 992)
@@ -5746,48 +5715,10 @@ https://fpgasoftware.intel.com/eula.
 	(pt 240 872)
 )
 (connector
-	(text "GPUTEST_DOUT[7..0]" (rect 608 648 710 665)(font "Intel Clear" ))
-	(pt 696 664)
-	(pt 600 664)
-	(bus)
-)
-(connector
-	(text "MDR[7..0]" (rect 608 600 655 617)(font "Intel Clear" ))
-	(pt 696 616)
-	(pt 600 616)
-	(bus)
-)
-(connector
-	(text "KBTEST_DOUT[7..0]" (rect 608 632 703 649)(font "Intel Clear" ))
-	(pt 696 648)
-	(pt 600 648)
-	(bus)
-)
-(connector
-	(text "KBTEST_A[15..0]" (rect 568 416 648 433)(font "Intel Clear" ))
-	(pt 688 432)
-	(pt 560 432)
-	(bus)
-)
-(connector
-	(text "GPUTEST_A[15..0]" (rect 568 432 655 449)(font "Intel Clear" ))
-	(pt 688 448)
-	(pt 560 448)
-	(bus)
-)
-(connector
 	(text "A[15..0]" (rect 872 384 908 401)(font "Intel Clear" ))
 	(pt 864 400)
 	(pt 912 400)
 	(bus)
-)
-(connector
-	(pt 552 464)
-	(pt 688 464)
-)
-(connector
-	(pt 552 480)
-	(pt 688 480)
 )
 (connector
 	(pt 592 680)
@@ -5957,7 +5888,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 392 728)
 )
 (connector
-	(text "KBTEST" (rect 368 664 405 681)(font "Intel Clear" ))
+	(text "KBTEST" (rect 360 664 397 681)(font "Intel Clear" ))
 	(pt 360 680)
 	(pt 392 680)
 )
@@ -5980,11 +5911,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "wrMEM" (rect 312 384 348 401)(font "Intel Clear" ))
 	(pt 352 400)
 	(pt 304 400)
-)
-(connector
-	(text "MDRout" (rect 449 664 487 681)(font "Intel Clear" ))
-	(pt 496 680)
-	(pt 440 680)
 )
 (connector
 	(text "wrMEM" (rect 312 584 348 601)(font "Intel Clear" ))
@@ -8495,6 +8421,80 @@ https://fpgasoftware.intel.com/eula.
 	(text "incMAR_FETCH" (rect 256 1464 330 1481)(font "Intel Clear" ))
 	(pt 344 1480)
 	(pt 248 1480)
+)
+(connector
+	(text "MDRout" (rect 449 712 487 729)(font "Intel Clear" ))
+	(pt 496 728)
+	(pt 440 728)
+)
+(connector
+	(text "GPUTEST" (rect 448 680 492 697)(font "Intel Clear" ))
+	(pt 496 696)
+	(pt 440 696)
+)
+(connector
+	(text "KBTEST" (rect 448 664 485 681)(font "Intel Clear" ))
+	(pt 496 680)
+	(pt 440 680)
+)
+(connector
+	(text "MDR[7..0]" (rect 608 648 655 665)(font "Intel Clear" ))
+	(pt 696 664)
+	(pt 600 664)
+	(bus)
+)
+(connector
+	(text "GPUTEST_DOUT[7..0]" (rect 608 616 710 633)(font "Intel Clear" ))
+	(pt 696 632)
+	(pt 600 632)
+	(bus)
+)
+(connector
+	(text "KBTEST_DOUT[7..0]" (rect 608 600 703 617)(font "Intel Clear" ))
+	(pt 696 616)
+	(pt 600 616)
+	(bus)
+)
+(connector
+	(text "KBTEST_A[15..0]" (rect 608 384 688 401)(font "Intel Clear" ))
+	(pt 688 400)
+	(pt 600 400)
+	(bus)
+)
+(connector
+	(text "GPUTEST_A[15..0]" (rect 608 400 695 417)(font "Intel Clear" ))
+	(pt 688 416)
+	(pt 600 416)
+	(bus)
+)
+(connector
+	(text "MAR[15..0]" (rect 608 432 661 449)(font "Intel Clear" ))
+	(pt 688 448)
+	(pt 600 448)
+	(bus)
+)
+(connector
+	(pt 688 464)
+	(pt 592 464)
+)
+(connector
+	(pt 688 480)
+	(pt 592 480)
+)
+(connector
+	(text "KBTEST" (rect 448 448 485 465)(font "Intel Clear" ))
+	(pt 440 464)
+	(pt 496 464)
+)
+(connector
+	(text "GPUTEST" (rect 448 464 492 481)(font "Intel Clear" ))
+	(pt 440 480)
+	(pt 496 480)
+)
+(connector
+	(text "MARout" (rect 448 496 486 513)(font "Intel Clear" ))
+	(pt 440 512)
+	(pt 496 512)
 )
 (text "Architecture registers" (rect 1464 1288 1589 1307)(font "Intel Clear" (font_size 8)))
 (text "MAR & MDR" (rect 1712 352 1782 371)(font "Intel Clear" (font_size 8)))

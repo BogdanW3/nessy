@@ -1536,5 +1536,10 @@ https://fpgasoftware.intel.com/eula.
 	(pt 800 560)
 	(pt 824 560)
 )
+(connector
+	(text "WR" (rect 848 680 865 697)(font "Intel Clear" ))
+	(pt 928 696)
+	(pt 840 696)
+)
 (junction (pt 688 424))
 (junction (pt 568 424))
