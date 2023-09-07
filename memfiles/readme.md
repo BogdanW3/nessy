@@ -1,0 +1,1 @@
+# Ovde stavljati fajlove nessy-game.nes.8000 i fffa, iz repozitorijuma [nessy-gamedev](https://github.com/BogdanW3/nessy-gamedev)

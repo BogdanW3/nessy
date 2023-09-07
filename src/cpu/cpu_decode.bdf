@@ -6104,6 +6104,23 @@ https://fpgasoftware.intel.com/eula.
 		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
 	)
 )
+(symbol
+	(rect 544 1952 576 1984)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst21" (rect 3 21 31 38)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(pt 576 704)
 	(pt 568 704)
@@ -8523,11 +8540,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 560 1936)
 )
 (connector
-	(text "L" (rect 576 1936 581 1953)(font "Intel Clear" ))
-	(pt 600 1952)
-	(pt 560 1952)
-)
-(connector
 	(pt 664 1864)
 	(pt 688 1864)
 )
@@ -8616,6 +8628,11 @@ https://fpgasoftware.intel.com/eula.
 	(text "ADDRERROR" (rect 1889 1632 1952 1649)(font "Intel Clear" ))
 	(pt 1888 1648)
 	(pt 1952 1648)
+)
+(connector
+	(text "<<__$DEF_ALIAS12814>>" (rect 576 1936 699 1953)(font "Intel Clear" )(invisible))
+	(pt 600 1952)
+	(pt 560 1952)
 )
 (junction (pt 1304 1616))
 (text "RED zona" (rect 1408 136 1463 150)(font "Arial" (font_size 8)))

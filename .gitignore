@@ -26,3 +26,5 @@
 *.sof
 c5_pin_model_dump.txt
 greybox_tmp
+/memfiles/**
+!/memfiles/readme.md

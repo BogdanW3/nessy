@@ -1322,11 +1322,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 584 624)
 )
 (connector
-	(text "decSP_T0" (rect 592 624 639 641)(font "Intel Clear" ))
-	(pt 656 640)
-	(pt 584 640)
-)
-(connector
 	(text "decSP" (rect 728 616 757 633)(font "Intel Clear" ))
 	(pt 720 632)
 	(pt 752 632)
@@ -1497,11 +1492,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 408 904)
 )
 (connector
-	(text "T0_EXIT" (rect 464 936 502 953)(font "Intel Clear" ))
-	(pt 456 952)
-	(pt 488 952)
-)
-(connector
 	(text "T2" (rect 384 936 395 953)(font "Intel Clear" ))
 	(pt 376 952)
 	(pt 408 952)
@@ -1555,6 +1545,16 @@ https://fpgasoftware.intel.com/eula.
 	(text "mxPC1" (rect 464 888 498 905)(font "Intel Clear" ))
 	(pt 456 904)
 	(pt 488 904)
+)
+(connector
+	(text "T2_EXIT" (rect 464 936 502 953)(font "Intel Clear" ))
+	(pt 456 952)
+	(pt 488 952)
+)
+(connector
+	(text "decSP_T2" (rect 592 624 639 641)(font "Intel Clear" ))
+	(pt 656 640)
+	(pt 584 640)
 )
 (text "T0" (rect 232 376 248 395)(font "Intel Clear" (font_size 8)))
 (text "T1" (rect 424 376 440 395)(font "Intel Clear" (font_size 8)))
