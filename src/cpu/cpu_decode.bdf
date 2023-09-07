@@ -6038,6 +6038,72 @@ https://fpgasoftware.intel.com/eula.
 		(arc (pt 25 51)(pt 49 40)(rect -6 -11 57 52))
 	)
 )
+(symbol
+	(rect 1728 1592 1792 1640)
+	(text "NOR2" (rect 1 0 26 10)(font "Arial" (font_size 6)))
+	(text "inst23" (rect 3 37 31 54)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 14 32))
+	)
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(line (pt 54 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 12 36)(pt 23 36))
+		(line (pt 12 13)(pt 23 13))
+		(arc (pt 46 24)(pt 23 13)(rect -6 13 53 72))
+		(arc (pt 5 29)(pt 5 19)(rect -16 8 17 41))
+		(arc (pt 23 35)(pt 46 24)(rect -6 -23 53 36))
+		(circle (rect 46 20 54 28))
+	)
+)
+(symbol
+	(rect 1824 1624 1888 1672)
+	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
+	(text "inst26" (rect 3 37 31 54)(font "Intel Clear" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 14 32))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(line (pt 42 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 14 12)(pt 30 12))
+		(line (pt 14 37)(pt 31 37))
+		(line (pt 14 12)(pt 14 37))
+		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
+	)
+)
 (connector
 	(pt 576 704)
 	(pt 568 704)
@@ -7574,11 +7640,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 3344 744)
 )
 (connector
-	(text "ADDRERROR" (rect 3312 368 3375 385)(font "Intel Clear" ))
-	(pt 3304 384)
-	(pt 3368 384)
-)
-(connector
 	(text "imm_RB" (rect 1152 1280 1194 1292)(font "Arial" ))
 	(pt 1192 1296)
 	(pt 1144 1296)
@@ -8078,19 +8139,9 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2112 1424)
 )
 (connector
-	(text "ADDRERROR" (rect 1936 1392 2007 1404)(font "Arial" ))
-	(pt 1976 1408)
-	(pt 1928 1408)
-)
-(connector
 	(text "LDX_2" (rect 1936 1408 1967 1425)(font "Intel Clear" ))
 	(pt 1976 1424)
 	(pt 1928 1424)
-)
-(connector
-	(text "ADDRERROR" (rect 1744 1392 1815 1404)(font "Arial" ))
-	(pt 1784 1408)
-	(pt 1736 1408)
 )
 (connector
 	(text "TXS" (rect 1888 1392 1906 1409)(font "Intel Clear" ))
@@ -8510,6 +8561,61 @@ https://fpgasoftware.intel.com/eula.
 	(text "TSX" (rect 704 1760 722 1777)(font "Intel Clear" ))
 	(pt 720 1776)
 	(pt 696 1776)
+)
+(connector
+	(text "ADDRERROR_" (rect 3312 368 3381 385)(font "Intel Clear" ))
+	(pt 3304 384)
+	(pt 3368 384)
+)
+(connector
+	(text "ADDRERROR_" (rect 1744 1392 1821 1404)(font "Arial" ))
+	(pt 1784 1408)
+	(pt 1736 1408)
+)
+(connector
+	(text "ADDRERROR_" (rect 1936 1392 2013 1404)(font "Arial" ))
+	(pt 1976 1408)
+	(pt 1928 1408)
+)
+(connector
+	(text "TSX" (rect 1696 1608 1714 1625)(font "Intel Clear" ))
+	(pt 1728 1624)
+	(pt 1688 1624)
+)
+(connector
+	(text "TXS" (rect 1696 1592 1714 1609)(font "Intel Clear" ))
+	(pt 1688 1608)
+	(pt 1728 1608)
+)
+(connector
+	(pt 1792 1616)
+	(pt 1808 1616)
+)
+(connector
+	(pt 1824 1640)
+	(pt 1808 1640)
+)
+(connector
+	(pt 1808 1640)
+	(pt 1808 1616)
+)
+(connector
+	(pt 1824 1656)
+	(pt 1808 1656)
+)
+(connector
+	(pt 1808 1656)
+	(pt 1808 1672)
+)
+(connector
+	(text "ADDRERROR_" (rect 1728 1656 1797 1673)(font "Intel Clear" ))
+	(pt 1808 1672)
+	(pt 1720 1672)
+)
+(connector
+	(text "ADDRERROR" (rect 1889 1632 1952 1649)(font "Intel Clear" ))
+	(pt 1888 1648)
+	(pt 1952 1648)
 )
 (junction (pt 1304 1616))
 (text "RED zona" (rect 1408 136 1463 150)(font "Arial" (font_size 8)))
