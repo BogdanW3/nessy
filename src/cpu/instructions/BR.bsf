@@ -21,9 +21,9 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 128 112)
-	(text "JMP" (rect 5 0 30 19)(font "Intel Clear" (font_size 8)))
-	(text "inst" (rect 8 75 24 92)(font "Intel Clear" ))
+	(rect 16 16 128 144)
+	(text "BR" (rect 5 0 21 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -59,7 +59,14 @@ https://fpgasoftware.intel.com/eula.
 		(text "mxPC1" (rect 49 59 91 78)(font "Intel Clear" (font_size 8)))
 		(line (pt 112 64)(pt 96 64))
 	)
+	(port
+		(pt 112 80)
+		(output)
+		(text "mxPC0" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
+		(text "mxPC0" (rect 49 75 91 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 112 80)(pt 96 80))
+	)
 	(drawing
-		(rectangle (rect 16 16 96 80))
+		(rectangle (rect 16 16 96 112))
 	)
 )

@@ -21,9 +21,9 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 144 208)
-	(text "DEX" (rect 5 0 29 19)(font "Intel Clear" (font_size 8)))
-	(text "inst" (rect 8 171 24 188)(font "Intel Clear" ))
+	(rect 16 16 144 176)
+	(text "INC" (rect 5 0 26 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -48,8 +48,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 128 48)
 		(output)
-		(text "ALU_DEC" (rect 0 0 56 19)(font "Intel Clear" (font_size 8)))
-		(text "ALU_DEC" (rect 51 43 107 62)(font "Intel Clear" (font_size 8)))
+		(text "ALU_INC" (rect 0 0 53 19)(font "Intel Clear" (font_size 8)))
+		(text "ALU_INC" (rect 54 43 107 62)(font "Intel Clear" (font_size 8)))
 		(line (pt 128 48)(pt 112 48))
 	)
 	(port
@@ -62,39 +62,32 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 128 80)
 		(output)
-		(text "mxA1" (rect 0 0 34 19)(font "Intel Clear" (font_size 8)))
-		(text "mxA1" (rect 73 75 107 94)(font "Intel Clear" (font_size 8)))
+		(text "ldACC" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "ldACC" (rect 71 75 107 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 128 80)(pt 112 80))
 	)
 	(port
 		(pt 128 96)
 		(output)
-		(text "ldX" (rect 0 0 20 19)(font "Intel Clear" (font_size 8)))
-		(text "ldX" (rect 87 91 107 110)(font "Intel Clear" (font_size 8)))
+		(text "mxACC0" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "mxACC0" (rect 57 91 107 110)(font "Intel Clear" (font_size 8)))
 		(line (pt 128 96)(pt 112 96))
 	)
 	(port
 		(pt 128 112)
 		(output)
-		(text "mxX0" (rect 0 0 34 19)(font "Intel Clear" (font_size 8)))
-		(text "mxX0" (rect 73 107 107 126)(font "Intel Clear" (font_size 8)))
+		(text "ldPSWNZ" (rect 0 0 57 19)(font "Intel Clear" (font_size 8)))
+		(text "ldPSWNZ" (rect 50 107 107 126)(font "Intel Clear" (font_size 8)))
 		(line (pt 128 112)(pt 112 112))
 	)
 	(port
 		(pt 128 128)
 		(output)
-		(text "ldPSWNZ" (rect 0 0 57 19)(font "Intel Clear" (font_size 8)))
-		(text "ldPSWNZ" (rect 50 123 107 142)(font "Intel Clear" (font_size 8)))
+		(text "ldPSWC" (rect 0 0 48 19)(font "Intel Clear" (font_size 8)))
+		(text "ldPSWC" (rect 59 123 107 142)(font "Intel Clear" (font_size 8)))
 		(line (pt 128 128)(pt 112 128))
 	)
-	(port
-		(pt 128 144)
-		(output)
-		(text "ldPSWC" (rect 0 0 48 19)(font "Intel Clear" (font_size 8)))
-		(text "ldPSWC" (rect 59 139 107 158)(font "Intel Clear" (font_size 8)))
-		(line (pt 128 144)(pt 112 144))
-	)
 	(drawing
-		(rectangle (rect 16 16 112 176))
+		(rectangle (rect 16 16 112 144))
 	)
 )

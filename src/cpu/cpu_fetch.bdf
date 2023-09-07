@@ -2885,12 +2885,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "IR_2[7..0],IR1_[7..0]" (rect 1232 128 1324 145)(font "Intel Clear" ))
-	(pt 1248 144)
-	(pt 1328 144)
-	(bus)
-)
-(connector
 	(text "CNT[3..0]" (rect 664 240 707 257)(font "Intel Clear" ))
 	(pt 656 256)
 	(pt 704 256)
@@ -2996,6 +2990,12 @@ https://fpgasoftware.intel.com/eula.
 	(text "ADDRERROR" (rect 32 1616 95 1633)(font "Intel Clear" ))
 	(pt 24 1632)
 	(pt 88 1632)
+)
+(connector
+	(text "IR2_[7..0],IR1_[7..0]" (rect 1232 128 1324 145)(font "Intel Clear" ))
+	(pt 1248 144)
+	(pt 1328 144)
+	(bus)
 )
 (text "Korak T0" (rect 360 552 414 571)(font "Intel Clear" (font_size 8)))
 (text "MAR <= PC" (rect 352 568 419 587)(font "Intel Clear" (font_size 8)))
