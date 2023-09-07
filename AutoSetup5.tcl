@@ -72,6 +72,7 @@ set_location_assignment PIN_J8 -to VGA_G[3]
 
 set_global_assignment -name SEARCH_PATH src
 set_global_assignment -name SEARCH_PATH src/cpu
+set_global_assignment -name SEARCH_PATH src/cpu/address_modes
 set_global_assignment -name SEARCH_PATH src/cpu/instructions
 set_global_assignment -name SEARCH_PATH src/gpu
 set_global_assignment -name SEARCH_PATH src/kb
