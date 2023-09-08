@@ -94,13 +94,6 @@ https://fpgasoftware.intel.com/eula.
 		(text "ldPSWNZ" (rect 50 139 107 158)(font "Intel Clear" (font_size 8)))
 		(line (pt 128 144)(pt 112 144))
 	)
-	(port
-		(pt 128 160)
-		(output)
-		(text "ldPSWC" (rect 0 0 48 19)(font "Intel Clear" (font_size 8)))
-		(text "ldPSWC" (rect 59 155 107 174)(font "Intel Clear" (font_size 8)))
-		(line (pt 128 160)(pt 112 160))
-	)
 	(drawing
 		(rectangle (rect 16 16 112 176))
 	)

@@ -21,9 +21,9 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 144 208)
+	(rect 16 16 144 176)
 	(text "DEX" (rect 5 0 29 19)(font "Intel Clear" (font_size 8)))
-	(text "inst" (rect 8 171 24 188)(font "Intel Clear" ))
+	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -87,14 +87,7 @@ https://fpgasoftware.intel.com/eula.
 		(text "ldPSWNZ" (rect 50 123 107 142)(font "Intel Clear" (font_size 8)))
 		(line (pt 128 128)(pt 112 128))
 	)
-	(port
-		(pt 128 144)
-		(output)
-		(text "ldPSWC" (rect 0 0 48 19)(font "Intel Clear" (font_size 8)))
-		(text "ldPSWC" (rect 59 139 107 158)(font "Intel Clear" (font_size 8)))
-		(line (pt 128 144)(pt 112 144))
-	)
 	(drawing
-		(rectangle (rect 16 16 112 176))
+		(rectangle (rect 16 16 112 144))
 	)
 )

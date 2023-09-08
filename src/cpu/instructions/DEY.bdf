@@ -22,7 +22,7 @@ https://fpgasoftware.intel.com/eula.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 144 216 312 232)
+	(rect 144 200 312 216)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "CS" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 144 152 312 168)
+	(rect 144 136 312 152)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "EN" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
@@ -57,22 +57,6 @@ https://fpgasoftware.intel.com/eula.
 	(rect 688 56 864 72)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "END_" (rect 90 0 119 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8))
-		(line (pt 52 4)(pt 78 4))
-		(line (pt 52 12)(pt 78 12))
-		(line (pt 52 12)(pt 52 4))
-		(line (pt 78 4)(pt 82 8))
-		(line (pt 82 8)(pt 78 12))
-		(line (pt 78 12)(pt 82 8))
-	)
-)
-(pin
-	(output)
-	(rect 688 312 864 328)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ldPSWC" (rect 90 0 130 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -197,7 +181,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 360 168 424 216)
+	(rect 360 152 424 200)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst" (rect 3 37 20 49)(font "Arial" ))
 	(port
@@ -245,18 +229,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 688 288)
 )
 (connector
-	(pt 552 320)
-	(pt 688 320)
-)
-(connector
-	(pt 552 256)
-	(pt 552 288)
-)
-(connector
-	(pt 552 288)
-	(pt 552 320)
-)
-(connector
 	(pt 552 192)
 	(pt 552 224)
 )
@@ -289,45 +261,53 @@ https://fpgasoftware.intel.com/eula.
 	(pt 552 160)
 )
 (connector
-	(pt 352 184)
+	(pt 552 192)
+	(pt 688 192)
+)
+(connector
+	(pt 552 256)
+	(pt 552 288)
+)
+(connector
+	(pt 352 168)
+	(pt 360 168)
+)
+(connector
 	(pt 360 184)
+	(pt 352 184)
 )
 (connector
-	(pt 360 200)
-	(pt 352 200)
+	(pt 352 144)
+	(pt 312 144)
 )
 (connector
-	(pt 352 160)
-	(pt 312 160)
+	(pt 352 168)
+	(pt 352 144)
 )
 (connector
 	(pt 352 184)
-	(pt 352 160)
+	(pt 352 208)
 )
 (connector
-	(pt 352 200)
-	(pt 352 224)
+	(pt 352 208)
+	(pt 312 208)
 )
 (connector
-	(pt 352 224)
-	(pt 312 224)
+	(pt 552 176)
+	(pt 424 176)
 )
 (connector
 	(pt 552 160)
-	(pt 552 192)
+	(pt 552 176)
 )
 (connector
-	(pt 424 192)
+	(pt 552 176)
 	(pt 552 192)
-)
-(connector
-	(pt 552 192)
-	(pt 688 192)
 )
 (junction (pt 552 160))
 (junction (pt 552 224))
 (junction (pt 552 256))
-(junction (pt 552 288))
 (junction (pt 552 192))
 (junction (pt 552 96))
 (junction (pt 552 128))
+(junction (pt 552 176))
