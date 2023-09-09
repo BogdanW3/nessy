@@ -4955,7 +4955,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 2176 776 2224 808)
+	(rect 2000 776 2048 808)
 	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
 	(text "inst94" (rect 3 21 31 38)(font "Intel Clear" ))
 	(port
@@ -8615,27 +8615,9 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "Y[15..0]" (rect 2072 704 2108 721)(font "Intel Clear" ))
-	(pt 2120 720)
-	(pt 2064 720)
-	(bus)
-)
-(connector
 	(text "MARADDER[15..0]" (rect 2273 688 2360 705)(font "Intel Clear" ))
 	(pt 2272 704)
 	(pt 2328 704)
-	(bus)
-)
-(connector
-	(text "L,L,L,L,L,L,L,L" (rect 2117 776 2180 793)(font "Intel Clear" ))
-	(pt 2176 792)
-	(pt 2112 792)
-	(bus)
-)
-(connector
-	(text "Y[15..8]" (rect 2232 776 2268 793)(font "Intel Clear" ))
-	(pt 2224 792)
-	(pt 2272 792)
 	(bus)
 )
 (connector
@@ -9481,6 +9463,28 @@ https://fpgasoftware.intel.com/eula.
 	(text "wrMEM_STORE" (rect 256 1304 331 1321)(font "Intel Clear" ))
 	(pt 344 1320)
 	(pt 248 1320)
+)
+(connector
+	(pt 2120 720)
+	(pt 2080 720)
+	(bus)
+)
+(connector
+	(pt 2080 720)
+	(pt 2080 792)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS21622>>" (rect 2056 776 2179 793)(font "Intel Clear" )(invisible))
+	(pt 2048 792)
+	(pt 2080 792)
+	(bus)
+)
+(connector
+	(text "L,L,L,L,L,L,L,L,Y[7..0]" (rect 1917 776 2013 793)(font "Intel Clear" ))
+	(pt 2000 792)
+	(pt 1912 792)
+	(bus)
 )
 (junction (pt 344 1232))
 (junction (pt 344 1248))
