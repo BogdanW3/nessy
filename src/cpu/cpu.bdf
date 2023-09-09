@@ -6358,11 +6358,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 760 1064)
 )
 (connector
-	(text "MDRout" (rect 616 816 654 833)(font "Intel Clear" ))
-	(pt 608 832)
-	(pt 656 832)
-)
-(connector
 	(text "KBWR" (rect 616 848 647 865)(font "Intel Clear" ))
 	(pt 608 864)
 	(pt 656 864)
@@ -6416,11 +6411,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "GPUTEST_RD" (rect 792 1056 856 1073)(font "Intel Clear" ))
 	(pt 784 1072)
 	(pt 856 1072)
-)
-(connector
-	(text "ldMDR" (rect 816 816 849 833)(font "Intel Clear" ))
-	(pt 808 832)
-	(pt 856 832)
 )
 (connector
 	(text "KBRD" (rect 816 848 844 865)(font "Intel Clear" ))
@@ -9485,6 +9475,16 @@ https://fpgasoftware.intel.com/eula.
 	(text "ldPCL_POWERON" (rect 520 1288 609 1305)(font "Intel Clear" ))
 	(pt 600 1304)
 	(pt 512 1304)
+)
+(connector
+	(text "rdMEM" (rect 816 816 850 833)(font "Intel Clear" ))
+	(pt 808 832)
+	(pt 856 832)
+)
+(connector
+	(text "wrMEM" (rect 616 816 652 833)(font "Intel Clear" ))
+	(pt 608 832)
+	(pt 656 832)
 )
 (junction (pt 344 1232))
 (junction (pt 344 1248))
