@@ -8466,12 +8466,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "SP[15..8]" (rect 1008 512 1050 529)(font "Intel Clear" ))
-	(pt 1000 528)
-	(pt 1080 528)
-	(bus)
-)
-(connector
 	(text "mxMAR2" (rect 1008 528 1051 545)(font "Intel Clear" ))
 	(pt 1000 544)
 	(pt 1080 544)
@@ -9485,6 +9479,12 @@ https://fpgasoftware.intel.com/eula.
 	(text "wrMEM" (rect 616 816 652 833)(font "Intel Clear" ))
 	(pt 608 832)
 	(pt 656 832)
+)
+(connector
+	(text "L,L,L,L,L,L,L,L" (rect 1008 512 1071 529)(font "Intel Clear" ))
+	(pt 1000 528)
+	(pt 1080 528)
+	(bus)
 )
 (junction (pt 344 1232))
 (junction (pt 344 1248))
