@@ -7082,16 +7082,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 512 1224)
 )
 (connector
-	(text "L" (rect 520 1248 525 1265)(font "Intel Clear" ))
-	(pt 600 1264)
-	(pt 512 1264)
-)
-(connector
-	(text "L" (rect 520 1288 525 1305)(font "Intel Clear" ))
-	(pt 600 1304)
-	(pt 512 1304)
-)
-(connector
 	(text "ldPC" (rect 657 1208 680 1225)(font "Intel Clear" ))
 	(pt 648 1224)
 	(pt 696 1224)
@@ -9485,6 +9475,16 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2000 792)
 	(pt 1912 792)
 	(bus)
+)
+(connector
+	(text "ldPCH_POWERON" (rect 520 1248 610 1265)(font "Intel Clear" ))
+	(pt 600 1264)
+	(pt 512 1264)
+)
+(connector
+	(text "ldPCL_POWERON" (rect 520 1288 609 1305)(font "Intel Clear" ))
+	(pt 600 1304)
+	(pt 512 1304)
 )
 (junction (pt 344 1232))
 (junction (pt 344 1248))
