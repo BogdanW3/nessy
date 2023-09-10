@@ -123,6 +123,13 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 0 240)(pt 16 240))
 	)
 	(port
+		(pt 0 256)
+		(input)
+		(text "BIT" (rect 0 0 20 19)(font "Intel Clear" (font_size 8)))
+		(text "BIT" (rect 21 251 41 270)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 256)(pt 16 256))
+	)
+	(port
 		(pt 136 32)
 		(output)
 		(text "Q[7..0]" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
