@@ -430,6 +430,13 @@ https://fpgasoftware.intel.com/eula.
 		(text "ALU_BIT" (rect 128 875 179 894)(font "Intel Clear" (font_size 8)))
 		(line (pt 200 880)(pt 184 880))
 	)
+	(port
+		(pt 200 896)
+		(output)
+		(text "stBRK" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
+		(text "stBRK" (rect 144 891 179 910)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 896)(pt 184 896))
+	)
 	(drawing
 		(rectangle (rect 16 16 184 912))
 	)
