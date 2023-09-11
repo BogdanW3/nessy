@@ -1088,7 +1088,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 472 40 536 120)
+	(rect 504 40 568 120)
 	(text "SRFF" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst9" (rect 3 68 26 80)(font "Arial" ))
 	(port
@@ -7841,6 +7841,39 @@ https://fpgasoftware.intel.com/eula.
 		(arc (pt 25 51)(pt 49 40)(rect -6 -11 57 52))
 	)
 )
+(symbol
+	(rect 432 88 496 136)
+	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
+	(text "inst35" (rect 3 37 31 54)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 15 32))
+	)
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 15 16))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(line (pt 48 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 14 36)(pt 25 36))
+		(line (pt 14 13)(pt 25 13))
+		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
+		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
+		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
+	)
+)
 (connector
 	(text "L" (rect 90 88 95 100)(font "Arial" ))
 	(pt 104 104)
@@ -7849,26 +7882,6 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 104 104)
 	(pt 104 120)
-)
-(connector
-	(text "EN" (rect 544 48 556 65)(font "Intel Clear" ))
-	(pt 536 64)
-	(pt 568 64)
-)
-(connector
-	(text "START" (rect 432 48 463 65)(font "Intel Clear" ))
-	(pt 472 64)
-	(pt 424 64)
-)
-(connector
-	(text "END_" (rect 432 80 457 97)(font "Intel Clear" ))
-	(pt 472 96)
-	(pt 424 96)
-)
-(connector
-	(text "CLK" (rect 432 64 452 81)(font "Intel Clear" ))
-	(pt 472 80)
-	(pt 424 80)
 )
 (connector
 	(text "EN" (rect 888 72 900 89)(font "Intel Clear" ))
@@ -11862,6 +11875,39 @@ https://fpgasoftware.intel.com/eula.
 	(text "BRK" (rect 376 200 397 217)(font "Intel Clear" ))
 	(pt 368 216)
 	(pt 400 216)
+)
+(connector
+	(text "EN" (rect 576 48 588 65)(font "Intel Clear" ))
+	(pt 568 64)
+	(pt 600 64)
+)
+(connector
+	(text "START" (rect 464 48 495 65)(font "Intel Clear" ))
+	(pt 456 64)
+	(pt 504 64)
+)
+(connector
+	(text "CLK" (rect 464 64 484 81)(font "Intel Clear" ))
+	(pt 456 80)
+	(pt 504 80)
+)
+(connector
+	(pt 504 96)
+	(pt 496 96)
+)
+(connector
+	(text "END_" (rect 392 104 417 121)(font "Intel Clear" ))
+	(pt 384 120)
+	(pt 432 120)
+)
+(connector
+	(pt 496 96)
+	(pt 496 112)
+)
+(connector
+	(text "STORE" (rect 392 88 425 105)(font "Intel Clear" ))
+	(pt 432 104)
+	(pt 384 104)
 )
 (junction (pt 896 3480))
 (junction (pt 896 3496))

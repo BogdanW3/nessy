@@ -21,7 +21,7 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 216 144)
+	(rect 16 16 200 144)
 	(text "cpu_intr" (rect 5 0 53 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
 	(port
@@ -48,18 +48,18 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 0 80)
 		(input)
-		(text "IR0_[7..0]" (rect 0 0 57 19)(font "Intel Clear" (font_size 8)))
-		(text "IR0_[7..0]" (rect 21 75 78 94)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 80)(pt 16 80)(line_width 3))
+		(text "INTR" (rect 0 0 29 19)(font "Intel Clear" (font_size 8)))
+		(text "INTR" (rect 21 75 50 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
 	)
 	(port
-		(pt 200 32)
+		(pt 184 32)
 		(output)
 		(text "START_FETCH" (rect 0 0 88 19)(font "Intel Clear" (font_size 8)))
-		(text "START_FETCH" (rect 91 27 179 46)(font "Intel Clear" (font_size 8)))
-		(line (pt 200 32)(pt 184 32))
+		(text "START_FETCH" (rect 75 27 163 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 32)(pt 168 32))
 	)
 	(drawing
-		(rectangle (rect 16 16 184 112))
+		(rectangle (rect 16 16 168 112))
 	)
 )
