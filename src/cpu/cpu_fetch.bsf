@@ -21,9 +21,9 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 216 240)
+	(rect 16 16 216 272)
 	(text "cpu_fetch" (rect 5 0 62 19)(font "Intel Clear" (font_size 8)))
-	(text "inst" (rect 8 203 24 220)(font "Intel Clear" ))
+	(text "inst" (rect 8 235 24 252)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -129,7 +129,14 @@ https://fpgasoftware.intel.com/eula.
 		(text "incMAR" (rect 136 187 179 206)(font "Intel Clear" (font_size 8)))
 		(line (pt 200 192)(pt 184 192))
 	)
+	(port
+		(pt 200 208)
+		(output)
+		(text "ERROR" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "ERROR" (rect 138 203 179 222)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 208)(pt 184 208))
+	)
 	(drawing
-		(rectangle (rect 16 16 184 208))
+		(rectangle (rect 16 16 184 240))
 	)
 )

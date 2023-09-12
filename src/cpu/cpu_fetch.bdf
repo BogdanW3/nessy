@@ -260,6 +260,22 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 1328 424 1504 440)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "ERROR" (rect 90 0 125 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 184 72 344 200)
 	(text "REG8_LD_CL" (rect 5 0 81 14)(font "Arial" (font_size 8)))
@@ -806,7 +822,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 816 840 880 888)
+	(rect 800 840 864 888)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst19" (rect 3 37 31 54)(font "Intel Clear" ))
 	(port
@@ -2333,20 +2349,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1072 880)
 )
 (connector
-	(text "ADDRERROR" (rect 760 856 823 873)(font "Intel Clear" ))
-	(pt 752 872)
-	(pt 816 872)
-)
-(connector
-	(text "INSTRERROR" (rect 760 840 823 857)(font "Intel Clear" ))
-	(pt 752 856)
-	(pt 816 856)
-)
-(connector
-	(pt 880 864)
-	(pt 912 864)
-)
-(connector
 	(text "T3" (rect 896 864 907 881)(font "Intel Clear" ))
 	(pt 888 880)
 	(pt 912 880)
@@ -3003,6 +3005,21 @@ https://fpgasoftware.intel.com/eula.
 	(text "ADDRERROR" (rect 32 1632 95 1649)(font "Intel Clear" ))
 	(pt 24 1648)
 	(pt 88 1648)
+)
+(connector
+	(text "ADDRERROR" (rect 744 856 807 873)(font "Intel Clear" ))
+	(pt 736 872)
+	(pt 800 872)
+)
+(connector
+	(text "INSTRERROR" (rect 744 840 807 857)(font "Intel Clear" ))
+	(pt 736 856)
+	(pt 800 856)
+)
+(connector
+	(text "ERROR" (rect 875 848 910 865)(font "Intel Clear" ))
+	(pt 864 864)
+	(pt 912 864)
 )
 (text "Korak T0" (rect 360 552 414 571)(font "Intel Clear" (font_size 8)))
 (text "MAR <= PC" (rect 352 568 419 587)(font "Intel Clear" (font_size 8)))
