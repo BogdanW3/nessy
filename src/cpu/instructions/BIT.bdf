@@ -120,7 +120,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 752 104 928 120)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "mxA1" (rect 90 0 117 17)(font "Intel Clear" ))
+	(text "mxA0" (rect 90 0 117 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))

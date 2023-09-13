@@ -54,7 +54,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 808 376 984 392)
+	(rect 808 344 984 360)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ldPSWC" (rect 90 0 130 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -70,7 +70,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 808 408 984 424)
+	(rect 808 376 984 392)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ldPSWV" (rect 90 0 130 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -102,7 +102,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 808 344 984 360)
+	(rect 808 312 984 328)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ldPSWNZ" (rect 90 0 136 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -153,22 +153,6 @@ https://fpgasoftware.intel.com/eula.
 	(rect 808 280 984 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "mxMDR1" (rect 90 0 133 17)(font "Intel Clear" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8))
-		(line (pt 52 4)(pt 78 4))
-		(line (pt 52 12)(pt 78 12))
-		(line (pt 52 12)(pt 52 4))
-		(line (pt 78 4)(pt 82 8))
-		(line (pt 82 8)(pt 78 12))
-		(line (pt 78 12)(pt 82 8))
-	)
-)
-(pin
-	(output)
-	(rect 808 312 984 328)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "mxA1" (rect 90 0 117 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -269,28 +253,16 @@ https://fpgasoftware.intel.com/eula.
 	(pt 808 288)
 )
 (connector
+	(pt 672 320)
+	(pt 808 320)
+)
+(connector
 	(pt 672 352)
 	(pt 808 352)
 )
 (connector
 	(pt 672 384)
 	(pt 808 384)
-)
-(connector
-	(pt 672 416)
-	(pt 808 416)
-)
-(connector
-	(pt 672 352)
-	(pt 672 384)
-)
-(connector
-	(pt 672 384)
-	(pt 672 416)
-)
-(connector
-	(pt 808 320)
-	(pt 672 320)
 )
 (connector
 	(pt 672 288)
@@ -300,9 +272,12 @@ https://fpgasoftware.intel.com/eula.
 	(pt 672 320)
 	(pt 672 352)
 )
+(connector
+	(pt 672 352)
+	(pt 672 384)
+)
 (junction (pt 672 224))
 (junction (pt 672 256))
 (junction (pt 672 288))
-(junction (pt 672 352))
-(junction (pt 672 384))
 (junction (pt 672 320))
+(junction (pt 672 352))

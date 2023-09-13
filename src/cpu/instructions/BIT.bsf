@@ -55,8 +55,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 128 64)
 		(output)
-		(text "mxA1" (rect 0 0 34 19)(font "Intel Clear" (font_size 8)))
-		(text "mxA1" (rect 73 59 107 78)(font "Intel Clear" (font_size 8)))
+		(text "mxA0" (rect 0 0 34 19)(font "Intel Clear" (font_size 8)))
+		(text "mxA0" (rect 73 59 107 78)(font "Intel Clear" (font_size 8)))
 		(line (pt 128 64)(pt 112 64))
 	)
 	(port
