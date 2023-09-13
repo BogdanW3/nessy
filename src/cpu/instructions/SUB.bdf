@@ -54,7 +54,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 680 280 856 296)
+	(rect 680 312 856 328)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ldPSWC" (rect 90 0 130 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -70,7 +70,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 680 312 856 328)
+	(rect 680 344 856 360)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ldPSWV" (rect 90 0 130 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -86,7 +86,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 680 248 856 264)
+	(rect 680 280 856 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ldPSWNZ" (rect 90 0 136 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -164,6 +164,22 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 680 248 856 264)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "mxA1" (rect 90 0 117 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 352 200 416 248)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
@@ -221,26 +237,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 544 224)
 )
 (connector
-	(pt 544 288)
-	(pt 680 288)
-)
-(connector
-	(pt 544 320)
-	(pt 680 320)
-)
-(connector
-	(pt 544 256)
-	(pt 680 256)
-)
-(connector
-	(pt 544 256)
-	(pt 544 288)
-)
-(connector
-	(pt 544 288)
-	(pt 544 320)
-)
-(connector
 	(pt 344 216)
 	(pt 352 216)
 )
@@ -265,10 +261,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 304 256)
 )
 (connector
-	(pt 544 224)
-	(pt 544 256)
-)
-(connector
 	(pt 416 224)
 	(pt 544 224)
 )
@@ -276,8 +268,41 @@ https://fpgasoftware.intel.com/eula.
 	(pt 544 224)
 	(pt 680 224)
 )
+(connector
+	(pt 544 288)
+	(pt 680 288)
+)
+(connector
+	(pt 544 320)
+	(pt 680 320)
+)
+(connector
+	(pt 544 352)
+	(pt 680 352)
+)
+(connector
+	(pt 544 288)
+	(pt 544 320)
+)
+(connector
+	(pt 544 320)
+	(pt 544 352)
+)
+(connector
+	(pt 680 256)
+	(pt 544 256)
+)
+(connector
+	(pt 544 224)
+	(pt 544 256)
+)
+(connector
+	(pt 544 256)
+	(pt 544 288)
+)
 (junction (pt 544 160))
 (junction (pt 544 192))
 (junction (pt 544 224))
-(junction (pt 544 256))
 (junction (pt 544 288))
+(junction (pt 544 320))
+(junction (pt 544 256))

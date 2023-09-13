@@ -54,7 +54,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 616 232 792 248)
+	(rect 616 264 792 280)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ldPSWNZ" (rect 90 0 136 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -132,6 +132,22 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 616 232 792 248)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "mxA1" (rect 90 0 117 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 288 152 352 200)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
@@ -193,28 +209,12 @@ https://fpgasoftware.intel.com/eula.
 	(pt 240 208)
 )
 (connector
-	(pt 480 240)
-	(pt 616 240)
-)
-(connector
-	(pt 480 176)
-	(pt 480 208)
-)
-(connector
-	(pt 480 208)
-	(pt 480 240)
-)
-(connector
-	(pt 480 112)
-	(pt 616 112)
-)
-(connector
 	(pt 480 144)
 	(pt 616 144)
 )
 (connector
-	(pt 480 144)
-	(pt 480 176)
+	(pt 616 112)
+	(pt 480 112)
 )
 (connector
 	(pt 352 176)
@@ -228,6 +228,31 @@ https://fpgasoftware.intel.com/eula.
 	(pt 480 112)
 	(pt 480 144)
 )
+(connector
+	(pt 480 144)
+	(pt 480 176)
+)
+(connector
+	(pt 480 176)
+	(pt 480 208)
+)
+(connector
+	(pt 480 240)
+	(pt 616 240)
+)
+(connector
+	(pt 480 272)
+	(pt 616 272)
+)
+(connector
+	(pt 480 208)
+	(pt 480 240)
+)
+(connector
+	(pt 480 240)
+	(pt 480 272)
+)
 (junction (pt 480 176))
 (junction (pt 480 208))
 (junction (pt 480 144))
+(junction (pt 480 240))
