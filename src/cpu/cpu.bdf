@@ -9169,11 +9169,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 3472 680)
 )
 (connector
-	(text "START_INTR_FETCH" (rect 3448 680 3545 697)(font "Intel Clear" ))
-	(pt 3440 696)
-	(pt 3472 696)
-)
-(connector
 	(text "ldMAR_FETCH" (rect 3448 696 3518 713)(font "Intel Clear" ))
 	(pt 3440 712)
 	(pt 3472 712)
@@ -9322,11 +9317,6 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 840 1408)
 	(pt 832 1408)
-)
-(connector
-	(text "START_INTR_FETCH" (rect 752 1384 849 1401)(font "Intel Clear" ))
-	(pt 832 1400)
-	(pt 752 1400)
 )
 (connector
 	(pt 840 1424)
@@ -10966,6 +10956,11 @@ https://fpgasoftware.intel.com/eula.
 	(text "ALU_Cin_EXEC" (rect 3448 1568 3521 1585)(font "Intel Clear" ))
 	(pt 3440 1584)
 	(pt 3480 1584)
+)
+(connector
+	(text "L" (rect 752 1384 757 1401)(font "Intel Clear" ))
+	(pt 832 1400)
+	(pt 752 1400)
 )
 (text "Architecture registers" (rect 1464 1288 1589 1307)(font "Intel Clear" (font_size 8)))
 (text "MAR & MDR" (rect 1712 352 1782 371)(font "Intel Clear" (font_size 8)))
