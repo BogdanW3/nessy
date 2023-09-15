@@ -371,12 +371,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 592 312)
 )
 (connector
-	(text "L,H,H,L" (rect 176 232 209 249)(font "Intel Clear" ))
-	(pt 248 248)
-	(pt 168 248)
-	(bus)
-)
-(connector
 	(text "ADDR[3..0]" (rect 387 216 438 233)(font "Intel Clear" ))
 	(pt 440 232)
 	(pt 384 232)
@@ -462,5 +456,11 @@ https://fpgasoftware.intel.com/eula.
 	(pt 248 80)
 	(pt 232 80)
 )
-(text "Cursed math sadly, but we need to translate FFFA-FFFF into 0-5" (rect 72 304 449 323)(font "Intel Clear" (font_size 8)))
-(text "So, we just add SIX!" (rect 296 320 412 339)(font "Intel Clear" (font_size 8)))
+(connector
+	(text "H,H,H,L" (rect 176 232 210 249)(font "Intel Clear" ))
+	(pt 248 248)
+	(pt 168 248)
+	(bus)
+)
+(text "Cursed math sadly, but we need to translate 2-7 into 0-5" (rect 72 304 408 323)(font "Intel Clear" (font_size 8)))
+(text "So, we just add E" (rect 272 320 372 339)(font "Intel Clear" (font_size 8)))
