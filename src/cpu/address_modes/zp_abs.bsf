@@ -95,6 +95,13 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 0 176)(pt 16 176))
 	)
 	(port
+		(pt 0 192)
+		(input)
+		(text "STORE_INSTR" (rect 0 0 83 15)(font "Intel Clear" (font_size 8)))
+		(text "STORE_INSTR" (rect 21 187 104 202)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
 		(pt 216 32)
 		(output)
 		(text "FINISH" (rect 0 0 40 15)(font "Intel Clear" (font_size 8)))
