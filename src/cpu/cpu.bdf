@@ -10004,11 +10004,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1600 2016)
 )
 (connector
-	(text "A_6" (rect 1608 1968 1626 1985)(font "Intel Clear" ))
-	(pt 1648 1984)
-	(pt 1600 1984)
-)
-(connector
 	(text "ALU_BIT" (rect 1608 2104 1649 2121)(font "Intel Clear" ))
 	(pt 1648 2120)
 	(pt 1600 2120)
@@ -10017,11 +10012,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "ALU7" (rect 1608 2088 1633 2105)(font "Intel Clear" ))
 	(pt 1648 2104)
 	(pt 1600 2104)
-)
-(connector
-	(text "A_7" (rect 1608 2072 1626 2089)(font "Intel Clear" ))
-	(pt 1648 2088)
-	(pt 1600 2088)
 )
 (connector
 	(text "ldPSWZ" (rect 1824 1872 1862 1889)(font "Intel Clear" ))
@@ -10961,6 +10951,16 @@ https://fpgasoftware.intel.com/eula.
 	(text "L" (rect 752 1384 757 1401)(font "Intel Clear" ))
 	(pt 832 1400)
 	(pt 752 1400)
+)
+(connector
+	(text "MDR6" (rect 1608 1968 1637 1985)(font "Intel Clear" ))
+	(pt 1648 1984)
+	(pt 1600 1984)
+)
+(connector
+	(text "MDR7" (rect 1608 2072 1637 2089)(font "Intel Clear" ))
+	(pt 1648 2088)
+	(pt 1600 2088)
 )
 (text "Architecture registers" (rect 1464 1288 1589 1307)(font "Intel Clear" (font_size 8)))
 (text "MAR & MDR" (rect 1712 352 1782 371)(font "Intel Clear" (font_size 8)))
