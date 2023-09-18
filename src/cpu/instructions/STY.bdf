@@ -86,9 +86,9 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 400 192 576 208)
+	(rect 400 96 576 112)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "mxMDR1" (rect 90 0 133 17)(font "Intel Clear" ))
+	(text "STORE" (rect 90 0 123 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -102,9 +102,9 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 400 96 576 112)
+	(rect 400 192 576 208)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "STORE" (rect 90 0 123 17)(font "Intel Clear" ))
+	(text "mxMDR0" (rect 90 0 133 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
