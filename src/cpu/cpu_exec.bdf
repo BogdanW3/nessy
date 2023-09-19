@@ -8954,11 +8954,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 144 1488)
 )
 (connector
-	(text "L" (rect 152 1744 157 1761)(font "Intel Clear" ))
-	(pt 208 1760)
-	(pt 144 1760)
-)
-(connector
 	(text "ldMDR_PHP" (rect 824 2416 884 2433)(font "Intel Clear" ))
 	(pt 896 2432)
 	(pt 816 2432)
@@ -11978,6 +11973,11 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 992 4248)
 	(pt 992 4208)
+)
+(connector
+	(text "END_CMP" (rect 152 1744 201 1761)(font "Intel Clear" ))
+	(pt 208 1760)
+	(pt 144 1760)
 )
 (junction (pt 464 3760))
 (junction (pt 464 3776))
