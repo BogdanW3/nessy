@@ -52,6 +52,13 @@ https://fpgasoftware.intel.com/eula.
 		(text "stBRK" (rect 40 43 75 62)(font "Intel Clear" (font_size 8)))
 		(line (pt 96 48)(pt 80 48))
 	)
+	(port
+		(pt 96 64)
+		(output)
+		(text "incPC" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "incPC" (rect 42 59 75 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 96 64)(pt 80 64))
+	)
 	(drawing
 		(rectangle (rect 16 16 80 80))
 	)
